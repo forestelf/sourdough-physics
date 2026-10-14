@@ -1,0 +1,32 @@
+{
+  "name": "sourdough-physics",
+  "version": "1.0.0",
+  "description": "High-precision computational dough rheology, True Total Hydration correction, and latent heat ice thermodynamics for artisan sourdough bakers.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "sourdough",
+    "bakers-percentage",
+    "dough-rheology",
+    "hydration-calculator",
+    "desired-dough-temperature",
+    "thermodynamics",
+    "bread-physics",
+    "conical-frustum"
+  ],
+  "author": "Julian Vance <julian@sourdoughcalc.app>",
+  "license": "MIT",
+  "homepage": "https://sourdoughcalc.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forestelf/sourdough-physics.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
