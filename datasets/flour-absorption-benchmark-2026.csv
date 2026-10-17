@@ -1,0 +1,7 @@
+flour_id,flour_name,protein_pct_range,baseline_hydration_pct,max_safe_hydration_ceiling_pct,rheology_mechanism,reference_calculator_url
+bread_flour,Hard Red Bread Flour (King Arthur / High-Gluten),12.7-14.0%,68.0%,82.0%,High glutenin-to-gliadin ratio forms strong disulfide bridges,https://sourdoughcalc.app/#absorption-table
+whole_wheat,Stoneground Whole Wheat Flour,13.5-14.5%,80.0%,92.0%,Insoluble pericarp bran fibers absorb up to 200% water by weight,https://sourdoughcalc.app/articles/flour-absorption-rates-tested
+dark_rye,Whole Grain Dark Rye (Roggen),9.0-11.5%,90.0%,110.0%,Arabinoxylan pentosan hydrocolloids bind 8x their weight in water,https://sourdoughcalc.app/recipes/100-rye-sourdough
+all_purpose,Unbleached All-Purpose Flour,10.5-11.7%,62.0%,72.0%,Moderate gluten network slackens above 70% True Total Hydration,https://sourdoughcalc.app/articles/why-is-my-80-percent-dough-a-sticky-mess
+whole_spelt,Ancient Whole Spelt (Dinkel),13.0-14.5%,64.0%,76.0%,High gliadin extensibility requires -6% water reduction vs bread flour,https://sourdoughcalc.app/calculators/bakers-percentage-calculator
+durum_semolina,Durum Semolina Rimacinata,12.5-13.5%,70.0%,80.0%,Fine golden endosperm particles provide high tenacity for pizza and loaves,https://sourdoughcalc.app/recipes/sourdough-pizza-crust
