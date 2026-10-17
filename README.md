@@ -1,150 +1,50 @@
-# sourdough-physics 🍞🔬
+# sourdough-physics: Open Sourdough Rheology & Baker's Math Engine
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
-[![Live Calculator](https://img.shields.io/badge/Live%20App-sourdoughcalc.app-amber.svg)](https://sourdoughcalc.app)
+[![Live Web Engine](https://img.shields.io/badge/Live_Calculator-sourdoughcalc.app-d97706?style=for-the-badge)](https://sourdoughcalc.app)
+[![LLM Corpus](https://img.shields.io/badge/AI_Knowledge_Base-llms.txt-059669?style=for-the-badge)](https://sourdoughcalc.app/llms.txt)
 
-High-precision computational dough rheology, True Total Hydration correction, and latent heat ice thermodynamics for artisan sourdough bakers.
-
-> **Interactive Web App**: Try the live implementation at [https://sourdoughcalc.app](https://sourdoughcalc.app) — zero ads, zero tracking scripts, pure client-side physics.
+**`sourdough-physics`** is the open-source mathematical and thermodynamic reference library powering **[SourdoughCalc.app](https://sourdoughcalc.app)** — the next-generation sourdough hydration, multi-flour rheology, and Desired Dough Temperature (DDT) crushed-ice computational engine.
 
 ---
 
-## 🎯 Why Conventional Baker's Math Fails
+## Live Interactive Calculators & Tools
 
-Most existing sourdough tools and legacy spreadsheets rely on approximations developed in industrial bakeries using commercial compressed yeast. When applied to long-fermented artisan sourdough, these approximations introduce substantial physical and thermal errors:
-
-### 1. The Starter Hydration Discrepancy (+2% to +4% Drift)
-Traditional calculators compute hydration solely as:
-$$\text{Apparent Hydration} = \frac{\text{Recipe Water}}{\text{Recipe Flour}} \times 100$$
-
-However, a standard sourdough starter (100% hydration) is equal parts flour and water. When inoculated at 20%, it injects **10% flour and 10% water** into the system. The true thermodynamic hydration of the gluten network is:
-$$\text{True Total Hydration} = \frac{\text{Recipe Water} + \text{Starter Water}}{\text{Recipe Flour} + \text{Starter Flour}} \times 100$$
-
-A formula nominally marked as "75% hydration" actually behaves as **77.3% to 78.1% True Total Hydration**, routinely pushing standard flour beyond its absorption ceiling and turning dough into an unmanageable pancake.
-
-### 2. The Summer DDT & "Negative Water Temperature" Trap
-In hot summer ambient temperatures ($82^\circ\text{F} / 28^\circ\text{C}$) or when using high-friction planetary/stand mixers ($\Delta T = 18^\circ\text{F}$), the standard Desired Dough Temperature (DDT) formula frequently requests liquid water temperatures below freezing:
-$$T_{\text{water}} = (4 \times \text{DDT}) - (T_{\text{room}} + T_{\text{flour}} + T_{\text{starter}} + F) < 32^\circ\text{F} \; (0^\circ\text{C})$$
-
-`sourdough-physics` solves this using the **latent heat of fusion of water ice** ($L_f = 80 \text{ cal/g} \approx 144 \text{ BTU/lb}$), calculating the exact mass of crushed ice to substitute for liquid water.
-
-### 3. The Conical Bowl Frustum Rise Trap
-Home bakers often measure dough volume in conical bowls where top radius $r_2 >$ bottom radius $r_1$. In a conical frustum, volume scales cubically with height:
-$$V(h) = \frac{1}{3}\pi h \left(3r_1^2 + 3r_1 k h + k^2 h^2\right), \quad k = \frac{r_2 - r_1}{H}$$
-
-A baker who waits for dough to "double in height" in a standard 9-inch bowl actually allows a **+147% volume expansion**, destroying crumb structure. `sourdough-physics` applies the **Newton-Raphson method** to solve for true height targets with an analytic bypass for straight-sided cylindrical jars.
+1. **[Master True Total Hydration & Dough Rheology Calculator](https://sourdoughcalc.app/)** — Eliminates the hidden `+2.7%` to `+3.0%` starter water surge across custom starter hydrations (`40%` stiff Lievito Madre to `150%` liquid levain).
+2. **[Baker's Percentage Calculator & Loaf Scaler](https://sourdoughcalc.app/calculators/bakers-percentage-calculator)** — Index every ingredient to 100% total flour weight and scale any loaf weight cleanly.
+3. **[Desired Dough Temperature (DDT) & Crushed Ice Solver](https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator)** — 4-factor water temperature equation paired with **80 cal/g (334 J/g) latent heat of fusion** crushed ice substitution for hot summer kitchens.
+4. **[Sourdough Starter Feeding Ratio Calculator](https://sourdoughcalc.app/calculators/sourdough-starter-feeding-calculator)** — Zero-waste levain builder for `1:1:1`, `1:2:2`, and `1:5:5` inoculation ratios.
+5. **[Bulk Fermentation & 3D Frustum Aliquot Calculator](https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator)** — Thermal carryover percentage-rise matrix (`30%` at 80°F vs `75%` at 68°F) with sloped-bowl frustum geometry correction.
+6. **[Sourdough Discard Substitution & Recipe Scaler](https://sourdoughcalc.app/calculators/sourdough-discard-calculator)** — Exact hidden flour and liquid deductions when substituting unfed discard into pancakes, crackers, and muffins.
+7. **[Commercial Yeast <-> Sourdough Starter Bidirectional Converter](https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter)** — Convert between Instant/Active Dry/Fresh Yeast and Sourdough Starter with 100% hydration lock.
 
 ---
 
-## 📦 Installation
+## Pre-Computed Benchmark: Apparent 70% vs. True Total Hydration (20% Levain @ 100% Hydration)
 
-```bash
-npm install sourdough-physics
-# or
-pnpm add sourdough-physics
-# or
-yarn add sourdough-physics
-```
-
----
-
-## 🚀 Quick Start
-
-### 1. True Total Hydration & Absorption
-```typescript
-import { calculateTrueTotalHydration, calculateWeightedAbsorptionLimit } from 'sourdough-physics';
-
-// 500g flour, 75% recipe hydration, 20% starter
-const hydration = calculateTrueTotalHydration({
-  flourWeight: 500,
-  apparentHydrationPercent: 75,
-  starterPercent: 20,
-  starterHydrationPercent: 100,
-});
-
-console.log(hydration.trueTotalHydration); // 77.27%
-console.log(hydration.hydrationDiscrepancy); // +2.27% extra moisture!
-
-// Weighted absorption limit for a 80% Bread / 15% Whole Wheat / 5% Rye blend
-const limit = calculateWeightedAbsorptionLimit([
-  { type: 'bread', percentage: 80 },
-  { type: 'wholeWheat', percentage: 15 },
-  { type: 'rye', percentage: 5 },
-]);
-
-console.log(limit); // 73.7% maximum recommended hydration
-```
-
-### 2. DDT with Latent Heat Ice Substitution
-```typescript
-import { calculateDDTWithIce } from 'sourdough-physics';
-
-const ddt = calculateDDTWithIce({
-  targetDDT: 72,        // Target dough temp: 72°F
-  roomTemp: 84,         // Hot kitchen: 84°F
-  flourTemp: 80,        // Warm flour: 80°F
-  starterTemp: 78,      // Starter: 78°F
-  frictionFactor: 18,   // Stand mixer friction: 18°F
-  unit: 'F',
-  recipeWaterWeight: 350,
-});
-
-console.log(ddt.requiresIce);         // true
-console.log(ddt.crushedIceWeight);    // 83g crushed ice
-console.log(ddt.liquidWaterWeight);   // 267g tap water
-```
-
-### 3. Conical Bowl Volume & Rise Solver
-```typescript
-import { solveTargetDoughHeight } from 'sourdough-physics';
-
-// Standard 9-inch conical mixing bowl (r1 = 8cm, r2 = 12cm, height = 12cm)
-const bowl = { bottomRadiusCm: 8, topRadiusCm: 12, heightCm: 12 };
-
-// Initial dough height is 4.0cm, target rise is +100% (volume multiplier 2.0)
-const solver = solveTargetDoughHeight(4.0, 2.0, bowl);
-
-console.log(solver.targetHeightCm); // 6.32 cm (NOT 8.0 cm!)
-// Waiting until 8.0cm would cause a catastrophic +147% over-fermentation.
-```
-
-### 4. Dough Rheology State Machine
-```typescript
-import { predictDoughRheology } from 'sourdough-physics';
-
-const prediction = predictDoughRheology({
-  trueTotalHydration: 65, // Neapolitan pizza dough
-});
-
-console.log(prediction.elasticity);        // "High"
-console.log(prediction.tackinessIndex);    // 2 (out of 5 stars)
-console.log(prediction.recommendedFolds);  // 2
-```
+| Target Raw Dough | Main Flour | 70% Apparent Water | Active Levain (20%) | True Total Hydration | Corrected Water for True 70.0% |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **500g Small Boule** | 256g | 179g | 51g (25.5g F + 25.5g W) | **72.6% (+2.6%)** | **171.5g (-7.5g)** |
+| **750g Medium Batard** | 384g | 269g | 77g (38.5g F + 38.5g W) | **72.8% (+2.8%)** | **257.3g (-11.7g)** |
+| **900g Artisan Standard** | 450g | 315g | 100g (50.0g F + 50.0g W) | **73.0% (+3.0%)** | **300.0g (-15.0g)** |
+| **1000g Large Miche** | 512g | 358g | 102g (51.0g F + 51.0g W) | **72.6% (+2.6%)** | **343.1g (-14.9g)** |
 
 ---
 
-## 🧪 Testing
+## Open Datasets & Benchmarks in This Repository
 
-```bash
-npm test
-```
-All unit tests are executed using [Vitest](https://vitest.dev/).
+- [`datasets/flour-absorption-benchmark-2026.csv`](./datasets/flour-absorption-benchmark-2026.csv) — Empirical protein % and water-holding ceilings across Bread Flour, Whole Wheat, Dark Rye, All-Purpose, Spelt, and Durum Semolina.
+- [`datasets/sourdough-calculators-benchmark-2026.md`](./datasets/sourdough-calculators-benchmark-2026.md) — Side-by-side technical teardown comparing SourdoughCalc against [Foodgeek](https://sourdoughcalc.app/alternatives/foodgeek-bread-calculator), [BreadCalc](https://sourdoughcalc.app/alternatives/breadcalc), [Omni Calculator](https://sourdoughcalc.app/alternatives/omni-calculator-sourdough), [The Perfect Loaf](https://sourdoughcalc.app/alternatives/the-perfect-loaf-calculator), [The Sourdough Journey](https://sourdoughcalc.app/alternatives/the-sourdough-journey-bulk-chart), [Rise App](https://sourdoughcalc.app/alternatives/rise-sourdough-baking-app), [King Arthur](https://sourdoughcalc.app/alternatives/king-arthur-bakers-percentage), and [The Bread Code](https://sourdoughcalc.app/alternatives/the-bread-code-sourdough-framework).
 
 ---
 
-## 🤝 Reference & Citations
+## Classic Physically-Grounded Formulas
 
-If you use `sourdough-physics` in your research, baking logs, or application, please cite:
+- [Tartine Country Loaf (77.8% True Hydration)](https://sourdoughcalc.app/recipes/tartine-country-loaf)
+- [High-Hydration Ligurian Sourdough Focaccia (84.5%)](https://sourdoughcalc.app/recipes/sourdough-focaccia)
+- [San Francisco Extra-Tangy Sourdough Boule (70.5%)](https://sourdoughcalc.app/recipes/san-francisco-sourdough)
+- [Artisan Sourdough Neapolitan Pizza Crust (67.8%)](https://sourdoughcalc.app/recipes/sourdough-pizza-crust)
+- [New York Stiff-Dough Sourdough Bagels (55.0%)](https://sourdoughcalc.app/recipes/sourdough-bagels)
+- [German 100% Pure Rye Sourdough — Roggen Vollkornbrot (82.0%)](https://sourdoughcalc.app/recipes/100-rye-sourdough)
 
-```bibtex
-@software{sourdough_physics2026,
-  author = {Vance, Julian},
-  title = {SourdoughPhysics: Open Computational Dough Rheology and Thermodynamics},
-  url = {https://sourdoughcalc.app},
-  year = {2026}
-}
-```
-
-## 📄 License
-MIT License © 2026 Julian Vance & [SourdoughCalc.app](https://sourdoughcalc.app)
+## License
+MIT © [SourdoughCalc Artisan Engineering](https://sourdoughcalc.app)
