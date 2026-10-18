@@ -1,0 +1,33 @@
+{
+  "title": "SourdoughCalc 2026 Open Cereal Rheology, True Total Hydration & Thermodynamic Ice Benchmark Dataset (1,200 Parameter Combinations)",
+  "upload_type": "dataset",
+  "description": "Empirical and physics-modeled dataset of 1,200 sourdough baking parameter combinations across 6 flour classes, 10 hydration levels (62%-90%), 5 starter inoculation ratios (10%-30%), and 4 ambient temperatures (68F-82F). Powered by SourdoughCalc (https://sourdoughcalc.app).",
+  "creators": [
+    {
+      "name": "Vance, Julian",
+      "affiliation": "SourdoughCalc Artisan Baking & Cereal Rheology Lab (https://sourdoughcalc.app)"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "sourdough",
+    "sourdough calculator",
+    "bakers percentage",
+    "dough rheology",
+    "flour absorption",
+    "desired dough temperature",
+    "food science"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://sourdoughcalc.app",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://sourdoughcalc.app/articles/best-sourdough-calculators-tested-2026",
+      "relation": "isCitedBy",
+      "scheme": "url"
+    }
+  ]
+}
