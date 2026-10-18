@@ -1,0 +1,1201 @@
+row_id,flour_id,flour_name,protein_pct,max_safe_hydration_pct,main_flour_g,target_hydration_pct,starter_inoculation_pct,starter_weight_g,starter_hidden_flour_g,starter_hidden_water_g,unadjusted_apparent_water_g,unadjusted_true_hydration_pct,corrected_main_water_g,salt_g,ambient_temp_f,bulk_fermentation_hours_min,bulk_fermentation_hours_max,target_aliquot_rise_pct,crushed_ice_g_for_75f_ddt,rheology_safety_status
+1,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,10,50,25,25,310,63.8,301,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+2,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,10,50,25,25,310,63.8,301,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+3,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,10,50,25,25,310,63.8,301,10.5,78,5.9,7.6,41,26,SAFE_OPTIMAL_WINDOW
+4,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,10,50,25,25,310,63.8,301,10.5,82,4.2,5.9,25.6,51,SAFE_OPTIMAL_WINDOW
+5,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,15,75,38,37,310,64.5,297,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+6,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,15,75,38,37,310,64.5,297,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+7,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,15,75,38,37,310,64.5,297,10.8,78,4.3,5.6,40.5,26,SAFE_OPTIMAL_WINDOW
+8,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,15,75,38,37,310,64.5,297,10.8,82,3.1,4.3,25.3,50,SAFE_OPTIMAL_WINDOW
+9,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,20,100,50,50,310,65.5,291,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+10,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,20,100,50,50,310,65.5,291,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+11,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,20,100,50,50,310,65.5,291,11,78,3.5,4.5,40,25,SAFE_OPTIMAL_WINDOW
+12,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,20,100,50,50,310,65.5,291,11,82,2.5,3.5,25,49,SAFE_OPTIMAL_WINDOW
+13,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,25,125,63,62,310,66.1,287,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+14,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,25,125,63,62,310,66.1,287,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+15,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,25,125,63,62,310,66.1,287,11.3,78,3,3.8,39.5,25,SAFE_OPTIMAL_WINDOW
+16,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,25,125,63,62,310,66.1,287,11.3,82,2.1,3,24.7,48,SAFE_OPTIMAL_WINDOW
+17,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,30,150,75,75,310,67,282,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+18,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,30,150,75,75,310,67,282,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+19,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,30,150,75,75,310,67,282,11.5,78,2.6,3.3,39,24,SAFE_OPTIMAL_WINDOW
+20,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,62,30,150,75,75,310,67,282,11.5,82,1.8,2.6,24.4,47,SAFE_OPTIMAL_WINDOW
+21,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,10,50,25,25,325,66.7,316,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+22,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,10,50,25,25,325,66.7,316,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+23,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,10,50,25,25,325,66.7,316,10.5,78,5.9,7.6,41,27,SAFE_OPTIMAL_WINDOW
+24,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,10,50,25,25,325,66.7,316,10.5,82,4.2,5.9,25.6,53,SAFE_OPTIMAL_WINDOW
+25,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,15,75,38,37,325,67.3,313,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+26,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,15,75,38,37,325,67.3,313,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+27,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,15,75,38,37,325,67.3,313,10.8,78,4.3,5.6,40.5,27,SAFE_OPTIMAL_WINDOW
+28,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,15,75,38,37,325,67.3,313,10.8,82,3.1,4.3,25.3,53,SAFE_OPTIMAL_WINDOW
+29,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,20,100,50,50,325,68.2,308,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+30,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,20,100,50,50,325,68.2,308,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+31,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,20,100,50,50,325,68.2,308,11,78,3.5,4.5,40,26,SAFE_OPTIMAL_WINDOW
+32,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,20,100,50,50,325,68.2,308,11,82,2.5,3.5,25,52,SAFE_OPTIMAL_WINDOW
+33,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,25,125,63,62,325,68.7,304,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+34,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,25,125,63,62,325,68.7,304,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+35,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,25,125,63,62,325,68.7,304,11.3,78,3,3.8,39.5,26,SAFE_OPTIMAL_WINDOW
+36,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,25,125,63,62,325,68.7,304,11.3,82,2.1,3,24.7,51,SAFE_OPTIMAL_WINDOW
+37,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,30,150,75,75,325,69.6,299,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+38,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,30,150,75,75,325,69.6,299,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+39,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,30,150,75,75,325,69.6,299,11.5,78,2.6,3.3,39,26,SAFE_OPTIMAL_WINDOW
+40,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,65,30,150,75,75,325,69.6,299,11.5,82,1.8,2.6,24.4,50,SAFE_OPTIMAL_WINDOW
+41,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,10,50,25,25,340,69.5,332,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+42,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,10,50,25,25,340,69.5,332,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+43,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,10,50,25,25,340,69.5,332,10.5,78,5.9,7.6,41,29,SAFE_OPTIMAL_WINDOW
+44,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,10,50,25,25,340,69.5,332,10.5,82,4.2,5.9,25.6,56,SAFE_OPTIMAL_WINDOW
+45,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,15,75,38,37,340,70.1,329,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+46,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,15,75,38,37,340,70.1,329,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+47,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,15,75,38,37,340,70.1,329,10.8,78,4.3,5.6,40.5,28,SAFE_OPTIMAL_WINDOW
+48,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,15,75,38,37,340,70.1,329,10.8,82,3.1,4.3,25.3,55,SAFE_OPTIMAL_WINDOW
+49,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,20,100,50,50,340,70.9,324,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+50,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,20,100,50,50,340,70.9,324,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+51,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,20,100,50,50,340,70.9,324,11,78,3.5,4.5,40,28,SAFE_OPTIMAL_WINDOW
+52,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,20,100,50,50,340,70.9,324,11,82,2.5,3.5,25,55,SAFE_OPTIMAL_WINDOW
+53,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,25,125,63,62,340,71.4,321,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+54,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,25,125,63,62,340,71.4,321,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+55,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,25,125,63,62,340,71.4,321,11.3,78,3,3.8,39.5,28,SAFE_OPTIMAL_WINDOW
+56,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,25,125,63,62,340,71.4,321,11.3,82,2.1,3,24.7,54,SAFE_OPTIMAL_WINDOW
+57,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,30,150,75,75,340,72.2,316,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+58,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,30,150,75,75,340,72.2,316,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+59,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,30,150,75,75,340,72.2,316,11.5,78,2.6,3.3,39,27,SAFE_OPTIMAL_WINDOW
+60,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,68,30,150,75,75,340,72.2,316,11.5,82,1.8,2.6,24.4,53,SAFE_OPTIMAL_WINDOW
+61,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,10,50,25,25,350,71.4,343,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+62,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,10,50,25,25,350,71.4,343,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+63,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,10,50,25,25,350,71.4,343,10.5,78,5.9,7.6,41,30,SAFE_OPTIMAL_WINDOW
+64,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,10,50,25,25,350,71.4,343,10.5,82,4.2,5.9,25.6,58,SAFE_OPTIMAL_WINDOW
+65,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,15,75,38,37,350,71.9,340,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+66,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,15,75,38,37,350,71.9,340,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+67,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,15,75,38,37,350,71.9,340,10.8,78,4.3,5.6,40.5,29,SAFE_OPTIMAL_WINDOW
+68,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,15,75,38,37,350,71.9,340,10.8,82,3.1,4.3,25.3,57,SAFE_OPTIMAL_WINDOW
+69,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,20,100,50,50,350,72.7,335,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+70,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,20,100,50,50,350,72.7,335,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+71,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,20,100,50,50,350,72.7,335,11,78,3.5,4.5,40,29,SAFE_OPTIMAL_WINDOW
+72,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,20,100,50,50,350,72.7,335,11,82,2.5,3.5,25,56,SAFE_OPTIMAL_WINDOW
+73,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,25,125,63,62,350,73.2,332,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+74,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,25,125,63,62,350,73.2,332,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+75,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,25,125,63,62,350,73.2,332,11.3,78,3,3.8,39.5,29,SAFE_OPTIMAL_WINDOW
+76,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,25,125,63,62,350,73.2,332,11.3,82,2.1,3,24.7,56,SAFE_OPTIMAL_WINDOW
+77,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,30,150,75,75,350,73.9,328,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+78,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,30,150,75,75,350,73.9,328,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+79,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,30,150,75,75,350,73.9,328,11.5,78,2.6,3.3,39,28,SAFE_OPTIMAL_WINDOW
+80,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,70,30,150,75,75,350,73.9,328,11.5,82,1.8,2.6,24.4,55,SAFE_OPTIMAL_WINDOW
+81,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,10,50,25,25,360,73.3,353,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+82,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,10,50,25,25,360,73.3,353,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+83,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,10,50,25,25,360,73.3,353,10.5,78,5.9,7.6,41,30,SAFE_OPTIMAL_WINDOW
+84,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,10,50,25,25,360,73.3,353,10.5,82,4.2,5.9,25.6,59,SAFE_OPTIMAL_WINDOW
+85,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,15,75,38,37,360,73.8,350,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+86,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,15,75,38,37,360,73.8,350,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+87,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,15,75,38,37,360,73.8,350,10.8,78,4.3,5.6,40.5,30,SAFE_OPTIMAL_WINDOW
+88,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,15,75,38,37,360,73.8,350,10.8,82,3.1,4.3,25.3,59,SAFE_OPTIMAL_WINDOW
+89,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,20,100,50,50,360,74.5,346,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+90,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,20,100,50,50,360,74.5,346,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+91,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,20,100,50,50,360,74.5,346,11,78,3.5,4.5,40,30,SAFE_OPTIMAL_WINDOW
+92,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,20,100,50,50,360,74.5,346,11,82,2.5,3.5,25,58,SAFE_OPTIMAL_WINDOW
+93,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,25,125,63,62,360,75,343,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+94,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,25,125,63,62,360,75,343,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+95,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,25,125,63,62,360,75,343,11.3,78,3,3.8,39.5,30,SAFE_OPTIMAL_WINDOW
+96,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,25,125,63,62,360,75,343,11.3,82,2.1,3,24.7,58,SAFE_OPTIMAL_WINDOW
+97,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,30,150,75,75,360,75.7,339,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+98,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,30,150,75,75,360,75.7,339,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+99,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,30,150,75,75,360,75.7,339,11.5,78,2.6,3.3,39,29,SAFE_OPTIMAL_WINDOW
+100,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,72,30,150,75,75,360,75.7,339,11.5,82,1.8,2.6,24.4,57,SAFE_OPTIMAL_WINDOW
+101,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,10,50,25,25,375,76.2,369,10.5,68,12.6,15.1,82,0,ARTISAN_UPPER_LIMIT
+102,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,10,50,25,25,375,76.2,369,10.5,74,8.1,10.1,56.4,0,ARTISAN_UPPER_LIMIT
+103,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,10,50,25,25,375,76.2,369,10.5,78,5.9,7.6,41,32,ARTISAN_UPPER_LIMIT
+104,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,10,50,25,25,375,76.2,369,10.5,82,4.2,5.9,25.6,62,ARTISAN_UPPER_LIMIT
+105,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,15,75,38,37,375,76.6,367,10.8,68,9.3,11.2,81,0,ARTISAN_UPPER_LIMIT
+106,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,15,75,38,37,375,76.6,367,10.8,74,6,7.4,55.7,0,ARTISAN_UPPER_LIMIT
+107,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,15,75,38,37,375,76.6,367,10.8,78,4.3,5.6,40.5,32,ARTISAN_UPPER_LIMIT
+108,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,15,75,38,37,375,76.6,367,10.8,82,3.1,4.3,25.3,62,ARTISAN_UPPER_LIMIT
+109,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,20,100,50,50,375,77.3,363,11,68,7.5,9,80,0,ARTISAN_UPPER_LIMIT
+110,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,20,100,50,50,375,77.3,363,11,74,4.8,6,55,0,ARTISAN_UPPER_LIMIT
+111,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,20,100,50,50,375,77.3,363,11,78,3.5,4.5,40,31,ARTISAN_UPPER_LIMIT
+112,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,20,100,50,50,375,77.3,363,11,82,2.5,3.5,25,61,ARTISAN_UPPER_LIMIT
+113,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,25,125,63,62,375,77.6,360,11.3,68,6.3,7.6,79,0,ARTISAN_UPPER_LIMIT
+114,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,25,125,63,62,375,77.6,360,11.3,74,4.1,5.1,54.3,0,ARTISAN_UPPER_LIMIT
+115,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,25,125,63,62,375,77.6,360,11.3,78,3,3.8,39.5,31,ARTISAN_UPPER_LIMIT
+116,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,25,125,63,62,375,77.6,360,11.3,82,2.1,3,24.7,61,ARTISAN_UPPER_LIMIT
+117,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,30,150,75,75,375,78.3,356,11.5,68,5.5,6.6,78,0,ARTISAN_UPPER_LIMIT
+118,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,30,150,75,75,375,78.3,356,11.5,74,3.6,4.4,53.6,0,ARTISAN_UPPER_LIMIT
+119,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,30,150,75,75,375,78.3,356,11.5,78,2.6,3.3,39,31,ARTISAN_UPPER_LIMIT
+120,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,75,30,150,75,75,375,78.3,356,11.5,82,1.8,2.6,24.4,60,ARTISAN_UPPER_LIMIT
+121,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,10,50,25,25,390,79,385,10.5,68,12.6,15.1,82,0,ARTISAN_UPPER_LIMIT
+122,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,10,50,25,25,390,79,385,10.5,74,8.1,10.1,56.4,0,ARTISAN_UPPER_LIMIT
+123,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,10,50,25,25,390,79,385,10.5,78,5.9,7.6,41,33,ARTISAN_UPPER_LIMIT
+124,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,10,50,25,25,390,79,385,10.5,82,4.2,5.9,25.6,65,ARTISAN_UPPER_LIMIT
+125,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,15,75,38,37,390,79.4,383,10.8,68,9.3,11.2,81,0,ARTISAN_UPPER_LIMIT
+126,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,15,75,38,37,390,79.4,383,10.8,74,6,7.4,55.7,0,ARTISAN_UPPER_LIMIT
+127,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,15,75,38,37,390,79.4,383,10.8,78,4.3,5.6,40.5,33,ARTISAN_UPPER_LIMIT
+128,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,15,75,38,37,390,79.4,383,10.8,82,3.1,4.3,25.3,65,ARTISAN_UPPER_LIMIT
+129,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,20,100,50,50,390,80,379,11,68,7.5,9,80,0,ARTISAN_UPPER_LIMIT
+130,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,20,100,50,50,390,80,379,11,74,4.8,6,55,0,ARTISAN_UPPER_LIMIT
+131,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,20,100,50,50,390,80,379,11,78,3.5,4.5,40,33,ARTISAN_UPPER_LIMIT
+132,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,20,100,50,50,390,80,379,11,82,2.5,3.5,25,64,ARTISAN_UPPER_LIMIT
+133,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,25,125,63,62,390,80.3,377,11.3,68,6.3,7.6,79,0,ARTISAN_UPPER_LIMIT
+134,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,25,125,63,62,390,80.3,377,11.3,74,4.1,5.1,54.3,0,ARTISAN_UPPER_LIMIT
+135,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,25,125,63,62,390,80.3,377,11.3,78,3,3.8,39.5,32,ARTISAN_UPPER_LIMIT
+136,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,25,125,63,62,390,80.3,377,11.3,82,2.1,3,24.7,63,ARTISAN_UPPER_LIMIT
+137,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,30,150,75,75,390,80.9,374,11.5,68,5.5,6.6,78,0,ARTISAN_UPPER_LIMIT
+138,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,30,150,75,75,390,80.9,374,11.5,74,3.6,4.4,53.6,0,ARTISAN_UPPER_LIMIT
+139,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,30,150,75,75,390,80.9,374,11.5,78,2.6,3.3,39,32,ARTISAN_UPPER_LIMIT
+140,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,78,30,150,75,75,390,80.9,374,11.5,82,1.8,2.6,24.4,63,ARTISAN_UPPER_LIMIT
+141,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,10,50,25,25,400,81,395,10.5,68,12.6,15.1,82,0,ARTISAN_UPPER_LIMIT
+142,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,10,50,25,25,400,81,395,10.5,74,8.1,10.1,56.4,0,ARTISAN_UPPER_LIMIT
+143,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,10,50,25,25,400,81,395,10.5,78,5.9,7.6,41,34,ARTISAN_UPPER_LIMIT
+144,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,10,50,25,25,400,81,395,10.5,82,4.2,5.9,25.6,67,ARTISAN_UPPER_LIMIT
+145,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,15,75,38,37,400,81.2,393,10.8,68,9.3,11.2,81,0,ARTISAN_UPPER_LIMIT
+146,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,15,75,38,37,400,81.2,393,10.8,74,6,7.4,55.7,0,ARTISAN_UPPER_LIMIT
+147,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,15,75,38,37,400,81.2,393,10.8,78,4.3,5.6,40.5,34,ARTISAN_UPPER_LIMIT
+148,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,15,75,38,37,400,81.2,393,10.8,82,3.1,4.3,25.3,66,ARTISAN_UPPER_LIMIT
+149,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,20,100,50,50,400,81.8,390,11,68,7.5,9,80,0,ARTISAN_UPPER_LIMIT
+150,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,20,100,50,50,400,81.8,390,11,74,4.8,6,55,0,ARTISAN_UPPER_LIMIT
+151,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,20,100,50,50,400,81.8,390,11,78,3.5,4.5,40,34,ARTISAN_UPPER_LIMIT
+152,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,20,100,50,50,400,81.8,390,11,82,2.5,3.5,25,66,ARTISAN_UPPER_LIMIT
+153,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,25,125,63,62,400,82.1,388,11.3,68,6.3,7.6,79,0,ARTISAN_UPPER_LIMIT
+154,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,25,125,63,62,400,82.1,388,11.3,74,4.1,5.1,54.3,0,ARTISAN_UPPER_LIMIT
+155,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,25,125,63,62,400,82.1,388,11.3,78,3,3.8,39.5,33,ARTISAN_UPPER_LIMIT
+156,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,25,125,63,62,400,82.1,388,11.3,82,2.1,3,24.7,65,ARTISAN_UPPER_LIMIT
+157,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,30,150,75,75,400,82.6,385,11.5,68,5.5,6.6,78,0,ARTISAN_UPPER_LIMIT
+158,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,30,150,75,75,400,82.6,385,11.5,74,3.6,4.4,53.6,0,ARTISAN_UPPER_LIMIT
+159,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,30,150,75,75,400,82.6,385,11.5,78,2.6,3.3,39,33,ARTISAN_UPPER_LIMIT
+160,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,80,30,150,75,75,400,82.6,385,11.5,82,1.8,2.6,24.4,65,ARTISAN_UPPER_LIMIT
+161,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,10,50,25,25,425,85.7,421,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+162,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,10,50,25,25,425,85.7,421,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+163,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,10,50,25,25,425,85.7,421,10.5,78,5.9,7.6,41,36,EXCEEDS_CEILING_SOUPY_RISK
+164,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,10,50,25,25,425,85.7,421,10.5,82,4.2,5.9,25.6,71,EXCEEDS_CEILING_SOUPY_RISK
+165,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,15,75,38,37,425,85.9,420,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+166,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,15,75,38,37,425,85.9,420,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+167,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,15,75,38,37,425,85.9,420,10.8,78,4.3,5.6,40.5,36,EXCEEDS_CEILING_SOUPY_RISK
+168,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,15,75,38,37,425,85.9,420,10.8,82,3.1,4.3,25.3,71,EXCEEDS_CEILING_SOUPY_RISK
+169,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,20,100,50,50,425,86.4,418,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+170,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,20,100,50,50,425,86.4,418,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+171,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,20,100,50,50,425,86.4,418,11,78,3.5,4.5,40,36,EXCEEDS_CEILING_SOUPY_RISK
+172,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,20,100,50,50,425,86.4,418,11,82,2.5,3.5,25,70,EXCEEDS_CEILING_SOUPY_RISK
+173,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,25,125,63,62,425,86.5,417,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+174,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,25,125,63,62,425,86.5,417,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+175,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,25,125,63,62,425,86.5,417,11.3,78,3,3.8,39.5,36,EXCEEDS_CEILING_SOUPY_RISK
+176,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,25,125,63,62,425,86.5,417,11.3,82,2.1,3,24.7,70,EXCEEDS_CEILING_SOUPY_RISK
+177,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,30,150,75,75,425,87,414,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+178,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,30,150,75,75,425,87,414,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+179,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,30,150,75,75,425,87,414,11.5,78,2.6,3.3,39,36,EXCEEDS_CEILING_SOUPY_RISK
+180,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,85,30,150,75,75,425,87,414,11.5,82,1.8,2.6,24.4,70,EXCEEDS_CEILING_SOUPY_RISK
+181,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,10,50,25,25,450,90.5,448,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+182,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,10,50,25,25,450,90.5,448,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+183,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,10,50,25,25,450,90.5,448,10.5,78,5.9,7.6,41,39,EXCEEDS_CEILING_SOUPY_RISK
+184,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,10,50,25,25,450,90.5,448,10.5,82,4.2,5.9,25.6,75,EXCEEDS_CEILING_SOUPY_RISK
+185,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,15,75,38,37,450,90.5,447,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+186,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,15,75,38,37,450,90.5,447,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+187,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,15,75,38,37,450,90.5,447,10.8,78,4.3,5.6,40.5,38,EXCEEDS_CEILING_SOUPY_RISK
+188,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,15,75,38,37,450,90.5,447,10.8,82,3.1,4.3,25.3,75,EXCEEDS_CEILING_SOUPY_RISK
+189,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,20,100,50,50,450,90.9,445,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+190,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,20,100,50,50,450,90.9,445,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+191,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,20,100,50,50,450,90.9,445,11,78,3.5,4.5,40,38,EXCEEDS_CEILING_SOUPY_RISK
+192,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,20,100,50,50,450,90.9,445,11,82,2.5,3.5,25,75,EXCEEDS_CEILING_SOUPY_RISK
+193,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,25,125,63,62,450,90.9,445,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+194,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,25,125,63,62,450,90.9,445,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+195,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,25,125,63,62,450,90.9,445,11.3,78,3,3.8,39.5,38,EXCEEDS_CEILING_SOUPY_RISK
+196,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,25,125,63,62,450,90.9,445,11.3,82,2.1,3,24.7,75,EXCEEDS_CEILING_SOUPY_RISK
+197,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,30,150,75,75,450,91.3,443,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+198,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,30,150,75,75,450,91.3,443,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+199,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,30,150,75,75,450,91.3,443,11.5,78,2.6,3.3,39,38,EXCEEDS_CEILING_SOUPY_RISK
+200,bread_flour_12_7,Hard Red Bread Flour (12.7% Protein),12.7,80,500,90,30,150,75,75,450,91.3,443,11.5,82,1.8,2.6,24.4,75,EXCEEDS_CEILING_SOUPY_RISK
+201,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,10,50,25,25,310,63.8,301,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+202,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,10,50,25,25,310,63.8,301,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+203,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,10,50,25,25,310,63.8,301,10.5,78,5.9,7.6,41,26,SAFE_OPTIMAL_WINDOW
+204,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,10,50,25,25,310,63.8,301,10.5,82,4.2,5.9,25.6,51,SAFE_OPTIMAL_WINDOW
+205,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,15,75,38,37,310,64.5,297,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+206,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,15,75,38,37,310,64.5,297,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+207,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,15,75,38,37,310,64.5,297,10.8,78,4.3,5.6,40.5,26,SAFE_OPTIMAL_WINDOW
+208,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,15,75,38,37,310,64.5,297,10.8,82,3.1,4.3,25.3,50,SAFE_OPTIMAL_WINDOW
+209,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,20,100,50,50,310,65.5,291,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+210,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,20,100,50,50,310,65.5,291,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+211,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,20,100,50,50,310,65.5,291,11,78,3.5,4.5,40,25,SAFE_OPTIMAL_WINDOW
+212,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,20,100,50,50,310,65.5,291,11,82,2.5,3.5,25,49,SAFE_OPTIMAL_WINDOW
+213,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,25,125,63,62,310,66.1,287,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+214,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,25,125,63,62,310,66.1,287,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+215,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,25,125,63,62,310,66.1,287,11.3,78,3,3.8,39.5,25,SAFE_OPTIMAL_WINDOW
+216,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,25,125,63,62,310,66.1,287,11.3,82,2.1,3,24.7,48,SAFE_OPTIMAL_WINDOW
+217,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,30,150,75,75,310,67,282,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+218,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,30,150,75,75,310,67,282,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+219,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,30,150,75,75,310,67,282,11.5,78,2.6,3.3,39,24,SAFE_OPTIMAL_WINDOW
+220,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,62,30,150,75,75,310,67,282,11.5,82,1.8,2.6,24.4,47,SAFE_OPTIMAL_WINDOW
+221,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,10,50,25,25,325,66.7,316,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+222,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,10,50,25,25,325,66.7,316,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+223,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,10,50,25,25,325,66.7,316,10.5,78,5.9,7.6,41,27,SAFE_OPTIMAL_WINDOW
+224,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,10,50,25,25,325,66.7,316,10.5,82,4.2,5.9,25.6,53,SAFE_OPTIMAL_WINDOW
+225,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,15,75,38,37,325,67.3,313,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+226,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,15,75,38,37,325,67.3,313,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+227,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,15,75,38,37,325,67.3,313,10.8,78,4.3,5.6,40.5,27,SAFE_OPTIMAL_WINDOW
+228,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,15,75,38,37,325,67.3,313,10.8,82,3.1,4.3,25.3,53,SAFE_OPTIMAL_WINDOW
+229,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,20,100,50,50,325,68.2,308,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+230,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,20,100,50,50,325,68.2,308,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+231,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,20,100,50,50,325,68.2,308,11,78,3.5,4.5,40,26,SAFE_OPTIMAL_WINDOW
+232,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,20,100,50,50,325,68.2,308,11,82,2.5,3.5,25,52,SAFE_OPTIMAL_WINDOW
+233,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,25,125,63,62,325,68.7,304,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+234,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,25,125,63,62,325,68.7,304,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+235,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,25,125,63,62,325,68.7,304,11.3,78,3,3.8,39.5,26,SAFE_OPTIMAL_WINDOW
+236,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,25,125,63,62,325,68.7,304,11.3,82,2.1,3,24.7,51,SAFE_OPTIMAL_WINDOW
+237,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,30,150,75,75,325,69.6,299,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+238,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,30,150,75,75,325,69.6,299,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+239,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,30,150,75,75,325,69.6,299,11.5,78,2.6,3.3,39,26,SAFE_OPTIMAL_WINDOW
+240,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,65,30,150,75,75,325,69.6,299,11.5,82,1.8,2.6,24.4,50,SAFE_OPTIMAL_WINDOW
+241,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,10,50,25,25,340,69.5,332,10.5,68,12.6,15.1,82,0,ARTISAN_UPPER_LIMIT
+242,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,10,50,25,25,340,69.5,332,10.5,74,8.1,10.1,56.4,0,ARTISAN_UPPER_LIMIT
+243,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,10,50,25,25,340,69.5,332,10.5,78,5.9,7.6,41,29,ARTISAN_UPPER_LIMIT
+244,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,10,50,25,25,340,69.5,332,10.5,82,4.2,5.9,25.6,56,ARTISAN_UPPER_LIMIT
+245,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,15,75,38,37,340,70.1,329,10.8,68,9.3,11.2,81,0,ARTISAN_UPPER_LIMIT
+246,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,15,75,38,37,340,70.1,329,10.8,74,6,7.4,55.7,0,ARTISAN_UPPER_LIMIT
+247,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,15,75,38,37,340,70.1,329,10.8,78,4.3,5.6,40.5,28,ARTISAN_UPPER_LIMIT
+248,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,15,75,38,37,340,70.1,329,10.8,82,3.1,4.3,25.3,55,ARTISAN_UPPER_LIMIT
+249,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,20,100,50,50,340,70.9,324,11,68,7.5,9,80,0,ARTISAN_UPPER_LIMIT
+250,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,20,100,50,50,340,70.9,324,11,74,4.8,6,55,0,ARTISAN_UPPER_LIMIT
+251,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,20,100,50,50,340,70.9,324,11,78,3.5,4.5,40,28,ARTISAN_UPPER_LIMIT
+252,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,20,100,50,50,340,70.9,324,11,82,2.5,3.5,25,55,ARTISAN_UPPER_LIMIT
+253,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,25,125,63,62,340,71.4,321,11.3,68,6.3,7.6,79,0,ARTISAN_UPPER_LIMIT
+254,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,25,125,63,62,340,71.4,321,11.3,74,4.1,5.1,54.3,0,ARTISAN_UPPER_LIMIT
+255,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,25,125,63,62,340,71.4,321,11.3,78,3,3.8,39.5,28,ARTISAN_UPPER_LIMIT
+256,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,25,125,63,62,340,71.4,321,11.3,82,2.1,3,24.7,54,ARTISAN_UPPER_LIMIT
+257,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,30,150,75,75,340,72.2,316,11.5,68,5.5,6.6,78,0,ARTISAN_UPPER_LIMIT
+258,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,30,150,75,75,340,72.2,316,11.5,74,3.6,4.4,53.6,0,ARTISAN_UPPER_LIMIT
+259,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,30,150,75,75,340,72.2,316,11.5,78,2.6,3.3,39,27,ARTISAN_UPPER_LIMIT
+260,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,68,30,150,75,75,340,72.2,316,11.5,82,1.8,2.6,24.4,53,ARTISAN_UPPER_LIMIT
+261,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,10,50,25,25,350,71.4,343,10.5,68,12.6,15.1,82,0,ARTISAN_UPPER_LIMIT
+262,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,10,50,25,25,350,71.4,343,10.5,74,8.1,10.1,56.4,0,ARTISAN_UPPER_LIMIT
+263,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,10,50,25,25,350,71.4,343,10.5,78,5.9,7.6,41,30,ARTISAN_UPPER_LIMIT
+264,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,10,50,25,25,350,71.4,343,10.5,82,4.2,5.9,25.6,58,ARTISAN_UPPER_LIMIT
+265,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,15,75,38,37,350,71.9,340,10.8,68,9.3,11.2,81,0,ARTISAN_UPPER_LIMIT
+266,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,15,75,38,37,350,71.9,340,10.8,74,6,7.4,55.7,0,ARTISAN_UPPER_LIMIT
+267,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,15,75,38,37,350,71.9,340,10.8,78,4.3,5.6,40.5,29,ARTISAN_UPPER_LIMIT
+268,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,15,75,38,37,350,71.9,340,10.8,82,3.1,4.3,25.3,57,ARTISAN_UPPER_LIMIT
+269,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,20,100,50,50,350,72.7,335,11,68,7.5,9,80,0,ARTISAN_UPPER_LIMIT
+270,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,20,100,50,50,350,72.7,335,11,74,4.8,6,55,0,ARTISAN_UPPER_LIMIT
+271,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,20,100,50,50,350,72.7,335,11,78,3.5,4.5,40,29,ARTISAN_UPPER_LIMIT
+272,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,20,100,50,50,350,72.7,335,11,82,2.5,3.5,25,56,ARTISAN_UPPER_LIMIT
+273,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,25,125,63,62,350,73.2,332,11.3,68,6.3,7.6,79,0,ARTISAN_UPPER_LIMIT
+274,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,25,125,63,62,350,73.2,332,11.3,74,4.1,5.1,54.3,0,ARTISAN_UPPER_LIMIT
+275,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,25,125,63,62,350,73.2,332,11.3,78,3,3.8,39.5,29,ARTISAN_UPPER_LIMIT
+276,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,25,125,63,62,350,73.2,332,11.3,82,2.1,3,24.7,56,ARTISAN_UPPER_LIMIT
+277,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,30,150,75,75,350,73.9,328,11.5,68,5.5,6.6,78,0,ARTISAN_UPPER_LIMIT
+278,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,30,150,75,75,350,73.9,328,11.5,74,3.6,4.4,53.6,0,ARTISAN_UPPER_LIMIT
+279,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,30,150,75,75,350,73.9,328,11.5,78,2.6,3.3,39,28,ARTISAN_UPPER_LIMIT
+280,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,70,30,150,75,75,350,73.9,328,11.5,82,1.8,2.6,24.4,55,ARTISAN_UPPER_LIMIT
+281,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,10,50,25,25,360,73.3,353,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+282,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,10,50,25,25,360,73.3,353,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+283,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,10,50,25,25,360,73.3,353,10.5,78,5.9,7.6,41,30,EXCEEDS_CEILING_SOUPY_RISK
+284,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,10,50,25,25,360,73.3,353,10.5,82,4.2,5.9,25.6,59,EXCEEDS_CEILING_SOUPY_RISK
+285,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,15,75,38,37,360,73.8,350,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+286,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,15,75,38,37,360,73.8,350,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+287,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,15,75,38,37,360,73.8,350,10.8,78,4.3,5.6,40.5,30,EXCEEDS_CEILING_SOUPY_RISK
+288,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,15,75,38,37,360,73.8,350,10.8,82,3.1,4.3,25.3,59,EXCEEDS_CEILING_SOUPY_RISK
+289,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,20,100,50,50,360,74.5,346,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+290,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,20,100,50,50,360,74.5,346,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+291,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,20,100,50,50,360,74.5,346,11,78,3.5,4.5,40,30,EXCEEDS_CEILING_SOUPY_RISK
+292,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,20,100,50,50,360,74.5,346,11,82,2.5,3.5,25,58,EXCEEDS_CEILING_SOUPY_RISK
+293,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,25,125,63,62,360,75,343,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+294,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,25,125,63,62,360,75,343,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+295,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,25,125,63,62,360,75,343,11.3,78,3,3.8,39.5,30,EXCEEDS_CEILING_SOUPY_RISK
+296,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,25,125,63,62,360,75,343,11.3,82,2.1,3,24.7,58,EXCEEDS_CEILING_SOUPY_RISK
+297,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,30,150,75,75,360,75.7,339,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+298,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,30,150,75,75,360,75.7,339,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+299,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,30,150,75,75,360,75.7,339,11.5,78,2.6,3.3,39,29,EXCEEDS_CEILING_SOUPY_RISK
+300,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,72,30,150,75,75,360,75.7,339,11.5,82,1.8,2.6,24.4,57,EXCEEDS_CEILING_SOUPY_RISK
+301,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,10,50,25,25,375,76.2,369,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+302,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,10,50,25,25,375,76.2,369,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+303,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,10,50,25,25,375,76.2,369,10.5,78,5.9,7.6,41,32,EXCEEDS_CEILING_SOUPY_RISK
+304,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,10,50,25,25,375,76.2,369,10.5,82,4.2,5.9,25.6,62,EXCEEDS_CEILING_SOUPY_RISK
+305,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,15,75,38,37,375,76.6,367,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+306,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,15,75,38,37,375,76.6,367,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+307,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,15,75,38,37,375,76.6,367,10.8,78,4.3,5.6,40.5,32,EXCEEDS_CEILING_SOUPY_RISK
+308,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,15,75,38,37,375,76.6,367,10.8,82,3.1,4.3,25.3,62,EXCEEDS_CEILING_SOUPY_RISK
+309,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,20,100,50,50,375,77.3,363,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+310,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,20,100,50,50,375,77.3,363,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+311,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,20,100,50,50,375,77.3,363,11,78,3.5,4.5,40,31,EXCEEDS_CEILING_SOUPY_RISK
+312,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,20,100,50,50,375,77.3,363,11,82,2.5,3.5,25,61,EXCEEDS_CEILING_SOUPY_RISK
+313,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,25,125,63,62,375,77.6,360,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+314,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,25,125,63,62,375,77.6,360,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+315,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,25,125,63,62,375,77.6,360,11.3,78,3,3.8,39.5,31,EXCEEDS_CEILING_SOUPY_RISK
+316,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,25,125,63,62,375,77.6,360,11.3,82,2.1,3,24.7,61,EXCEEDS_CEILING_SOUPY_RISK
+317,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,30,150,75,75,375,78.3,356,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+318,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,30,150,75,75,375,78.3,356,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+319,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,30,150,75,75,375,78.3,356,11.5,78,2.6,3.3,39,31,EXCEEDS_CEILING_SOUPY_RISK
+320,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,75,30,150,75,75,375,78.3,356,11.5,82,1.8,2.6,24.4,60,EXCEEDS_CEILING_SOUPY_RISK
+321,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,10,50,25,25,390,79,385,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+322,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,10,50,25,25,390,79,385,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+323,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,10,50,25,25,390,79,385,10.5,78,5.9,7.6,41,33,EXCEEDS_CEILING_SOUPY_RISK
+324,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,10,50,25,25,390,79,385,10.5,82,4.2,5.9,25.6,65,EXCEEDS_CEILING_SOUPY_RISK
+325,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,15,75,38,37,390,79.4,383,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+326,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,15,75,38,37,390,79.4,383,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+327,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,15,75,38,37,390,79.4,383,10.8,78,4.3,5.6,40.5,33,EXCEEDS_CEILING_SOUPY_RISK
+328,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,15,75,38,37,390,79.4,383,10.8,82,3.1,4.3,25.3,65,EXCEEDS_CEILING_SOUPY_RISK
+329,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,20,100,50,50,390,80,379,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+330,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,20,100,50,50,390,80,379,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+331,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,20,100,50,50,390,80,379,11,78,3.5,4.5,40,33,EXCEEDS_CEILING_SOUPY_RISK
+332,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,20,100,50,50,390,80,379,11,82,2.5,3.5,25,64,EXCEEDS_CEILING_SOUPY_RISK
+333,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,25,125,63,62,390,80.3,377,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+334,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,25,125,63,62,390,80.3,377,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+335,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,25,125,63,62,390,80.3,377,11.3,78,3,3.8,39.5,32,EXCEEDS_CEILING_SOUPY_RISK
+336,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,25,125,63,62,390,80.3,377,11.3,82,2.1,3,24.7,63,EXCEEDS_CEILING_SOUPY_RISK
+337,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,30,150,75,75,390,80.9,374,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+338,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,30,150,75,75,390,80.9,374,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+339,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,30,150,75,75,390,80.9,374,11.5,78,2.6,3.3,39,32,EXCEEDS_CEILING_SOUPY_RISK
+340,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,78,30,150,75,75,390,80.9,374,11.5,82,1.8,2.6,24.4,63,EXCEEDS_CEILING_SOUPY_RISK
+341,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,10,50,25,25,400,81,395,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+342,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,10,50,25,25,400,81,395,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+343,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,10,50,25,25,400,81,395,10.5,78,5.9,7.6,41,34,EXCEEDS_CEILING_SOUPY_RISK
+344,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,10,50,25,25,400,81,395,10.5,82,4.2,5.9,25.6,67,EXCEEDS_CEILING_SOUPY_RISK
+345,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,15,75,38,37,400,81.2,393,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+346,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,15,75,38,37,400,81.2,393,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+347,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,15,75,38,37,400,81.2,393,10.8,78,4.3,5.6,40.5,34,EXCEEDS_CEILING_SOUPY_RISK
+348,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,15,75,38,37,400,81.2,393,10.8,82,3.1,4.3,25.3,66,EXCEEDS_CEILING_SOUPY_RISK
+349,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,20,100,50,50,400,81.8,390,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+350,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,20,100,50,50,400,81.8,390,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+351,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,20,100,50,50,400,81.8,390,11,78,3.5,4.5,40,34,EXCEEDS_CEILING_SOUPY_RISK
+352,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,20,100,50,50,400,81.8,390,11,82,2.5,3.5,25,66,EXCEEDS_CEILING_SOUPY_RISK
+353,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,25,125,63,62,400,82.1,388,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+354,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,25,125,63,62,400,82.1,388,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+355,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,25,125,63,62,400,82.1,388,11.3,78,3,3.8,39.5,33,EXCEEDS_CEILING_SOUPY_RISK
+356,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,25,125,63,62,400,82.1,388,11.3,82,2.1,3,24.7,65,EXCEEDS_CEILING_SOUPY_RISK
+357,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,30,150,75,75,400,82.6,385,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+358,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,30,150,75,75,400,82.6,385,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+359,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,30,150,75,75,400,82.6,385,11.5,78,2.6,3.3,39,33,EXCEEDS_CEILING_SOUPY_RISK
+360,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,80,30,150,75,75,400,82.6,385,11.5,82,1.8,2.6,24.4,65,EXCEEDS_CEILING_SOUPY_RISK
+361,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,10,50,25,25,425,85.7,421,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+362,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,10,50,25,25,425,85.7,421,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+363,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,10,50,25,25,425,85.7,421,10.5,78,5.9,7.6,41,36,EXCEEDS_CEILING_SOUPY_RISK
+364,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,10,50,25,25,425,85.7,421,10.5,82,4.2,5.9,25.6,71,EXCEEDS_CEILING_SOUPY_RISK
+365,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,15,75,38,37,425,85.9,420,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+366,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,15,75,38,37,425,85.9,420,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+367,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,15,75,38,37,425,85.9,420,10.8,78,4.3,5.6,40.5,36,EXCEEDS_CEILING_SOUPY_RISK
+368,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,15,75,38,37,425,85.9,420,10.8,82,3.1,4.3,25.3,71,EXCEEDS_CEILING_SOUPY_RISK
+369,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,20,100,50,50,425,86.4,418,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+370,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,20,100,50,50,425,86.4,418,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+371,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,20,100,50,50,425,86.4,418,11,78,3.5,4.5,40,36,EXCEEDS_CEILING_SOUPY_RISK
+372,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,20,100,50,50,425,86.4,418,11,82,2.5,3.5,25,70,EXCEEDS_CEILING_SOUPY_RISK
+373,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,25,125,63,62,425,86.5,417,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+374,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,25,125,63,62,425,86.5,417,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+375,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,25,125,63,62,425,86.5,417,11.3,78,3,3.8,39.5,36,EXCEEDS_CEILING_SOUPY_RISK
+376,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,25,125,63,62,425,86.5,417,11.3,82,2.1,3,24.7,70,EXCEEDS_CEILING_SOUPY_RISK
+377,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,30,150,75,75,425,87,414,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+378,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,30,150,75,75,425,87,414,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+379,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,30,150,75,75,425,87,414,11.5,78,2.6,3.3,39,36,EXCEEDS_CEILING_SOUPY_RISK
+380,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,85,30,150,75,75,425,87,414,11.5,82,1.8,2.6,24.4,70,EXCEEDS_CEILING_SOUPY_RISK
+381,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,10,50,25,25,450,90.5,448,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+382,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,10,50,25,25,450,90.5,448,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+383,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,10,50,25,25,450,90.5,448,10.5,78,5.9,7.6,41,39,EXCEEDS_CEILING_SOUPY_RISK
+384,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,10,50,25,25,450,90.5,448,10.5,82,4.2,5.9,25.6,75,EXCEEDS_CEILING_SOUPY_RISK
+385,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,15,75,38,37,450,90.5,447,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+386,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,15,75,38,37,450,90.5,447,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+387,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,15,75,38,37,450,90.5,447,10.8,78,4.3,5.6,40.5,38,EXCEEDS_CEILING_SOUPY_RISK
+388,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,15,75,38,37,450,90.5,447,10.8,82,3.1,4.3,25.3,75,EXCEEDS_CEILING_SOUPY_RISK
+389,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,20,100,50,50,450,90.9,445,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+390,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,20,100,50,50,450,90.9,445,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+391,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,20,100,50,50,450,90.9,445,11,78,3.5,4.5,40,38,EXCEEDS_CEILING_SOUPY_RISK
+392,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,20,100,50,50,450,90.9,445,11,82,2.5,3.5,25,75,EXCEEDS_CEILING_SOUPY_RISK
+393,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,25,125,63,62,450,90.9,445,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+394,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,25,125,63,62,450,90.9,445,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+395,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,25,125,63,62,450,90.9,445,11.3,78,3,3.8,39.5,38,EXCEEDS_CEILING_SOUPY_RISK
+396,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,25,125,63,62,450,90.9,445,11.3,82,2.1,3,24.7,75,EXCEEDS_CEILING_SOUPY_RISK
+397,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,30,150,75,75,450,91.3,443,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+398,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,30,150,75,75,450,91.3,443,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+399,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,30,150,75,75,450,91.3,443,11.5,78,2.6,3.3,39,38,EXCEEDS_CEILING_SOUPY_RISK
+400,all_purpose_11_7,Unbleached All-Purpose Flour (11.7% Protein),11.7,71,500,90,30,150,75,75,450,91.3,443,11.5,82,1.8,2.6,24.4,75,EXCEEDS_CEILING_SOUPY_RISK
+401,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,10,50,25,25,310,63.8,301,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+402,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,10,50,25,25,310,63.8,301,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+403,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,10,50,25,25,310,63.8,301,10.5,78,5.9,7.6,41,26,SAFE_OPTIMAL_WINDOW
+404,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,10,50,25,25,310,63.8,301,10.5,82,4.2,5.9,25.6,51,SAFE_OPTIMAL_WINDOW
+405,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,15,75,38,37,310,64.5,297,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+406,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,15,75,38,37,310,64.5,297,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+407,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,15,75,38,37,310,64.5,297,10.8,78,4.3,5.6,40.5,26,SAFE_OPTIMAL_WINDOW
+408,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,15,75,38,37,310,64.5,297,10.8,82,3.1,4.3,25.3,50,SAFE_OPTIMAL_WINDOW
+409,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,20,100,50,50,310,65.5,291,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+410,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,20,100,50,50,310,65.5,291,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+411,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,20,100,50,50,310,65.5,291,11,78,3.5,4.5,40,25,SAFE_OPTIMAL_WINDOW
+412,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,20,100,50,50,310,65.5,291,11,82,2.5,3.5,25,49,SAFE_OPTIMAL_WINDOW
+413,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,25,125,63,62,310,66.1,287,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+414,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,25,125,63,62,310,66.1,287,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+415,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,25,125,63,62,310,66.1,287,11.3,78,3,3.8,39.5,25,SAFE_OPTIMAL_WINDOW
+416,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,25,125,63,62,310,66.1,287,11.3,82,2.1,3,24.7,48,SAFE_OPTIMAL_WINDOW
+417,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,30,150,75,75,310,67,282,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+418,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,30,150,75,75,310,67,282,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+419,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,30,150,75,75,310,67,282,11.5,78,2.6,3.3,39,24,SAFE_OPTIMAL_WINDOW
+420,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,62,30,150,75,75,310,67,282,11.5,82,1.8,2.6,24.4,47,SAFE_OPTIMAL_WINDOW
+421,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,10,50,25,25,325,66.7,316,10.5,68,12.6,15.1,82,0,ARTISAN_UPPER_LIMIT
+422,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,10,50,25,25,325,66.7,316,10.5,74,8.1,10.1,56.4,0,ARTISAN_UPPER_LIMIT
+423,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,10,50,25,25,325,66.7,316,10.5,78,5.9,7.6,41,27,ARTISAN_UPPER_LIMIT
+424,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,10,50,25,25,325,66.7,316,10.5,82,4.2,5.9,25.6,53,ARTISAN_UPPER_LIMIT
+425,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,15,75,38,37,325,67.3,313,10.8,68,9.3,11.2,81,0,ARTISAN_UPPER_LIMIT
+426,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,15,75,38,37,325,67.3,313,10.8,74,6,7.4,55.7,0,ARTISAN_UPPER_LIMIT
+427,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,15,75,38,37,325,67.3,313,10.8,78,4.3,5.6,40.5,27,ARTISAN_UPPER_LIMIT
+428,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,15,75,38,37,325,67.3,313,10.8,82,3.1,4.3,25.3,53,ARTISAN_UPPER_LIMIT
+429,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,20,100,50,50,325,68.2,308,11,68,7.5,9,80,0,ARTISAN_UPPER_LIMIT
+430,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,20,100,50,50,325,68.2,308,11,74,4.8,6,55,0,ARTISAN_UPPER_LIMIT
+431,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,20,100,50,50,325,68.2,308,11,78,3.5,4.5,40,26,ARTISAN_UPPER_LIMIT
+432,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,20,100,50,50,325,68.2,308,11,82,2.5,3.5,25,52,ARTISAN_UPPER_LIMIT
+433,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,25,125,63,62,325,68.7,304,11.3,68,6.3,7.6,79,0,ARTISAN_UPPER_LIMIT
+434,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,25,125,63,62,325,68.7,304,11.3,74,4.1,5.1,54.3,0,ARTISAN_UPPER_LIMIT
+435,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,25,125,63,62,325,68.7,304,11.3,78,3,3.8,39.5,26,ARTISAN_UPPER_LIMIT
+436,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,25,125,63,62,325,68.7,304,11.3,82,2.1,3,24.7,51,ARTISAN_UPPER_LIMIT
+437,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,30,150,75,75,325,69.6,299,11.5,68,5.5,6.6,78,0,ARTISAN_UPPER_LIMIT
+438,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,30,150,75,75,325,69.6,299,11.5,74,3.6,4.4,53.6,0,ARTISAN_UPPER_LIMIT
+439,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,30,150,75,75,325,69.6,299,11.5,78,2.6,3.3,39,26,ARTISAN_UPPER_LIMIT
+440,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,65,30,150,75,75,325,69.6,299,11.5,82,1.8,2.6,24.4,50,ARTISAN_UPPER_LIMIT
+441,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,10,50,25,25,340,69.5,332,10.5,68,12.6,15.1,82,0,ARTISAN_UPPER_LIMIT
+442,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,10,50,25,25,340,69.5,332,10.5,74,8.1,10.1,56.4,0,ARTISAN_UPPER_LIMIT
+443,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,10,50,25,25,340,69.5,332,10.5,78,5.9,7.6,41,29,ARTISAN_UPPER_LIMIT
+444,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,10,50,25,25,340,69.5,332,10.5,82,4.2,5.9,25.6,56,ARTISAN_UPPER_LIMIT
+445,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,15,75,38,37,340,70.1,329,10.8,68,9.3,11.2,81,0,ARTISAN_UPPER_LIMIT
+446,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,15,75,38,37,340,70.1,329,10.8,74,6,7.4,55.7,0,ARTISAN_UPPER_LIMIT
+447,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,15,75,38,37,340,70.1,329,10.8,78,4.3,5.6,40.5,28,ARTISAN_UPPER_LIMIT
+448,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,15,75,38,37,340,70.1,329,10.8,82,3.1,4.3,25.3,55,ARTISAN_UPPER_LIMIT
+449,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,20,100,50,50,340,70.9,324,11,68,7.5,9,80,0,ARTISAN_UPPER_LIMIT
+450,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,20,100,50,50,340,70.9,324,11,74,4.8,6,55,0,ARTISAN_UPPER_LIMIT
+451,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,20,100,50,50,340,70.9,324,11,78,3.5,4.5,40,28,ARTISAN_UPPER_LIMIT
+452,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,20,100,50,50,340,70.9,324,11,82,2.5,3.5,25,55,ARTISAN_UPPER_LIMIT
+453,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,25,125,63,62,340,71.4,321,11.3,68,6.3,7.6,79,0,ARTISAN_UPPER_LIMIT
+454,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,25,125,63,62,340,71.4,321,11.3,74,4.1,5.1,54.3,0,ARTISAN_UPPER_LIMIT
+455,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,25,125,63,62,340,71.4,321,11.3,78,3,3.8,39.5,28,ARTISAN_UPPER_LIMIT
+456,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,25,125,63,62,340,71.4,321,11.3,82,2.1,3,24.7,54,ARTISAN_UPPER_LIMIT
+457,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,30,150,75,75,340,72.2,316,11.5,68,5.5,6.6,78,0,ARTISAN_UPPER_LIMIT
+458,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,30,150,75,75,340,72.2,316,11.5,74,3.6,4.4,53.6,0,ARTISAN_UPPER_LIMIT
+459,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,30,150,75,75,340,72.2,316,11.5,78,2.6,3.3,39,27,ARTISAN_UPPER_LIMIT
+460,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,68,30,150,75,75,340,72.2,316,11.5,82,1.8,2.6,24.4,53,ARTISAN_UPPER_LIMIT
+461,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,10,50,25,25,350,71.4,343,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+462,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,10,50,25,25,350,71.4,343,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+463,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,10,50,25,25,350,71.4,343,10.5,78,5.9,7.6,41,30,EXCEEDS_CEILING_SOUPY_RISK
+464,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,10,50,25,25,350,71.4,343,10.5,82,4.2,5.9,25.6,58,EXCEEDS_CEILING_SOUPY_RISK
+465,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,15,75,38,37,350,71.9,340,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+466,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,15,75,38,37,350,71.9,340,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+467,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,15,75,38,37,350,71.9,340,10.8,78,4.3,5.6,40.5,29,EXCEEDS_CEILING_SOUPY_RISK
+468,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,15,75,38,37,350,71.9,340,10.8,82,3.1,4.3,25.3,57,EXCEEDS_CEILING_SOUPY_RISK
+469,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,20,100,50,50,350,72.7,335,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+470,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,20,100,50,50,350,72.7,335,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+471,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,20,100,50,50,350,72.7,335,11,78,3.5,4.5,40,29,EXCEEDS_CEILING_SOUPY_RISK
+472,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,20,100,50,50,350,72.7,335,11,82,2.5,3.5,25,56,EXCEEDS_CEILING_SOUPY_RISK
+473,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,25,125,63,62,350,73.2,332,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+474,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,25,125,63,62,350,73.2,332,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+475,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,25,125,63,62,350,73.2,332,11.3,78,3,3.8,39.5,29,EXCEEDS_CEILING_SOUPY_RISK
+476,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,25,125,63,62,350,73.2,332,11.3,82,2.1,3,24.7,56,EXCEEDS_CEILING_SOUPY_RISK
+477,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,30,150,75,75,350,73.9,328,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+478,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,30,150,75,75,350,73.9,328,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+479,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,30,150,75,75,350,73.9,328,11.5,78,2.6,3.3,39,28,EXCEEDS_CEILING_SOUPY_RISK
+480,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,70,30,150,75,75,350,73.9,328,11.5,82,1.8,2.6,24.4,55,EXCEEDS_CEILING_SOUPY_RISK
+481,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,10,50,25,25,360,73.3,353,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+482,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,10,50,25,25,360,73.3,353,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+483,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,10,50,25,25,360,73.3,353,10.5,78,5.9,7.6,41,30,EXCEEDS_CEILING_SOUPY_RISK
+484,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,10,50,25,25,360,73.3,353,10.5,82,4.2,5.9,25.6,59,EXCEEDS_CEILING_SOUPY_RISK
+485,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,15,75,38,37,360,73.8,350,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+486,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,15,75,38,37,360,73.8,350,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+487,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,15,75,38,37,360,73.8,350,10.8,78,4.3,5.6,40.5,30,EXCEEDS_CEILING_SOUPY_RISK
+488,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,15,75,38,37,360,73.8,350,10.8,82,3.1,4.3,25.3,59,EXCEEDS_CEILING_SOUPY_RISK
+489,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,20,100,50,50,360,74.5,346,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+490,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,20,100,50,50,360,74.5,346,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+491,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,20,100,50,50,360,74.5,346,11,78,3.5,4.5,40,30,EXCEEDS_CEILING_SOUPY_RISK
+492,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,20,100,50,50,360,74.5,346,11,82,2.5,3.5,25,58,EXCEEDS_CEILING_SOUPY_RISK
+493,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,25,125,63,62,360,75,343,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+494,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,25,125,63,62,360,75,343,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+495,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,25,125,63,62,360,75,343,11.3,78,3,3.8,39.5,30,EXCEEDS_CEILING_SOUPY_RISK
+496,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,25,125,63,62,360,75,343,11.3,82,2.1,3,24.7,58,EXCEEDS_CEILING_SOUPY_RISK
+497,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,30,150,75,75,360,75.7,339,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+498,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,30,150,75,75,360,75.7,339,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+499,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,30,150,75,75,360,75.7,339,11.5,78,2.6,3.3,39,29,EXCEEDS_CEILING_SOUPY_RISK
+500,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,72,30,150,75,75,360,75.7,339,11.5,82,1.8,2.6,24.4,57,EXCEEDS_CEILING_SOUPY_RISK
+501,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,10,50,25,25,375,76.2,369,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+502,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,10,50,25,25,375,76.2,369,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+503,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,10,50,25,25,375,76.2,369,10.5,78,5.9,7.6,41,32,EXCEEDS_CEILING_SOUPY_RISK
+504,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,10,50,25,25,375,76.2,369,10.5,82,4.2,5.9,25.6,62,EXCEEDS_CEILING_SOUPY_RISK
+505,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,15,75,38,37,375,76.6,367,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+506,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,15,75,38,37,375,76.6,367,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+507,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,15,75,38,37,375,76.6,367,10.8,78,4.3,5.6,40.5,32,EXCEEDS_CEILING_SOUPY_RISK
+508,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,15,75,38,37,375,76.6,367,10.8,82,3.1,4.3,25.3,62,EXCEEDS_CEILING_SOUPY_RISK
+509,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,20,100,50,50,375,77.3,363,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+510,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,20,100,50,50,375,77.3,363,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+511,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,20,100,50,50,375,77.3,363,11,78,3.5,4.5,40,31,EXCEEDS_CEILING_SOUPY_RISK
+512,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,20,100,50,50,375,77.3,363,11,82,2.5,3.5,25,61,EXCEEDS_CEILING_SOUPY_RISK
+513,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,25,125,63,62,375,77.6,360,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+514,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,25,125,63,62,375,77.6,360,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+515,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,25,125,63,62,375,77.6,360,11.3,78,3,3.8,39.5,31,EXCEEDS_CEILING_SOUPY_RISK
+516,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,25,125,63,62,375,77.6,360,11.3,82,2.1,3,24.7,61,EXCEEDS_CEILING_SOUPY_RISK
+517,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,30,150,75,75,375,78.3,356,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+518,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,30,150,75,75,375,78.3,356,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+519,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,30,150,75,75,375,78.3,356,11.5,78,2.6,3.3,39,31,EXCEEDS_CEILING_SOUPY_RISK
+520,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,75,30,150,75,75,375,78.3,356,11.5,82,1.8,2.6,24.4,60,EXCEEDS_CEILING_SOUPY_RISK
+521,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,10,50,25,25,390,79,385,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+522,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,10,50,25,25,390,79,385,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+523,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,10,50,25,25,390,79,385,10.5,78,5.9,7.6,41,33,EXCEEDS_CEILING_SOUPY_RISK
+524,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,10,50,25,25,390,79,385,10.5,82,4.2,5.9,25.6,65,EXCEEDS_CEILING_SOUPY_RISK
+525,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,15,75,38,37,390,79.4,383,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+526,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,15,75,38,37,390,79.4,383,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+527,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,15,75,38,37,390,79.4,383,10.8,78,4.3,5.6,40.5,33,EXCEEDS_CEILING_SOUPY_RISK
+528,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,15,75,38,37,390,79.4,383,10.8,82,3.1,4.3,25.3,65,EXCEEDS_CEILING_SOUPY_RISK
+529,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,20,100,50,50,390,80,379,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+530,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,20,100,50,50,390,80,379,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+531,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,20,100,50,50,390,80,379,11,78,3.5,4.5,40,33,EXCEEDS_CEILING_SOUPY_RISK
+532,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,20,100,50,50,390,80,379,11,82,2.5,3.5,25,64,EXCEEDS_CEILING_SOUPY_RISK
+533,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,25,125,63,62,390,80.3,377,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+534,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,25,125,63,62,390,80.3,377,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+535,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,25,125,63,62,390,80.3,377,11.3,78,3,3.8,39.5,32,EXCEEDS_CEILING_SOUPY_RISK
+536,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,25,125,63,62,390,80.3,377,11.3,82,2.1,3,24.7,63,EXCEEDS_CEILING_SOUPY_RISK
+537,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,30,150,75,75,390,80.9,374,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+538,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,30,150,75,75,390,80.9,374,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+539,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,30,150,75,75,390,80.9,374,11.5,78,2.6,3.3,39,32,EXCEEDS_CEILING_SOUPY_RISK
+540,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,78,30,150,75,75,390,80.9,374,11.5,82,1.8,2.6,24.4,63,EXCEEDS_CEILING_SOUPY_RISK
+541,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,10,50,25,25,400,81,395,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+542,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,10,50,25,25,400,81,395,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+543,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,10,50,25,25,400,81,395,10.5,78,5.9,7.6,41,34,EXCEEDS_CEILING_SOUPY_RISK
+544,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,10,50,25,25,400,81,395,10.5,82,4.2,5.9,25.6,67,EXCEEDS_CEILING_SOUPY_RISK
+545,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,15,75,38,37,400,81.2,393,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+546,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,15,75,38,37,400,81.2,393,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+547,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,15,75,38,37,400,81.2,393,10.8,78,4.3,5.6,40.5,34,EXCEEDS_CEILING_SOUPY_RISK
+548,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,15,75,38,37,400,81.2,393,10.8,82,3.1,4.3,25.3,66,EXCEEDS_CEILING_SOUPY_RISK
+549,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,20,100,50,50,400,81.8,390,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+550,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,20,100,50,50,400,81.8,390,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+551,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,20,100,50,50,400,81.8,390,11,78,3.5,4.5,40,34,EXCEEDS_CEILING_SOUPY_RISK
+552,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,20,100,50,50,400,81.8,390,11,82,2.5,3.5,25,66,EXCEEDS_CEILING_SOUPY_RISK
+553,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,25,125,63,62,400,82.1,388,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+554,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,25,125,63,62,400,82.1,388,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+555,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,25,125,63,62,400,82.1,388,11.3,78,3,3.8,39.5,33,EXCEEDS_CEILING_SOUPY_RISK
+556,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,25,125,63,62,400,82.1,388,11.3,82,2.1,3,24.7,65,EXCEEDS_CEILING_SOUPY_RISK
+557,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,30,150,75,75,400,82.6,385,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+558,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,30,150,75,75,400,82.6,385,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+559,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,30,150,75,75,400,82.6,385,11.5,78,2.6,3.3,39,33,EXCEEDS_CEILING_SOUPY_RISK
+560,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,80,30,150,75,75,400,82.6,385,11.5,82,1.8,2.6,24.4,65,EXCEEDS_CEILING_SOUPY_RISK
+561,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,10,50,25,25,425,85.7,421,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+562,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,10,50,25,25,425,85.7,421,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+563,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,10,50,25,25,425,85.7,421,10.5,78,5.9,7.6,41,36,EXCEEDS_CEILING_SOUPY_RISK
+564,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,10,50,25,25,425,85.7,421,10.5,82,4.2,5.9,25.6,71,EXCEEDS_CEILING_SOUPY_RISK
+565,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,15,75,38,37,425,85.9,420,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+566,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,15,75,38,37,425,85.9,420,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+567,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,15,75,38,37,425,85.9,420,10.8,78,4.3,5.6,40.5,36,EXCEEDS_CEILING_SOUPY_RISK
+568,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,15,75,38,37,425,85.9,420,10.8,82,3.1,4.3,25.3,71,EXCEEDS_CEILING_SOUPY_RISK
+569,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,20,100,50,50,425,86.4,418,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+570,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,20,100,50,50,425,86.4,418,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+571,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,20,100,50,50,425,86.4,418,11,78,3.5,4.5,40,36,EXCEEDS_CEILING_SOUPY_RISK
+572,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,20,100,50,50,425,86.4,418,11,82,2.5,3.5,25,70,EXCEEDS_CEILING_SOUPY_RISK
+573,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,25,125,63,62,425,86.5,417,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+574,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,25,125,63,62,425,86.5,417,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+575,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,25,125,63,62,425,86.5,417,11.3,78,3,3.8,39.5,36,EXCEEDS_CEILING_SOUPY_RISK
+576,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,25,125,63,62,425,86.5,417,11.3,82,2.1,3,24.7,70,EXCEEDS_CEILING_SOUPY_RISK
+577,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,30,150,75,75,425,87,414,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+578,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,30,150,75,75,425,87,414,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+579,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,30,150,75,75,425,87,414,11.5,78,2.6,3.3,39,36,EXCEEDS_CEILING_SOUPY_RISK
+580,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,85,30,150,75,75,425,87,414,11.5,82,1.8,2.6,24.4,70,EXCEEDS_CEILING_SOUPY_RISK
+581,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,10,50,25,25,450,90.5,448,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+582,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,10,50,25,25,450,90.5,448,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+583,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,10,50,25,25,450,90.5,448,10.5,78,5.9,7.6,41,39,EXCEEDS_CEILING_SOUPY_RISK
+584,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,10,50,25,25,450,90.5,448,10.5,82,4.2,5.9,25.6,75,EXCEEDS_CEILING_SOUPY_RISK
+585,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,15,75,38,37,450,90.5,447,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+586,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,15,75,38,37,450,90.5,447,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+587,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,15,75,38,37,450,90.5,447,10.8,78,4.3,5.6,40.5,38,EXCEEDS_CEILING_SOUPY_RISK
+588,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,15,75,38,37,450,90.5,447,10.8,82,3.1,4.3,25.3,75,EXCEEDS_CEILING_SOUPY_RISK
+589,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,20,100,50,50,450,90.9,445,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+590,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,20,100,50,50,450,90.9,445,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+591,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,20,100,50,50,450,90.9,445,11,78,3.5,4.5,40,38,EXCEEDS_CEILING_SOUPY_RISK
+592,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,20,100,50,50,450,90.9,445,11,82,2.5,3.5,25,75,EXCEEDS_CEILING_SOUPY_RISK
+593,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,25,125,63,62,450,90.9,445,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+594,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,25,125,63,62,450,90.9,445,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+595,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,25,125,63,62,450,90.9,445,11.3,78,3,3.8,39.5,38,EXCEEDS_CEILING_SOUPY_RISK
+596,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,25,125,63,62,450,90.9,445,11.3,82,2.1,3,24.7,75,EXCEEDS_CEILING_SOUPY_RISK
+597,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,30,150,75,75,450,91.3,443,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+598,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,30,150,75,75,450,91.3,443,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+599,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,30,150,75,75,450,91.3,443,11.5,78,2.6,3.3,39,38,EXCEEDS_CEILING_SOUPY_RISK
+600,european_t550_11_2,European Type 550 Flour (11.2% Protein),11.2,68,500,90,30,150,75,75,450,91.3,443,11.5,82,1.8,2.6,24.4,75,EXCEEDS_CEILING_SOUPY_RISK
+601,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,10,50,25,25,310,63.8,301,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+602,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,10,50,25,25,310,63.8,301,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+603,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,10,50,25,25,310,63.8,301,10.5,78,5.9,7.6,41,26,SAFE_OPTIMAL_WINDOW
+604,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,10,50,25,25,310,63.8,301,10.5,82,4.2,5.9,25.6,51,SAFE_OPTIMAL_WINDOW
+605,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,15,75,38,37,310,64.5,297,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+606,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,15,75,38,37,310,64.5,297,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+607,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,15,75,38,37,310,64.5,297,10.8,78,4.3,5.6,40.5,26,SAFE_OPTIMAL_WINDOW
+608,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,15,75,38,37,310,64.5,297,10.8,82,3.1,4.3,25.3,50,SAFE_OPTIMAL_WINDOW
+609,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,20,100,50,50,310,65.5,291,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+610,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,20,100,50,50,310,65.5,291,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+611,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,20,100,50,50,310,65.5,291,11,78,3.5,4.5,40,25,SAFE_OPTIMAL_WINDOW
+612,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,20,100,50,50,310,65.5,291,11,82,2.5,3.5,25,49,SAFE_OPTIMAL_WINDOW
+613,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,25,125,63,62,310,66.1,287,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+614,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,25,125,63,62,310,66.1,287,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+615,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,25,125,63,62,310,66.1,287,11.3,78,3,3.8,39.5,25,SAFE_OPTIMAL_WINDOW
+616,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,25,125,63,62,310,66.1,287,11.3,82,2.1,3,24.7,48,SAFE_OPTIMAL_WINDOW
+617,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,30,150,75,75,310,67,282,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+618,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,30,150,75,75,310,67,282,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+619,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,30,150,75,75,310,67,282,11.5,78,2.6,3.3,39,24,SAFE_OPTIMAL_WINDOW
+620,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,62,30,150,75,75,310,67,282,11.5,82,1.8,2.6,24.4,47,SAFE_OPTIMAL_WINDOW
+621,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,10,50,25,25,325,66.7,316,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+622,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,10,50,25,25,325,66.7,316,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+623,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,10,50,25,25,325,66.7,316,10.5,78,5.9,7.6,41,27,SAFE_OPTIMAL_WINDOW
+624,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,10,50,25,25,325,66.7,316,10.5,82,4.2,5.9,25.6,53,SAFE_OPTIMAL_WINDOW
+625,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,15,75,38,37,325,67.3,313,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+626,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,15,75,38,37,325,67.3,313,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+627,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,15,75,38,37,325,67.3,313,10.8,78,4.3,5.6,40.5,27,SAFE_OPTIMAL_WINDOW
+628,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,15,75,38,37,325,67.3,313,10.8,82,3.1,4.3,25.3,53,SAFE_OPTIMAL_WINDOW
+629,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,20,100,50,50,325,68.2,308,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+630,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,20,100,50,50,325,68.2,308,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+631,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,20,100,50,50,325,68.2,308,11,78,3.5,4.5,40,26,SAFE_OPTIMAL_WINDOW
+632,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,20,100,50,50,325,68.2,308,11,82,2.5,3.5,25,52,SAFE_OPTIMAL_WINDOW
+633,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,25,125,63,62,325,68.7,304,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+634,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,25,125,63,62,325,68.7,304,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+635,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,25,125,63,62,325,68.7,304,11.3,78,3,3.8,39.5,26,SAFE_OPTIMAL_WINDOW
+636,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,25,125,63,62,325,68.7,304,11.3,82,2.1,3,24.7,51,SAFE_OPTIMAL_WINDOW
+637,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,30,150,75,75,325,69.6,299,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+638,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,30,150,75,75,325,69.6,299,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+639,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,30,150,75,75,325,69.6,299,11.5,78,2.6,3.3,39,26,SAFE_OPTIMAL_WINDOW
+640,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,65,30,150,75,75,325,69.6,299,11.5,82,1.8,2.6,24.4,50,SAFE_OPTIMAL_WINDOW
+641,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,10,50,25,25,340,69.5,332,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+642,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,10,50,25,25,340,69.5,332,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+643,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,10,50,25,25,340,69.5,332,10.5,78,5.9,7.6,41,29,SAFE_OPTIMAL_WINDOW
+644,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,10,50,25,25,340,69.5,332,10.5,82,4.2,5.9,25.6,56,SAFE_OPTIMAL_WINDOW
+645,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,15,75,38,37,340,70.1,329,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+646,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,15,75,38,37,340,70.1,329,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+647,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,15,75,38,37,340,70.1,329,10.8,78,4.3,5.6,40.5,28,SAFE_OPTIMAL_WINDOW
+648,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,15,75,38,37,340,70.1,329,10.8,82,3.1,4.3,25.3,55,SAFE_OPTIMAL_WINDOW
+649,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,20,100,50,50,340,70.9,324,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+650,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,20,100,50,50,340,70.9,324,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+651,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,20,100,50,50,340,70.9,324,11,78,3.5,4.5,40,28,SAFE_OPTIMAL_WINDOW
+652,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,20,100,50,50,340,70.9,324,11,82,2.5,3.5,25,55,SAFE_OPTIMAL_WINDOW
+653,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,25,125,63,62,340,71.4,321,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+654,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,25,125,63,62,340,71.4,321,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+655,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,25,125,63,62,340,71.4,321,11.3,78,3,3.8,39.5,28,SAFE_OPTIMAL_WINDOW
+656,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,25,125,63,62,340,71.4,321,11.3,82,2.1,3,24.7,54,SAFE_OPTIMAL_WINDOW
+657,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,30,150,75,75,340,72.2,316,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+658,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,30,150,75,75,340,72.2,316,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+659,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,30,150,75,75,340,72.2,316,11.5,78,2.6,3.3,39,27,SAFE_OPTIMAL_WINDOW
+660,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,68,30,150,75,75,340,72.2,316,11.5,82,1.8,2.6,24.4,53,SAFE_OPTIMAL_WINDOW
+661,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,10,50,25,25,350,71.4,343,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+662,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,10,50,25,25,350,71.4,343,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+663,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,10,50,25,25,350,71.4,343,10.5,78,5.9,7.6,41,30,SAFE_OPTIMAL_WINDOW
+664,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,10,50,25,25,350,71.4,343,10.5,82,4.2,5.9,25.6,58,SAFE_OPTIMAL_WINDOW
+665,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,15,75,38,37,350,71.9,340,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+666,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,15,75,38,37,350,71.9,340,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+667,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,15,75,38,37,350,71.9,340,10.8,78,4.3,5.6,40.5,29,SAFE_OPTIMAL_WINDOW
+668,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,15,75,38,37,350,71.9,340,10.8,82,3.1,4.3,25.3,57,SAFE_OPTIMAL_WINDOW
+669,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,20,100,50,50,350,72.7,335,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+670,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,20,100,50,50,350,72.7,335,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+671,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,20,100,50,50,350,72.7,335,11,78,3.5,4.5,40,29,SAFE_OPTIMAL_WINDOW
+672,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,20,100,50,50,350,72.7,335,11,82,2.5,3.5,25,56,SAFE_OPTIMAL_WINDOW
+673,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,25,125,63,62,350,73.2,332,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+674,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,25,125,63,62,350,73.2,332,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+675,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,25,125,63,62,350,73.2,332,11.3,78,3,3.8,39.5,29,SAFE_OPTIMAL_WINDOW
+676,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,25,125,63,62,350,73.2,332,11.3,82,2.1,3,24.7,56,SAFE_OPTIMAL_WINDOW
+677,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,30,150,75,75,350,73.9,328,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+678,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,30,150,75,75,350,73.9,328,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+679,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,30,150,75,75,350,73.9,328,11.5,78,2.6,3.3,39,28,SAFE_OPTIMAL_WINDOW
+680,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,70,30,150,75,75,350,73.9,328,11.5,82,1.8,2.6,24.4,55,SAFE_OPTIMAL_WINDOW
+681,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,10,50,25,25,360,73.3,353,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+682,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,10,50,25,25,360,73.3,353,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+683,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,10,50,25,25,360,73.3,353,10.5,78,5.9,7.6,41,30,SAFE_OPTIMAL_WINDOW
+684,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,10,50,25,25,360,73.3,353,10.5,82,4.2,5.9,25.6,59,SAFE_OPTIMAL_WINDOW
+685,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,15,75,38,37,360,73.8,350,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+686,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,15,75,38,37,360,73.8,350,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+687,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,15,75,38,37,360,73.8,350,10.8,78,4.3,5.6,40.5,30,SAFE_OPTIMAL_WINDOW
+688,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,15,75,38,37,360,73.8,350,10.8,82,3.1,4.3,25.3,59,SAFE_OPTIMAL_WINDOW
+689,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,20,100,50,50,360,74.5,346,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+690,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,20,100,50,50,360,74.5,346,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+691,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,20,100,50,50,360,74.5,346,11,78,3.5,4.5,40,30,SAFE_OPTIMAL_WINDOW
+692,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,20,100,50,50,360,74.5,346,11,82,2.5,3.5,25,58,SAFE_OPTIMAL_WINDOW
+693,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,25,125,63,62,360,75,343,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+694,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,25,125,63,62,360,75,343,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+695,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,25,125,63,62,360,75,343,11.3,78,3,3.8,39.5,30,SAFE_OPTIMAL_WINDOW
+696,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,25,125,63,62,360,75,343,11.3,82,2.1,3,24.7,58,SAFE_OPTIMAL_WINDOW
+697,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,30,150,75,75,360,75.7,339,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+698,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,30,150,75,75,360,75.7,339,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+699,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,30,150,75,75,360,75.7,339,11.5,78,2.6,3.3,39,29,SAFE_OPTIMAL_WINDOW
+700,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,72,30,150,75,75,360,75.7,339,11.5,82,1.8,2.6,24.4,57,SAFE_OPTIMAL_WINDOW
+701,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,10,50,25,25,375,76.2,369,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+702,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,10,50,25,25,375,76.2,369,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+703,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,10,50,25,25,375,76.2,369,10.5,78,5.9,7.6,41,32,SAFE_OPTIMAL_WINDOW
+704,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,10,50,25,25,375,76.2,369,10.5,82,4.2,5.9,25.6,62,SAFE_OPTIMAL_WINDOW
+705,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,15,75,38,37,375,76.6,367,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+706,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,15,75,38,37,375,76.6,367,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+707,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,15,75,38,37,375,76.6,367,10.8,78,4.3,5.6,40.5,32,SAFE_OPTIMAL_WINDOW
+708,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,15,75,38,37,375,76.6,367,10.8,82,3.1,4.3,25.3,62,SAFE_OPTIMAL_WINDOW
+709,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,20,100,50,50,375,77.3,363,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+710,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,20,100,50,50,375,77.3,363,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+711,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,20,100,50,50,375,77.3,363,11,78,3.5,4.5,40,31,SAFE_OPTIMAL_WINDOW
+712,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,20,100,50,50,375,77.3,363,11,82,2.5,3.5,25,61,SAFE_OPTIMAL_WINDOW
+713,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,25,125,63,62,375,77.6,360,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+714,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,25,125,63,62,375,77.6,360,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+715,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,25,125,63,62,375,77.6,360,11.3,78,3,3.8,39.5,31,SAFE_OPTIMAL_WINDOW
+716,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,25,125,63,62,375,77.6,360,11.3,82,2.1,3,24.7,61,SAFE_OPTIMAL_WINDOW
+717,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,30,150,75,75,375,78.3,356,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+718,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,30,150,75,75,375,78.3,356,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+719,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,30,150,75,75,375,78.3,356,11.5,78,2.6,3.3,39,31,SAFE_OPTIMAL_WINDOW
+720,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,75,30,150,75,75,375,78.3,356,11.5,82,1.8,2.6,24.4,60,SAFE_OPTIMAL_WINDOW
+721,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,10,50,25,25,390,79,385,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+722,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,10,50,25,25,390,79,385,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+723,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,10,50,25,25,390,79,385,10.5,78,5.9,7.6,41,33,SAFE_OPTIMAL_WINDOW
+724,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,10,50,25,25,390,79,385,10.5,82,4.2,5.9,25.6,65,SAFE_OPTIMAL_WINDOW
+725,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,15,75,38,37,390,79.4,383,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+726,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,15,75,38,37,390,79.4,383,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+727,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,15,75,38,37,390,79.4,383,10.8,78,4.3,5.6,40.5,33,SAFE_OPTIMAL_WINDOW
+728,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,15,75,38,37,390,79.4,383,10.8,82,3.1,4.3,25.3,65,SAFE_OPTIMAL_WINDOW
+729,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,20,100,50,50,390,80,379,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+730,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,20,100,50,50,390,80,379,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+731,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,20,100,50,50,390,80,379,11,78,3.5,4.5,40,33,SAFE_OPTIMAL_WINDOW
+732,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,20,100,50,50,390,80,379,11,82,2.5,3.5,25,64,SAFE_OPTIMAL_WINDOW
+733,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,25,125,63,62,390,80.3,377,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+734,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,25,125,63,62,390,80.3,377,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+735,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,25,125,63,62,390,80.3,377,11.3,78,3,3.8,39.5,32,SAFE_OPTIMAL_WINDOW
+736,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,25,125,63,62,390,80.3,377,11.3,82,2.1,3,24.7,63,SAFE_OPTIMAL_WINDOW
+737,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,30,150,75,75,390,80.9,374,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+738,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,30,150,75,75,390,80.9,374,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+739,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,30,150,75,75,390,80.9,374,11.5,78,2.6,3.3,39,32,SAFE_OPTIMAL_WINDOW
+740,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,78,30,150,75,75,390,80.9,374,11.5,82,1.8,2.6,24.4,63,SAFE_OPTIMAL_WINDOW
+741,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,10,50,25,25,400,81,395,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+742,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,10,50,25,25,400,81,395,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+743,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,10,50,25,25,400,81,395,10.5,78,5.9,7.6,41,34,SAFE_OPTIMAL_WINDOW
+744,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,10,50,25,25,400,81,395,10.5,82,4.2,5.9,25.6,67,SAFE_OPTIMAL_WINDOW
+745,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,15,75,38,37,400,81.2,393,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+746,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,15,75,38,37,400,81.2,393,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+747,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,15,75,38,37,400,81.2,393,10.8,78,4.3,5.6,40.5,34,SAFE_OPTIMAL_WINDOW
+748,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,15,75,38,37,400,81.2,393,10.8,82,3.1,4.3,25.3,66,SAFE_OPTIMAL_WINDOW
+749,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,20,100,50,50,400,81.8,390,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+750,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,20,100,50,50,400,81.8,390,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+751,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,20,100,50,50,400,81.8,390,11,78,3.5,4.5,40,34,SAFE_OPTIMAL_WINDOW
+752,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,20,100,50,50,400,81.8,390,11,82,2.5,3.5,25,66,SAFE_OPTIMAL_WINDOW
+753,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,25,125,63,62,400,82.1,388,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+754,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,25,125,63,62,400,82.1,388,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+755,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,25,125,63,62,400,82.1,388,11.3,78,3,3.8,39.5,33,SAFE_OPTIMAL_WINDOW
+756,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,25,125,63,62,400,82.1,388,11.3,82,2.1,3,24.7,65,SAFE_OPTIMAL_WINDOW
+757,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,30,150,75,75,400,82.6,385,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+758,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,30,150,75,75,400,82.6,385,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+759,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,30,150,75,75,400,82.6,385,11.5,78,2.6,3.3,39,33,SAFE_OPTIMAL_WINDOW
+760,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,80,30,150,75,75,400,82.6,385,11.5,82,1.8,2.6,24.4,65,SAFE_OPTIMAL_WINDOW
+761,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,10,50,25,25,425,85.7,421,10.5,68,12.6,15.1,82,0,ARTISAN_UPPER_LIMIT
+762,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,10,50,25,25,425,85.7,421,10.5,74,8.1,10.1,56.4,0,ARTISAN_UPPER_LIMIT
+763,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,10,50,25,25,425,85.7,421,10.5,78,5.9,7.6,41,36,ARTISAN_UPPER_LIMIT
+764,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,10,50,25,25,425,85.7,421,10.5,82,4.2,5.9,25.6,71,ARTISAN_UPPER_LIMIT
+765,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,15,75,38,37,425,85.9,420,10.8,68,9.3,11.2,81,0,ARTISAN_UPPER_LIMIT
+766,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,15,75,38,37,425,85.9,420,10.8,74,6,7.4,55.7,0,ARTISAN_UPPER_LIMIT
+767,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,15,75,38,37,425,85.9,420,10.8,78,4.3,5.6,40.5,36,ARTISAN_UPPER_LIMIT
+768,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,15,75,38,37,425,85.9,420,10.8,82,3.1,4.3,25.3,71,ARTISAN_UPPER_LIMIT
+769,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,20,100,50,50,425,86.4,418,11,68,7.5,9,80,0,ARTISAN_UPPER_LIMIT
+770,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,20,100,50,50,425,86.4,418,11,74,4.8,6,55,0,ARTISAN_UPPER_LIMIT
+771,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,20,100,50,50,425,86.4,418,11,78,3.5,4.5,40,36,ARTISAN_UPPER_LIMIT
+772,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,20,100,50,50,425,86.4,418,11,82,2.5,3.5,25,70,ARTISAN_UPPER_LIMIT
+773,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,25,125,63,62,425,86.5,417,11.3,68,6.3,7.6,79,0,ARTISAN_UPPER_LIMIT
+774,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,25,125,63,62,425,86.5,417,11.3,74,4.1,5.1,54.3,0,ARTISAN_UPPER_LIMIT
+775,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,25,125,63,62,425,86.5,417,11.3,78,3,3.8,39.5,36,ARTISAN_UPPER_LIMIT
+776,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,25,125,63,62,425,86.5,417,11.3,82,2.1,3,24.7,70,ARTISAN_UPPER_LIMIT
+777,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,30,150,75,75,425,87,414,11.5,68,5.5,6.6,78,0,ARTISAN_UPPER_LIMIT
+778,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,30,150,75,75,425,87,414,11.5,74,3.6,4.4,53.6,0,ARTISAN_UPPER_LIMIT
+779,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,30,150,75,75,425,87,414,11.5,78,2.6,3.3,39,36,ARTISAN_UPPER_LIMIT
+780,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,85,30,150,75,75,425,87,414,11.5,82,1.8,2.6,24.4,70,ARTISAN_UPPER_LIMIT
+781,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,10,50,25,25,450,90.5,448,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+782,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,10,50,25,25,450,90.5,448,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+783,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,10,50,25,25,450,90.5,448,10.5,78,5.9,7.6,41,39,EXCEEDS_CEILING_SOUPY_RISK
+784,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,10,50,25,25,450,90.5,448,10.5,82,4.2,5.9,25.6,75,EXCEEDS_CEILING_SOUPY_RISK
+785,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,15,75,38,37,450,90.5,447,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+786,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,15,75,38,37,450,90.5,447,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+787,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,15,75,38,37,450,90.5,447,10.8,78,4.3,5.6,40.5,38,EXCEEDS_CEILING_SOUPY_RISK
+788,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,15,75,38,37,450,90.5,447,10.8,82,3.1,4.3,25.3,75,EXCEEDS_CEILING_SOUPY_RISK
+789,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,20,100,50,50,450,90.9,445,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+790,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,20,100,50,50,450,90.9,445,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+791,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,20,100,50,50,450,90.9,445,11,78,3.5,4.5,40,38,EXCEEDS_CEILING_SOUPY_RISK
+792,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,20,100,50,50,450,90.9,445,11,82,2.5,3.5,25,75,EXCEEDS_CEILING_SOUPY_RISK
+793,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,25,125,63,62,450,90.9,445,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+794,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,25,125,63,62,450,90.9,445,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+795,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,25,125,63,62,450,90.9,445,11.3,78,3,3.8,39.5,38,EXCEEDS_CEILING_SOUPY_RISK
+796,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,25,125,63,62,450,90.9,445,11.3,82,2.1,3,24.7,75,EXCEEDS_CEILING_SOUPY_RISK
+797,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,30,150,75,75,450,91.3,443,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+798,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,30,150,75,75,450,91.3,443,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+799,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,30,150,75,75,450,91.3,443,11.5,78,2.6,3.3,39,38,EXCEEDS_CEILING_SOUPY_RISK
+800,manitoba_strong_14_5,Manitoba High-Gluten Flour (14.5% Protein),14.5,86,500,90,30,150,75,75,450,91.3,443,11.5,82,1.8,2.6,24.4,75,EXCEEDS_CEILING_SOUPY_RISK
+801,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,10,50,25,25,310,63.8,301,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+802,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,10,50,25,25,310,63.8,301,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+803,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,10,50,25,25,310,63.8,301,10.5,78,5.9,7.6,41,26,SAFE_OPTIMAL_WINDOW
+804,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,10,50,25,25,310,63.8,301,10.5,82,4.2,5.9,25.6,51,SAFE_OPTIMAL_WINDOW
+805,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,15,75,38,37,310,64.5,297,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+806,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,15,75,38,37,310,64.5,297,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+807,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,15,75,38,37,310,64.5,297,10.8,78,4.3,5.6,40.5,26,SAFE_OPTIMAL_WINDOW
+808,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,15,75,38,37,310,64.5,297,10.8,82,3.1,4.3,25.3,50,SAFE_OPTIMAL_WINDOW
+809,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,20,100,50,50,310,65.5,291,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+810,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,20,100,50,50,310,65.5,291,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+811,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,20,100,50,50,310,65.5,291,11,78,3.5,4.5,40,25,SAFE_OPTIMAL_WINDOW
+812,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,20,100,50,50,310,65.5,291,11,82,2.5,3.5,25,49,SAFE_OPTIMAL_WINDOW
+813,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,25,125,63,62,310,66.1,287,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+814,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,25,125,63,62,310,66.1,287,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+815,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,25,125,63,62,310,66.1,287,11.3,78,3,3.8,39.5,25,SAFE_OPTIMAL_WINDOW
+816,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,25,125,63,62,310,66.1,287,11.3,82,2.1,3,24.7,48,SAFE_OPTIMAL_WINDOW
+817,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,30,150,75,75,310,67,282,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+818,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,30,150,75,75,310,67,282,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+819,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,30,150,75,75,310,67,282,11.5,78,2.6,3.3,39,24,SAFE_OPTIMAL_WINDOW
+820,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,62,30,150,75,75,310,67,282,11.5,82,1.8,2.6,24.4,47,SAFE_OPTIMAL_WINDOW
+821,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,10,50,25,25,325,66.7,316,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+822,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,10,50,25,25,325,66.7,316,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+823,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,10,50,25,25,325,66.7,316,10.5,78,5.9,7.6,41,27,SAFE_OPTIMAL_WINDOW
+824,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,10,50,25,25,325,66.7,316,10.5,82,4.2,5.9,25.6,53,SAFE_OPTIMAL_WINDOW
+825,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,15,75,38,37,325,67.3,313,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+826,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,15,75,38,37,325,67.3,313,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+827,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,15,75,38,37,325,67.3,313,10.8,78,4.3,5.6,40.5,27,SAFE_OPTIMAL_WINDOW
+828,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,15,75,38,37,325,67.3,313,10.8,82,3.1,4.3,25.3,53,SAFE_OPTIMAL_WINDOW
+829,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,20,100,50,50,325,68.2,308,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+830,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,20,100,50,50,325,68.2,308,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+831,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,20,100,50,50,325,68.2,308,11,78,3.5,4.5,40,26,SAFE_OPTIMAL_WINDOW
+832,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,20,100,50,50,325,68.2,308,11,82,2.5,3.5,25,52,SAFE_OPTIMAL_WINDOW
+833,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,25,125,63,62,325,68.7,304,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+834,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,25,125,63,62,325,68.7,304,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+835,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,25,125,63,62,325,68.7,304,11.3,78,3,3.8,39.5,26,SAFE_OPTIMAL_WINDOW
+836,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,25,125,63,62,325,68.7,304,11.3,82,2.1,3,24.7,51,SAFE_OPTIMAL_WINDOW
+837,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,30,150,75,75,325,69.6,299,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+838,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,30,150,75,75,325,69.6,299,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+839,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,30,150,75,75,325,69.6,299,11.5,78,2.6,3.3,39,26,SAFE_OPTIMAL_WINDOW
+840,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,65,30,150,75,75,325,69.6,299,11.5,82,1.8,2.6,24.4,50,SAFE_OPTIMAL_WINDOW
+841,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,10,50,25,25,340,69.5,332,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+842,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,10,50,25,25,340,69.5,332,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+843,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,10,50,25,25,340,69.5,332,10.5,78,5.9,7.6,41,29,SAFE_OPTIMAL_WINDOW
+844,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,10,50,25,25,340,69.5,332,10.5,82,4.2,5.9,25.6,56,SAFE_OPTIMAL_WINDOW
+845,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,15,75,38,37,340,70.1,329,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+846,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,15,75,38,37,340,70.1,329,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+847,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,15,75,38,37,340,70.1,329,10.8,78,4.3,5.6,40.5,28,SAFE_OPTIMAL_WINDOW
+848,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,15,75,38,37,340,70.1,329,10.8,82,3.1,4.3,25.3,55,SAFE_OPTIMAL_WINDOW
+849,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,20,100,50,50,340,70.9,324,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+850,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,20,100,50,50,340,70.9,324,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+851,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,20,100,50,50,340,70.9,324,11,78,3.5,4.5,40,28,SAFE_OPTIMAL_WINDOW
+852,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,20,100,50,50,340,70.9,324,11,82,2.5,3.5,25,55,SAFE_OPTIMAL_WINDOW
+853,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,25,125,63,62,340,71.4,321,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+854,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,25,125,63,62,340,71.4,321,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+855,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,25,125,63,62,340,71.4,321,11.3,78,3,3.8,39.5,28,SAFE_OPTIMAL_WINDOW
+856,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,25,125,63,62,340,71.4,321,11.3,82,2.1,3,24.7,54,SAFE_OPTIMAL_WINDOW
+857,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,30,150,75,75,340,72.2,316,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+858,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,30,150,75,75,340,72.2,316,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+859,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,30,150,75,75,340,72.2,316,11.5,78,2.6,3.3,39,27,SAFE_OPTIMAL_WINDOW
+860,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,68,30,150,75,75,340,72.2,316,11.5,82,1.8,2.6,24.4,53,SAFE_OPTIMAL_WINDOW
+861,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,10,50,25,25,350,71.4,343,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+862,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,10,50,25,25,350,71.4,343,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+863,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,10,50,25,25,350,71.4,343,10.5,78,5.9,7.6,41,30,SAFE_OPTIMAL_WINDOW
+864,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,10,50,25,25,350,71.4,343,10.5,82,4.2,5.9,25.6,58,SAFE_OPTIMAL_WINDOW
+865,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,15,75,38,37,350,71.9,340,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+866,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,15,75,38,37,350,71.9,340,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+867,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,15,75,38,37,350,71.9,340,10.8,78,4.3,5.6,40.5,29,SAFE_OPTIMAL_WINDOW
+868,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,15,75,38,37,350,71.9,340,10.8,82,3.1,4.3,25.3,57,SAFE_OPTIMAL_WINDOW
+869,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,20,100,50,50,350,72.7,335,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+870,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,20,100,50,50,350,72.7,335,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+871,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,20,100,50,50,350,72.7,335,11,78,3.5,4.5,40,29,SAFE_OPTIMAL_WINDOW
+872,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,20,100,50,50,350,72.7,335,11,82,2.5,3.5,25,56,SAFE_OPTIMAL_WINDOW
+873,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,25,125,63,62,350,73.2,332,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+874,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,25,125,63,62,350,73.2,332,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+875,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,25,125,63,62,350,73.2,332,11.3,78,3,3.8,39.5,29,SAFE_OPTIMAL_WINDOW
+876,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,25,125,63,62,350,73.2,332,11.3,82,2.1,3,24.7,56,SAFE_OPTIMAL_WINDOW
+877,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,30,150,75,75,350,73.9,328,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+878,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,30,150,75,75,350,73.9,328,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+879,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,30,150,75,75,350,73.9,328,11.5,78,2.6,3.3,39,28,SAFE_OPTIMAL_WINDOW
+880,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,70,30,150,75,75,350,73.9,328,11.5,82,1.8,2.6,24.4,55,SAFE_OPTIMAL_WINDOW
+881,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,10,50,25,25,360,73.3,353,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+882,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,10,50,25,25,360,73.3,353,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+883,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,10,50,25,25,360,73.3,353,10.5,78,5.9,7.6,41,30,SAFE_OPTIMAL_WINDOW
+884,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,10,50,25,25,360,73.3,353,10.5,82,4.2,5.9,25.6,59,SAFE_OPTIMAL_WINDOW
+885,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,15,75,38,37,360,73.8,350,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+886,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,15,75,38,37,360,73.8,350,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+887,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,15,75,38,37,360,73.8,350,10.8,78,4.3,5.6,40.5,30,SAFE_OPTIMAL_WINDOW
+888,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,15,75,38,37,360,73.8,350,10.8,82,3.1,4.3,25.3,59,SAFE_OPTIMAL_WINDOW
+889,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,20,100,50,50,360,74.5,346,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+890,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,20,100,50,50,360,74.5,346,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+891,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,20,100,50,50,360,74.5,346,11,78,3.5,4.5,40,30,SAFE_OPTIMAL_WINDOW
+892,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,20,100,50,50,360,74.5,346,11,82,2.5,3.5,25,58,SAFE_OPTIMAL_WINDOW
+893,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,25,125,63,62,360,75,343,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+894,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,25,125,63,62,360,75,343,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+895,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,25,125,63,62,360,75,343,11.3,78,3,3.8,39.5,30,SAFE_OPTIMAL_WINDOW
+896,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,25,125,63,62,360,75,343,11.3,82,2.1,3,24.7,58,SAFE_OPTIMAL_WINDOW
+897,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,30,150,75,75,360,75.7,339,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+898,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,30,150,75,75,360,75.7,339,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+899,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,30,150,75,75,360,75.7,339,11.5,78,2.6,3.3,39,29,SAFE_OPTIMAL_WINDOW
+900,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,72,30,150,75,75,360,75.7,339,11.5,82,1.8,2.6,24.4,57,SAFE_OPTIMAL_WINDOW
+901,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,10,50,25,25,375,76.2,369,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+902,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,10,50,25,25,375,76.2,369,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+903,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,10,50,25,25,375,76.2,369,10.5,78,5.9,7.6,41,32,SAFE_OPTIMAL_WINDOW
+904,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,10,50,25,25,375,76.2,369,10.5,82,4.2,5.9,25.6,62,SAFE_OPTIMAL_WINDOW
+905,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,15,75,38,37,375,76.6,367,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+906,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,15,75,38,37,375,76.6,367,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+907,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,15,75,38,37,375,76.6,367,10.8,78,4.3,5.6,40.5,32,SAFE_OPTIMAL_WINDOW
+908,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,15,75,38,37,375,76.6,367,10.8,82,3.1,4.3,25.3,62,SAFE_OPTIMAL_WINDOW
+909,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,20,100,50,50,375,77.3,363,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+910,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,20,100,50,50,375,77.3,363,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+911,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,20,100,50,50,375,77.3,363,11,78,3.5,4.5,40,31,SAFE_OPTIMAL_WINDOW
+912,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,20,100,50,50,375,77.3,363,11,82,2.5,3.5,25,61,SAFE_OPTIMAL_WINDOW
+913,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,25,125,63,62,375,77.6,360,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+914,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,25,125,63,62,375,77.6,360,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+915,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,25,125,63,62,375,77.6,360,11.3,78,3,3.8,39.5,31,SAFE_OPTIMAL_WINDOW
+916,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,25,125,63,62,375,77.6,360,11.3,82,2.1,3,24.7,61,SAFE_OPTIMAL_WINDOW
+917,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,30,150,75,75,375,78.3,356,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+918,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,30,150,75,75,375,78.3,356,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+919,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,30,150,75,75,375,78.3,356,11.5,78,2.6,3.3,39,31,SAFE_OPTIMAL_WINDOW
+920,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,75,30,150,75,75,375,78.3,356,11.5,82,1.8,2.6,24.4,60,SAFE_OPTIMAL_WINDOW
+921,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,10,50,25,25,390,79,385,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+922,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,10,50,25,25,390,79,385,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+923,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,10,50,25,25,390,79,385,10.5,78,5.9,7.6,41,33,SAFE_OPTIMAL_WINDOW
+924,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,10,50,25,25,390,79,385,10.5,82,4.2,5.9,25.6,65,SAFE_OPTIMAL_WINDOW
+925,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,15,75,38,37,390,79.4,383,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+926,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,15,75,38,37,390,79.4,383,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+927,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,15,75,38,37,390,79.4,383,10.8,78,4.3,5.6,40.5,33,SAFE_OPTIMAL_WINDOW
+928,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,15,75,38,37,390,79.4,383,10.8,82,3.1,4.3,25.3,65,SAFE_OPTIMAL_WINDOW
+929,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,20,100,50,50,390,80,379,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+930,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,20,100,50,50,390,80,379,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+931,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,20,100,50,50,390,80,379,11,78,3.5,4.5,40,33,SAFE_OPTIMAL_WINDOW
+932,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,20,100,50,50,390,80,379,11,82,2.5,3.5,25,64,SAFE_OPTIMAL_WINDOW
+933,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,25,125,63,62,390,80.3,377,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+934,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,25,125,63,62,390,80.3,377,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+935,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,25,125,63,62,390,80.3,377,11.3,78,3,3.8,39.5,32,SAFE_OPTIMAL_WINDOW
+936,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,25,125,63,62,390,80.3,377,11.3,82,2.1,3,24.7,63,SAFE_OPTIMAL_WINDOW
+937,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,30,150,75,75,390,80.9,374,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+938,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,30,150,75,75,390,80.9,374,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+939,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,30,150,75,75,390,80.9,374,11.5,78,2.6,3.3,39,32,SAFE_OPTIMAL_WINDOW
+940,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,78,30,150,75,75,390,80.9,374,11.5,82,1.8,2.6,24.4,63,SAFE_OPTIMAL_WINDOW
+941,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,10,50,25,25,400,81,395,10.5,68,12.6,15.1,82,0,ARTISAN_UPPER_LIMIT
+942,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,10,50,25,25,400,81,395,10.5,74,8.1,10.1,56.4,0,ARTISAN_UPPER_LIMIT
+943,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,10,50,25,25,400,81,395,10.5,78,5.9,7.6,41,34,ARTISAN_UPPER_LIMIT
+944,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,10,50,25,25,400,81,395,10.5,82,4.2,5.9,25.6,67,ARTISAN_UPPER_LIMIT
+945,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,15,75,38,37,400,81.2,393,10.8,68,9.3,11.2,81,0,ARTISAN_UPPER_LIMIT
+946,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,15,75,38,37,400,81.2,393,10.8,74,6,7.4,55.7,0,ARTISAN_UPPER_LIMIT
+947,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,15,75,38,37,400,81.2,393,10.8,78,4.3,5.6,40.5,34,ARTISAN_UPPER_LIMIT
+948,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,15,75,38,37,400,81.2,393,10.8,82,3.1,4.3,25.3,66,ARTISAN_UPPER_LIMIT
+949,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,20,100,50,50,400,81.8,390,11,68,7.5,9,80,0,ARTISAN_UPPER_LIMIT
+950,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,20,100,50,50,400,81.8,390,11,74,4.8,6,55,0,ARTISAN_UPPER_LIMIT
+951,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,20,100,50,50,400,81.8,390,11,78,3.5,4.5,40,34,ARTISAN_UPPER_LIMIT
+952,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,20,100,50,50,400,81.8,390,11,82,2.5,3.5,25,66,ARTISAN_UPPER_LIMIT
+953,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,25,125,63,62,400,82.1,388,11.3,68,6.3,7.6,79,0,ARTISAN_UPPER_LIMIT
+954,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,25,125,63,62,400,82.1,388,11.3,74,4.1,5.1,54.3,0,ARTISAN_UPPER_LIMIT
+955,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,25,125,63,62,400,82.1,388,11.3,78,3,3.8,39.5,33,ARTISAN_UPPER_LIMIT
+956,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,25,125,63,62,400,82.1,388,11.3,82,2.1,3,24.7,65,ARTISAN_UPPER_LIMIT
+957,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,30,150,75,75,400,82.6,385,11.5,68,5.5,6.6,78,0,ARTISAN_UPPER_LIMIT
+958,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,30,150,75,75,400,82.6,385,11.5,74,3.6,4.4,53.6,0,ARTISAN_UPPER_LIMIT
+959,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,30,150,75,75,400,82.6,385,11.5,78,2.6,3.3,39,33,ARTISAN_UPPER_LIMIT
+960,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,80,30,150,75,75,400,82.6,385,11.5,82,1.8,2.6,24.4,65,ARTISAN_UPPER_LIMIT
+961,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,10,50,25,25,425,85.7,421,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+962,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,10,50,25,25,425,85.7,421,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+963,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,10,50,25,25,425,85.7,421,10.5,78,5.9,7.6,41,36,EXCEEDS_CEILING_SOUPY_RISK
+964,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,10,50,25,25,425,85.7,421,10.5,82,4.2,5.9,25.6,71,EXCEEDS_CEILING_SOUPY_RISK
+965,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,15,75,38,37,425,85.9,420,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+966,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,15,75,38,37,425,85.9,420,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+967,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,15,75,38,37,425,85.9,420,10.8,78,4.3,5.6,40.5,36,EXCEEDS_CEILING_SOUPY_RISK
+968,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,15,75,38,37,425,85.9,420,10.8,82,3.1,4.3,25.3,71,EXCEEDS_CEILING_SOUPY_RISK
+969,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,20,100,50,50,425,86.4,418,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+970,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,20,100,50,50,425,86.4,418,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+971,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,20,100,50,50,425,86.4,418,11,78,3.5,4.5,40,36,EXCEEDS_CEILING_SOUPY_RISK
+972,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,20,100,50,50,425,86.4,418,11,82,2.5,3.5,25,70,EXCEEDS_CEILING_SOUPY_RISK
+973,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,25,125,63,62,425,86.5,417,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+974,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,25,125,63,62,425,86.5,417,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+975,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,25,125,63,62,425,86.5,417,11.3,78,3,3.8,39.5,36,EXCEEDS_CEILING_SOUPY_RISK
+976,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,25,125,63,62,425,86.5,417,11.3,82,2.1,3,24.7,70,EXCEEDS_CEILING_SOUPY_RISK
+977,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,30,150,75,75,425,87,414,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+978,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,30,150,75,75,425,87,414,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+979,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,30,150,75,75,425,87,414,11.5,78,2.6,3.3,39,36,EXCEEDS_CEILING_SOUPY_RISK
+980,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,85,30,150,75,75,425,87,414,11.5,82,1.8,2.6,24.4,70,EXCEEDS_CEILING_SOUPY_RISK
+981,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,10,50,25,25,450,90.5,448,10.5,68,12.6,15.1,82,0,EXCEEDS_CEILING_SOUPY_RISK
+982,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,10,50,25,25,450,90.5,448,10.5,74,8.1,10.1,56.4,0,EXCEEDS_CEILING_SOUPY_RISK
+983,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,10,50,25,25,450,90.5,448,10.5,78,5.9,7.6,41,39,EXCEEDS_CEILING_SOUPY_RISK
+984,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,10,50,25,25,450,90.5,448,10.5,82,4.2,5.9,25.6,75,EXCEEDS_CEILING_SOUPY_RISK
+985,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,15,75,38,37,450,90.5,447,10.8,68,9.3,11.2,81,0,EXCEEDS_CEILING_SOUPY_RISK
+986,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,15,75,38,37,450,90.5,447,10.8,74,6,7.4,55.7,0,EXCEEDS_CEILING_SOUPY_RISK
+987,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,15,75,38,37,450,90.5,447,10.8,78,4.3,5.6,40.5,38,EXCEEDS_CEILING_SOUPY_RISK
+988,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,15,75,38,37,450,90.5,447,10.8,82,3.1,4.3,25.3,75,EXCEEDS_CEILING_SOUPY_RISK
+989,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,20,100,50,50,450,90.9,445,11,68,7.5,9,80,0,EXCEEDS_CEILING_SOUPY_RISK
+990,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,20,100,50,50,450,90.9,445,11,74,4.8,6,55,0,EXCEEDS_CEILING_SOUPY_RISK
+991,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,20,100,50,50,450,90.9,445,11,78,3.5,4.5,40,38,EXCEEDS_CEILING_SOUPY_RISK
+992,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,20,100,50,50,450,90.9,445,11,82,2.5,3.5,25,75,EXCEEDS_CEILING_SOUPY_RISK
+993,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,25,125,63,62,450,90.9,445,11.3,68,6.3,7.6,79,0,EXCEEDS_CEILING_SOUPY_RISK
+994,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,25,125,63,62,450,90.9,445,11.3,74,4.1,5.1,54.3,0,EXCEEDS_CEILING_SOUPY_RISK
+995,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,25,125,63,62,450,90.9,445,11.3,78,3,3.8,39.5,38,EXCEEDS_CEILING_SOUPY_RISK
+996,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,25,125,63,62,450,90.9,445,11.3,82,2.1,3,24.7,75,EXCEEDS_CEILING_SOUPY_RISK
+997,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,30,150,75,75,450,91.3,443,11.5,68,5.5,6.6,78,0,EXCEEDS_CEILING_SOUPY_RISK
+998,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,30,150,75,75,450,91.3,443,11.5,74,3.6,4.4,53.6,0,EXCEEDS_CEILING_SOUPY_RISK
+999,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,30,150,75,75,450,91.3,443,11.5,78,2.6,3.3,39,38,EXCEEDS_CEILING_SOUPY_RISK
+1000,whole_wheat_blend_30,30% Stone-Ground Whole Wheat Blend (13.4% Protein),13.4,84,500,90,30,150,75,75,450,91.3,443,11.5,82,1.8,2.6,24.4,75,EXCEEDS_CEILING_SOUPY_RISK
+1001,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,10,50,25,25,310,63.8,301,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+1002,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,10,50,25,25,310,63.8,301,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+1003,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,10,50,25,25,310,63.8,301,10.5,78,5.9,7.6,41,26,SAFE_OPTIMAL_WINDOW
+1004,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,10,50,25,25,310,63.8,301,10.5,82,4.2,5.9,25.6,51,SAFE_OPTIMAL_WINDOW
+1005,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,15,75,38,37,310,64.5,297,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+1006,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,15,75,38,37,310,64.5,297,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+1007,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,15,75,38,37,310,64.5,297,10.8,78,4.3,5.6,40.5,26,SAFE_OPTIMAL_WINDOW
+1008,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,15,75,38,37,310,64.5,297,10.8,82,3.1,4.3,25.3,50,SAFE_OPTIMAL_WINDOW
+1009,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,20,100,50,50,310,65.5,291,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+1010,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,20,100,50,50,310,65.5,291,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+1011,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,20,100,50,50,310,65.5,291,11,78,3.5,4.5,40,25,SAFE_OPTIMAL_WINDOW
+1012,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,20,100,50,50,310,65.5,291,11,82,2.5,3.5,25,49,SAFE_OPTIMAL_WINDOW
+1013,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,25,125,63,62,310,66.1,287,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+1014,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,25,125,63,62,310,66.1,287,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+1015,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,25,125,63,62,310,66.1,287,11.3,78,3,3.8,39.5,25,SAFE_OPTIMAL_WINDOW
+1016,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,25,125,63,62,310,66.1,287,11.3,82,2.1,3,24.7,48,SAFE_OPTIMAL_WINDOW
+1017,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,30,150,75,75,310,67,282,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+1018,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,30,150,75,75,310,67,282,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+1019,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,30,150,75,75,310,67,282,11.5,78,2.6,3.3,39,24,SAFE_OPTIMAL_WINDOW
+1020,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,62,30,150,75,75,310,67,282,11.5,82,1.8,2.6,24.4,47,SAFE_OPTIMAL_WINDOW
+1021,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,10,50,25,25,325,66.7,316,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+1022,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,10,50,25,25,325,66.7,316,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+1023,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,10,50,25,25,325,66.7,316,10.5,78,5.9,7.6,41,27,SAFE_OPTIMAL_WINDOW
+1024,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,10,50,25,25,325,66.7,316,10.5,82,4.2,5.9,25.6,53,SAFE_OPTIMAL_WINDOW
+1025,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,15,75,38,37,325,67.3,313,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+1026,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,15,75,38,37,325,67.3,313,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+1027,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,15,75,38,37,325,67.3,313,10.8,78,4.3,5.6,40.5,27,SAFE_OPTIMAL_WINDOW
+1028,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,15,75,38,37,325,67.3,313,10.8,82,3.1,4.3,25.3,53,SAFE_OPTIMAL_WINDOW
+1029,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,20,100,50,50,325,68.2,308,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+1030,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,20,100,50,50,325,68.2,308,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+1031,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,20,100,50,50,325,68.2,308,11,78,3.5,4.5,40,26,SAFE_OPTIMAL_WINDOW
+1032,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,20,100,50,50,325,68.2,308,11,82,2.5,3.5,25,52,SAFE_OPTIMAL_WINDOW
+1033,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,25,125,63,62,325,68.7,304,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+1034,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,25,125,63,62,325,68.7,304,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+1035,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,25,125,63,62,325,68.7,304,11.3,78,3,3.8,39.5,26,SAFE_OPTIMAL_WINDOW
+1036,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,25,125,63,62,325,68.7,304,11.3,82,2.1,3,24.7,51,SAFE_OPTIMAL_WINDOW
+1037,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,30,150,75,75,325,69.6,299,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+1038,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,30,150,75,75,325,69.6,299,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+1039,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,30,150,75,75,325,69.6,299,11.5,78,2.6,3.3,39,26,SAFE_OPTIMAL_WINDOW
+1040,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,65,30,150,75,75,325,69.6,299,11.5,82,1.8,2.6,24.4,50,SAFE_OPTIMAL_WINDOW
+1041,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,10,50,25,25,340,69.5,332,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+1042,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,10,50,25,25,340,69.5,332,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+1043,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,10,50,25,25,340,69.5,332,10.5,78,5.9,7.6,41,29,SAFE_OPTIMAL_WINDOW
+1044,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,10,50,25,25,340,69.5,332,10.5,82,4.2,5.9,25.6,56,SAFE_OPTIMAL_WINDOW
+1045,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,15,75,38,37,340,70.1,329,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+1046,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,15,75,38,37,340,70.1,329,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+1047,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,15,75,38,37,340,70.1,329,10.8,78,4.3,5.6,40.5,28,SAFE_OPTIMAL_WINDOW
+1048,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,15,75,38,37,340,70.1,329,10.8,82,3.1,4.3,25.3,55,SAFE_OPTIMAL_WINDOW
+1049,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,20,100,50,50,340,70.9,324,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+1050,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,20,100,50,50,340,70.9,324,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+1051,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,20,100,50,50,340,70.9,324,11,78,3.5,4.5,40,28,SAFE_OPTIMAL_WINDOW
+1052,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,20,100,50,50,340,70.9,324,11,82,2.5,3.5,25,55,SAFE_OPTIMAL_WINDOW
+1053,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,25,125,63,62,340,71.4,321,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+1054,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,25,125,63,62,340,71.4,321,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+1055,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,25,125,63,62,340,71.4,321,11.3,78,3,3.8,39.5,28,SAFE_OPTIMAL_WINDOW
+1056,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,25,125,63,62,340,71.4,321,11.3,82,2.1,3,24.7,54,SAFE_OPTIMAL_WINDOW
+1057,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,30,150,75,75,340,72.2,316,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+1058,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,30,150,75,75,340,72.2,316,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+1059,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,30,150,75,75,340,72.2,316,11.5,78,2.6,3.3,39,27,SAFE_OPTIMAL_WINDOW
+1060,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,68,30,150,75,75,340,72.2,316,11.5,82,1.8,2.6,24.4,53,SAFE_OPTIMAL_WINDOW
+1061,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,10,50,25,25,350,71.4,343,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+1062,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,10,50,25,25,350,71.4,343,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+1063,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,10,50,25,25,350,71.4,343,10.5,78,5.9,7.6,41,30,SAFE_OPTIMAL_WINDOW
+1064,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,10,50,25,25,350,71.4,343,10.5,82,4.2,5.9,25.6,58,SAFE_OPTIMAL_WINDOW
+1065,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,15,75,38,37,350,71.9,340,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+1066,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,15,75,38,37,350,71.9,340,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+1067,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,15,75,38,37,350,71.9,340,10.8,78,4.3,5.6,40.5,29,SAFE_OPTIMAL_WINDOW
+1068,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,15,75,38,37,350,71.9,340,10.8,82,3.1,4.3,25.3,57,SAFE_OPTIMAL_WINDOW
+1069,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,20,100,50,50,350,72.7,335,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+1070,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,20,100,50,50,350,72.7,335,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+1071,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,20,100,50,50,350,72.7,335,11,78,3.5,4.5,40,29,SAFE_OPTIMAL_WINDOW
+1072,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,20,100,50,50,350,72.7,335,11,82,2.5,3.5,25,56,SAFE_OPTIMAL_WINDOW
+1073,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,25,125,63,62,350,73.2,332,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+1074,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,25,125,63,62,350,73.2,332,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+1075,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,25,125,63,62,350,73.2,332,11.3,78,3,3.8,39.5,29,SAFE_OPTIMAL_WINDOW
+1076,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,25,125,63,62,350,73.2,332,11.3,82,2.1,3,24.7,56,SAFE_OPTIMAL_WINDOW
+1077,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,30,150,75,75,350,73.9,328,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+1078,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,30,150,75,75,350,73.9,328,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+1079,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,30,150,75,75,350,73.9,328,11.5,78,2.6,3.3,39,28,SAFE_OPTIMAL_WINDOW
+1080,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,70,30,150,75,75,350,73.9,328,11.5,82,1.8,2.6,24.4,55,SAFE_OPTIMAL_WINDOW
+1081,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,10,50,25,25,360,73.3,353,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+1082,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,10,50,25,25,360,73.3,353,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+1083,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,10,50,25,25,360,73.3,353,10.5,78,5.9,7.6,41,30,SAFE_OPTIMAL_WINDOW
+1084,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,10,50,25,25,360,73.3,353,10.5,82,4.2,5.9,25.6,59,SAFE_OPTIMAL_WINDOW
+1085,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,15,75,38,37,360,73.8,350,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+1086,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,15,75,38,37,360,73.8,350,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+1087,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,15,75,38,37,360,73.8,350,10.8,78,4.3,5.6,40.5,30,SAFE_OPTIMAL_WINDOW
+1088,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,15,75,38,37,360,73.8,350,10.8,82,3.1,4.3,25.3,59,SAFE_OPTIMAL_WINDOW
+1089,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,20,100,50,50,360,74.5,346,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+1090,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,20,100,50,50,360,74.5,346,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+1091,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,20,100,50,50,360,74.5,346,11,78,3.5,4.5,40,30,SAFE_OPTIMAL_WINDOW
+1092,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,20,100,50,50,360,74.5,346,11,82,2.5,3.5,25,58,SAFE_OPTIMAL_WINDOW
+1093,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,25,125,63,62,360,75,343,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+1094,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,25,125,63,62,360,75,343,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+1095,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,25,125,63,62,360,75,343,11.3,78,3,3.8,39.5,30,SAFE_OPTIMAL_WINDOW
+1096,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,25,125,63,62,360,75,343,11.3,82,2.1,3,24.7,58,SAFE_OPTIMAL_WINDOW
+1097,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,30,150,75,75,360,75.7,339,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+1098,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,30,150,75,75,360,75.7,339,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+1099,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,30,150,75,75,360,75.7,339,11.5,78,2.6,3.3,39,29,SAFE_OPTIMAL_WINDOW
+1100,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,72,30,150,75,75,360,75.7,339,11.5,82,1.8,2.6,24.4,57,SAFE_OPTIMAL_WINDOW
+1101,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,10,50,25,25,375,76.2,369,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+1102,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,10,50,25,25,375,76.2,369,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+1103,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,10,50,25,25,375,76.2,369,10.5,78,5.9,7.6,41,32,SAFE_OPTIMAL_WINDOW
+1104,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,10,50,25,25,375,76.2,369,10.5,82,4.2,5.9,25.6,62,SAFE_OPTIMAL_WINDOW
+1105,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,15,75,38,37,375,76.6,367,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+1106,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,15,75,38,37,375,76.6,367,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+1107,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,15,75,38,37,375,76.6,367,10.8,78,4.3,5.6,40.5,32,SAFE_OPTIMAL_WINDOW
+1108,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,15,75,38,37,375,76.6,367,10.8,82,3.1,4.3,25.3,62,SAFE_OPTIMAL_WINDOW
+1109,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,20,100,50,50,375,77.3,363,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+1110,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,20,100,50,50,375,77.3,363,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+1111,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,20,100,50,50,375,77.3,363,11,78,3.5,4.5,40,31,SAFE_OPTIMAL_WINDOW
+1112,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,20,100,50,50,375,77.3,363,11,82,2.5,3.5,25,61,SAFE_OPTIMAL_WINDOW
+1113,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,25,125,63,62,375,77.6,360,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+1114,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,25,125,63,62,375,77.6,360,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+1115,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,25,125,63,62,375,77.6,360,11.3,78,3,3.8,39.5,31,SAFE_OPTIMAL_WINDOW
+1116,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,25,125,63,62,375,77.6,360,11.3,82,2.1,3,24.7,61,SAFE_OPTIMAL_WINDOW
+1117,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,30,150,75,75,375,78.3,356,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+1118,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,30,150,75,75,375,78.3,356,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+1119,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,30,150,75,75,375,78.3,356,11.5,78,2.6,3.3,39,31,SAFE_OPTIMAL_WINDOW
+1120,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,75,30,150,75,75,375,78.3,356,11.5,82,1.8,2.6,24.4,60,SAFE_OPTIMAL_WINDOW
+1121,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,10,50,25,25,390,79,385,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+1122,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,10,50,25,25,390,79,385,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+1123,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,10,50,25,25,390,79,385,10.5,78,5.9,7.6,41,33,SAFE_OPTIMAL_WINDOW
+1124,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,10,50,25,25,390,79,385,10.5,82,4.2,5.9,25.6,65,SAFE_OPTIMAL_WINDOW
+1125,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,15,75,38,37,390,79.4,383,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+1126,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,15,75,38,37,390,79.4,383,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+1127,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,15,75,38,37,390,79.4,383,10.8,78,4.3,5.6,40.5,33,SAFE_OPTIMAL_WINDOW
+1128,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,15,75,38,37,390,79.4,383,10.8,82,3.1,4.3,25.3,65,SAFE_OPTIMAL_WINDOW
+1129,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,20,100,50,50,390,80,379,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+1130,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,20,100,50,50,390,80,379,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+1131,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,20,100,50,50,390,80,379,11,78,3.5,4.5,40,33,SAFE_OPTIMAL_WINDOW
+1132,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,20,100,50,50,390,80,379,11,82,2.5,3.5,25,64,SAFE_OPTIMAL_WINDOW
+1133,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,25,125,63,62,390,80.3,377,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+1134,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,25,125,63,62,390,80.3,377,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+1135,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,25,125,63,62,390,80.3,377,11.3,78,3,3.8,39.5,32,SAFE_OPTIMAL_WINDOW
+1136,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,25,125,63,62,390,80.3,377,11.3,82,2.1,3,24.7,63,SAFE_OPTIMAL_WINDOW
+1137,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,30,150,75,75,390,80.9,374,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+1138,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,30,150,75,75,390,80.9,374,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+1139,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,30,150,75,75,390,80.9,374,11.5,78,2.6,3.3,39,32,SAFE_OPTIMAL_WINDOW
+1140,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,78,30,150,75,75,390,80.9,374,11.5,82,1.8,2.6,24.4,63,SAFE_OPTIMAL_WINDOW
+1141,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,10,50,25,25,400,81,395,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+1142,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,10,50,25,25,400,81,395,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+1143,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,10,50,25,25,400,81,395,10.5,78,5.9,7.6,41,34,SAFE_OPTIMAL_WINDOW
+1144,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,10,50,25,25,400,81,395,10.5,82,4.2,5.9,25.6,67,SAFE_OPTIMAL_WINDOW
+1145,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,15,75,38,37,400,81.2,393,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+1146,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,15,75,38,37,400,81.2,393,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+1147,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,15,75,38,37,400,81.2,393,10.8,78,4.3,5.6,40.5,34,SAFE_OPTIMAL_WINDOW
+1148,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,15,75,38,37,400,81.2,393,10.8,82,3.1,4.3,25.3,66,SAFE_OPTIMAL_WINDOW
+1149,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,20,100,50,50,400,81.8,390,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+1150,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,20,100,50,50,400,81.8,390,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+1151,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,20,100,50,50,400,81.8,390,11,78,3.5,4.5,40,34,SAFE_OPTIMAL_WINDOW
+1152,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,20,100,50,50,400,81.8,390,11,82,2.5,3.5,25,66,SAFE_OPTIMAL_WINDOW
+1153,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,25,125,63,62,400,82.1,388,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+1154,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,25,125,63,62,400,82.1,388,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+1155,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,25,125,63,62,400,82.1,388,11.3,78,3,3.8,39.5,33,SAFE_OPTIMAL_WINDOW
+1156,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,25,125,63,62,400,82.1,388,11.3,82,2.1,3,24.7,65,SAFE_OPTIMAL_WINDOW
+1157,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,30,150,75,75,400,82.6,385,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+1158,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,30,150,75,75,400,82.6,385,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+1159,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,30,150,75,75,400,82.6,385,11.5,78,2.6,3.3,39,33,SAFE_OPTIMAL_WINDOW
+1160,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,80,30,150,75,75,400,82.6,385,11.5,82,1.8,2.6,24.4,65,SAFE_OPTIMAL_WINDOW
+1161,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,10,50,25,25,425,85.7,421,10.5,68,12.6,15.1,82,0,SAFE_OPTIMAL_WINDOW
+1162,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,10,50,25,25,425,85.7,421,10.5,74,8.1,10.1,56.4,0,SAFE_OPTIMAL_WINDOW
+1163,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,10,50,25,25,425,85.7,421,10.5,78,5.9,7.6,41,36,SAFE_OPTIMAL_WINDOW
+1164,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,10,50,25,25,425,85.7,421,10.5,82,4.2,5.9,25.6,71,SAFE_OPTIMAL_WINDOW
+1165,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,15,75,38,37,425,85.9,420,10.8,68,9.3,11.2,81,0,SAFE_OPTIMAL_WINDOW
+1166,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,15,75,38,37,425,85.9,420,10.8,74,6,7.4,55.7,0,SAFE_OPTIMAL_WINDOW
+1167,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,15,75,38,37,425,85.9,420,10.8,78,4.3,5.6,40.5,36,SAFE_OPTIMAL_WINDOW
+1168,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,15,75,38,37,425,85.9,420,10.8,82,3.1,4.3,25.3,71,SAFE_OPTIMAL_WINDOW
+1169,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,20,100,50,50,425,86.4,418,11,68,7.5,9,80,0,SAFE_OPTIMAL_WINDOW
+1170,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,20,100,50,50,425,86.4,418,11,74,4.8,6,55,0,SAFE_OPTIMAL_WINDOW
+1171,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,20,100,50,50,425,86.4,418,11,78,3.5,4.5,40,36,SAFE_OPTIMAL_WINDOW
+1172,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,20,100,50,50,425,86.4,418,11,82,2.5,3.5,25,70,SAFE_OPTIMAL_WINDOW
+1173,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,25,125,63,62,425,86.5,417,11.3,68,6.3,7.6,79,0,SAFE_OPTIMAL_WINDOW
+1174,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,25,125,63,62,425,86.5,417,11.3,74,4.1,5.1,54.3,0,SAFE_OPTIMAL_WINDOW
+1175,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,25,125,63,62,425,86.5,417,11.3,78,3,3.8,39.5,36,SAFE_OPTIMAL_WINDOW
+1176,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,25,125,63,62,425,86.5,417,11.3,82,2.1,3,24.7,70,SAFE_OPTIMAL_WINDOW
+1177,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,30,150,75,75,425,87,414,11.5,68,5.5,6.6,78,0,SAFE_OPTIMAL_WINDOW
+1178,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,30,150,75,75,425,87,414,11.5,74,3.6,4.4,53.6,0,SAFE_OPTIMAL_WINDOW
+1179,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,30,150,75,75,425,87,414,11.5,78,2.6,3.3,39,36,SAFE_OPTIMAL_WINDOW
+1180,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,85,30,150,75,75,425,87,414,11.5,82,1.8,2.6,24.4,70,SAFE_OPTIMAL_WINDOW
+1181,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,10,50,25,25,450,90.5,448,10.5,68,12.6,15.1,82,0,ARTISAN_UPPER_LIMIT
+1182,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,10,50,25,25,450,90.5,448,10.5,74,8.1,10.1,56.4,0,ARTISAN_UPPER_LIMIT
+1183,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,10,50,25,25,450,90.5,448,10.5,78,5.9,7.6,41,39,ARTISAN_UPPER_LIMIT
+1184,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,10,50,25,25,450,90.5,448,10.5,82,4.2,5.9,25.6,75,ARTISAN_UPPER_LIMIT
+1185,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,15,75,38,37,450,90.5,447,10.8,68,9.3,11.2,81,0,ARTISAN_UPPER_LIMIT
+1186,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,15,75,38,37,450,90.5,447,10.8,74,6,7.4,55.7,0,ARTISAN_UPPER_LIMIT
+1187,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,15,75,38,37,450,90.5,447,10.8,78,4.3,5.6,40.5,38,ARTISAN_UPPER_LIMIT
+1188,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,15,75,38,37,450,90.5,447,10.8,82,3.1,4.3,25.3,75,ARTISAN_UPPER_LIMIT
+1189,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,20,100,50,50,450,90.9,445,11,68,7.5,9,80,0,ARTISAN_UPPER_LIMIT
+1190,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,20,100,50,50,450,90.9,445,11,74,4.8,6,55,0,ARTISAN_UPPER_LIMIT
+1191,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,20,100,50,50,450,90.9,445,11,78,3.5,4.5,40,38,ARTISAN_UPPER_LIMIT
+1192,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,20,100,50,50,450,90.9,445,11,82,2.5,3.5,25,75,ARTISAN_UPPER_LIMIT
+1193,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,25,125,63,62,450,90.9,445,11.3,68,6.3,7.6,79,0,ARTISAN_UPPER_LIMIT
+1194,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,25,125,63,62,450,90.9,445,11.3,74,4.1,5.1,54.3,0,ARTISAN_UPPER_LIMIT
+1195,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,25,125,63,62,450,90.9,445,11.3,78,3,3.8,39.5,38,ARTISAN_UPPER_LIMIT
+1196,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,25,125,63,62,450,90.9,445,11.3,82,2.1,3,24.7,75,ARTISAN_UPPER_LIMIT
+1197,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,30,150,75,75,450,91.3,443,11.5,68,5.5,6.6,78,0,ARTISAN_UPPER_LIMIT
+1198,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,30,150,75,75,450,91.3,443,11.5,74,3.6,4.4,53.6,0,ARTISAN_UPPER_LIMIT
+1199,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,30,150,75,75,450,91.3,443,11.5,78,2.6,3.3,39,38,ARTISAN_UPPER_LIMIT
+1200,dark_rye_roggenbrot,"100% Whole Grain Dark Rye (9.5% Protein, High Pentosan)",9.5,94,500,90,30,150,75,75,450,91.3,443,11.5,82,1.8,2.6,24.4,75,ARTISAN_UPPER_LIMIT
