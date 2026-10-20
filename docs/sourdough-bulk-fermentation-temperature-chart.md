@@ -1,15 +1,21 @@
 ---
+layout: default
 title: "How Long to Bulk Ferment Sourdough at 65 to 82 Degrees (°F & °C Rise Chart)"
 description: "Exact sourdough bulk fermentation time and target percentage volume rise chart from 65°F (18.3°C) to 82°F (27.8°C) to prevent overproofing during cold retard."
+canonical_url: "https://sourdoughcalc.app/articles/open-crumb-bulk-fermentation-rise-chart"
+image: "/images/pins/sourdough-bulk-fermentation-temperature-chart.webp"
+robots: "index, follow"
 ---
 
 # How Long to Bulk Ferment Sourdough at 65 to 82 Degrees (°F & °C Rise Chart)
 
-> **Interactive Calculator:** Compute exact bulk fermentation hours for your starter inoculation (10%–30%), dough temperature, and sloped mixing bowl geometry using the **[Sourdough Bulk Fermentation & Aliquot Calculator](https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator)**.
+> **Interactive Calculator:** Compute exact bulk fermentation hours for your starter inoculation (10%–30%), dough temperature, and sloped mixing bowl geometry using the **[Sourdough Bulk Fermentation & Aliquot Calculator](https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**.
 
 ## Direct Answer (BLUF)
 
 At **75°F (23.9°C)** with a standard **20% starter inoculation**, sourdough bulk fermentation takes **4.5 to 5.5 hours** and should be stopped at a **50% to 55% volumetric rise** before overnight cold retardation at 38°F (3.3°C). Because warm doughs (**78°F–82°F / 25.6°C–27.8°C**) take 4 to 6 hours inside the refrigerator to cool below 45°F, you must cut bulk fermentation early at **30% to 40% volume rise** (3.0–4.0 hours) to prevent overproofing. Cool doughs (**65°F–68°F**) require **8.5 to 12.0 hours** and a full **75% to 80% rise**.
+
+<img src="https://forestelf.github.io/sourdough-physics/images/pins/sourdough-bulk-fermentation-temperature-chart.webp" alt="Sourdough Bulk Fermentation Temperature and Target Rise Chart from 65F to 82F" width="1000" height="1500" loading="lazy" class="pin-visual" />
 
 ---
 
@@ -48,6 +54,6 @@ Based on the exponential Q10 biological growth model ($Q_{10} \approx 2.15$), ch
 
 In a flared mixing bowl (frustum of a cone where top diameter $D_{\text{top}} > D_{\text{bottom}}$), cross-sectional area expands quadratically with height. A **+50% increase in true dough volume** inside a standard 14cm-base / 24cm-rim bowl raises vertical dough height by only **+33% to +36%**. Measuring vertical height on a sloped bowl causes catastrophic overproofing.
 
-- **[Use the Sloped Bowl Geometry & Bulk Fermentation Solver](https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator)**
-- **[Why Sourdough Overproofs in Summer (80°F+ Guide)](https://sourdoughcalc.app/articles/why-sourdough-overproofs-in-summer-80f-guide)**
+- **[Use the Sloped Bowl Geometry & Bulk Fermentation Solver](https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
+- **[Open-Crumb Bulk Fermentation Temperature & Percentage Rise Guide](https://sourdoughcalc.app/articles/open-crumb-bulk-fermentation-rise-chart?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
 - **[Return to Sourdough Physics Portal Home](./index.html)**
