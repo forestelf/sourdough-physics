@@ -1,15 +1,21 @@
 ---
+layout: default
 title: "King Arthur vs Bob's Red Mill vs Caputo 00 vs UK Strong Flour Max Sourdough Hydration Chart"
 description: "Cereal rheology and Farinograph water absorption comparison chart for King Arthur, Bob's Red Mill, Central Milling, Caputo 00, Matthews Cotswold, Marriages, and Manitoba flours."
+canonical_url: "https://sourdoughcalc.app/articles/flour-absorption-rates-tested"
+image: "/images/pins/sourdough-flour-brand-max-hydration-chart.webp"
+robots: "index, follow"
 ---
 
 # King Arthur vs Bob's Red Mill vs Caputo 00 vs UK Strong Flour Max Sourdough Hydration Chart
 
-> **Interactive Rheology Solver:** Calculate the weighted maximum hydration ceiling for up to 3 blended flours (Bread, AP, Whole Wheat, Rye, Manitoba, T55) using the **[SourdoughCalc Multi-Flour Absorption & True Hydration Engine](https://sourdoughcalc.app/)**.
+> **Interactive Rheology Solver:** Calculate the weighted maximum hydration ceiling for up to 3 blended flours (Bread, AP, Whole Wheat, Rye, Manitoba, T55) using the **[SourdoughCalc Multi-Flour Absorption & True Hydration Engine](https://sourdoughcalc.app/?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**.
 
 ## Direct Answer (BLUF)
 
 Why does a **78% hydration sourdough recipe** hold tall structure with **King Arthur Bread Flour (12.7% protein)** or **Bob's Red Mill Artisan Bread Flour (13.2% protein)**, yet collapse into an unshapeable puddle with **European T55 (11.0% protein)** or standard **UK supermarket bread flour (11.8%–12.0% protein)**? Glutenin-to-gliadin protein content, damaged starch granules from roller milling, and arabinoxylan bran fibers govern water binding. Every **+1.0% drop in flour protein reduces safe maximum dough hydration by ~3.5% to 4.5%**.
+
+<img src="https://forestelf.github.io/sourdough-physics/images/pins/sourdough-flour-brand-max-hydration-chart.webp" alt="Flour Brand Max Sourdough Hydration Chart King Arthur vs Caputo 00 vs UK Flour" width="1000" height="1500" loading="lazy" class="pin-visual" />
 
 ---
 
@@ -46,6 +52,6 @@ When you substitute whole grains into a 500g bread flour loaf, how much extra wa
 | **85% Bread (425g) + 15% Whole Dark Rye (75g)** | +3.0% Pentosan Gel Binding | **75.0% Hydration** | **+15g Water** (375g water) |
 | **100% European T55 / UK Domestic (500g)** | −6.0% Lower Gluten Capacity | **66.0% Hydration** | **−30g Water** (330g water) |
 
-- **[Test Your Exact Flour Blend in the SourdoughCalc Rheology Engine](https://sourdoughcalc.app/)**
-- **[High Hydration Sourdough Troubleshooting Guide (75% to 85%)](https://sourdoughcalc.app/articles/high-hydration-sourdough-troubleshooting-75-to-85-percent)**
+- **[Test Your Exact Flour Blend in the SourdoughCalc Rheology Engine](https://sourdoughcalc.app/?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
+- **[Why Is My 80% Hydration Dough a Sticky Mess? (High-Hydration Troubleshooting Guide)](https://sourdoughcalc.app/articles/why-is-my-80-percent-dough-a-sticky-mess?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
 - **[Return to Sourdough Physics Portal Home](./index.html)**
