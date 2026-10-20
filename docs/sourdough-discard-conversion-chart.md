@@ -1,15 +1,21 @@
 ---
+layout: default
 title: "How to Add 50g to 300g Sourdough Discard to Any Recipe (Flour & Water Subtraction Table)"
 description: "Exact flour and liquid subtraction chart for adding 50g to 300g of sourdough discard (at 100%, 80%, or 60% hydration) to pancakes, muffins, cookies, banana bread, and pizza dough."
+canonical_url: "https://sourdoughcalc.app/calculators/sourdough-discard-calculator"
+image: "/images/pins/sourdough-discard-recipe-conversion-chart.webp"
+robots: "index, follow"
 ---
 
 # How to Add 50g to 300g Sourdough Discard to Any Recipe (Flour & Water Subtraction Table)
 
-> **Interactive Calculator:** Convert any baking recipe to use unfed sourdough discard with automatic flour, liquid, and baking soda acid-neutralization math using the **[Sourdough Discard Recipe Substitution Calculator](https://sourdoughcalc.app/calculators/sourdough-discard-calculator)**.
+> **Interactive Calculator:** Convert any baking recipe to use unfed sourdough discard with automatic flour, liquid, and baking soda acid-neutralization math using the **[Sourdough Discard Recipe Substitution Calculator](https://sourdoughcalc.app/calculators/sourdough-discard-calculator?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**.
 
 ## Direct Answer (BLUF)
 
 To add **100g of 100%-hydration sourdough discard** to any conventional baking recipe (pancakes, waffles, banana bread, muffins, or pizza dough) for tangy flavor without changing batter consistency, **subtract 50g of flour** (about ⅓ cup + 1 tbsp) and **subtract 50g of liquid** (water, milk, or buttermilk, about 3½ tablespoons) from the recipe. For every **100g of acidic discard** added to quick breads or cookies, add **¼ teaspoon (1.2g) of baking soda** to neutralize lactic/acetic acid and prevent a dense, gummy crumb.
+
+<img src="https://forestelf.github.io/sourdough-physics/images/pins/sourdough-discard-recipe-conversion-chart.webp" alt="Sourdough Discard Conversion Chart 50g to 300g Flour and Liquid Subtraction" width="1000" height="1500" loading="lazy" class="pin-visual" />
 
 ---
 
@@ -51,5 +57,5 @@ Chocolate chip cookies have **zero added water or milk**—their only liquid com
 2. Discard 1 egg white (~30g water) and use **only the egg yolk**;
 3. Subtract **30g–40g of flour** from the cookie dough.
 
-- **[Use the Interactive Sourdough Discard Recipe Calculator](https://sourdoughcalc.app/calculators/sourdough-discard-calculator)**
+- **[Use the Interactive Sourdough Discard Recipe Calculator](https://sourdoughcalc.app/calculators/sourdough-discard-calculator?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
 - **[Return to Sourdough Physics Portal Home](./index.html)**
