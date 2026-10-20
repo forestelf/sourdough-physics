@@ -1,15 +1,21 @@
 ---
+layout: default
 title: "Sourdough Water Temperature & Summer Ice Chart (68°F to 90°F Kitchens)"
 description: "Exact sourdough mixing water temperature chart for 68°F to 90°F kitchens to hit a 76°F–78°F Desired Dough Temperature (DDT), plus the 80 cal/g latent heat crushed ice substitution table."
+canonical_url: "https://sourdoughcalc.app/articles/desired-dough-temperature-ddt-ice-formula"
+image: "/images/pins/summer-sourdough-water-temp-ice-chart.webp"
+robots: "index, follow"
 ---
 
 # Sourdough Water Temperature & Summer Ice Chart (68°F to 90°F Kitchens)
 
-> **Interactive Thermodynamic Solver:** Calculate your exact mixing water temperature—or exact grams of crushed ice when your kitchen exceeds 80°F—using the **[Desired Dough Temperature (DDT) & Crushed Ice Calculator](https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator)**.
+> **Interactive Thermodynamic Solver:** Calculate your exact mixing water temperature—or exact grams of crushed ice when your kitchen exceeds 80°F—using the **[Desired Dough Temperature (DDT) & Crushed Ice Calculator](https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**.
 
 ## Direct Answer (BLUF)
 
 To hit the optimal **76°F (24.4°C) Desired Dough Temperature (DDT)** using the 4-factor baker's formula ($T_{\text{water}} = 4 \times \text{DDT} - T_{\text{room}} - T_{\text{flour}} - T_{\text{starter}} - T_{\text{friction}}$), a **70°F (21.1°C) kitchen** with hand-mixing ($5^\circ\text{F}$ friction) requires **89°F (31.7°C) warm water**. However, when summer kitchen temperatures reach **84°F to 90°F (28.9°C–32.2°C)** with a spiral mixer ($18^\circ\text{F}$ friction), the formula demands **19°F to 31°F sub-freezing liquid water**—a physical impossibility. Replacing **15% to 42% of your mixing water weight with 0°C crushed ice** harnesses the **80 cal/g latent heat of fusion** to hit 76°F DDT cleanly.
+
+<img src="https://forestelf.github.io/sourdough-physics/images/pins/summer-sourdough-water-temp-ice-chart.webp" alt="Sourdough Water Temperature and Summer Crushed Ice DDT Chart 68F to 90F Kitchens" width="1000" height="1500" loading="lazy" class="pin-visual" />
 
 ---
 
@@ -52,6 +58,6 @@ $$M_{\text{ice}} = \frac{M_{\text{water}} \times (T_{\text{tap}} - T_{\text{req}
 | **90°F (32.2°C)** | Hand / Coil Fold (+5°F) | **104g Ice + 246g Water** | **208g Ice + 492g Water** | 29.7% Ice |
 | **90°F (32.2°C)** | Spiral Mixer (+18°F) | **148g Ice + 202g Water** | **295g Ice + 405g Water** | 42.1% Ice |
 
-- **[Launch the Thermodynamic DDT & Crushed Ice Calculator](https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator)**
-- **[Why Sourdough Overproofs in Summer (80°F+ Guide)](https://sourdoughcalc.app/articles/why-sourdough-overproofs-in-summer-80f-guide)**
+- **[Launch the Thermodynamic DDT & Crushed Ice Calculator](https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
+- **[Desired Dough Temperature (DDT) Formula & Crushed Ice Whitepaper](https://sourdoughcalc.app/articles/desired-dough-temperature-ddt-ice-formula?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
 - **[Return to Sourdough Physics Portal Home](./index.html)**
