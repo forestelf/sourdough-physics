@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} | SourdoughCalc Open Food Physics</title>
+  <meta name="description" content="{{ page.description }}" />
+  <meta name="robots" content="{{ page.robots | default: 'index, follow' }}" />
+  <link rel="canonical" href="{{ page.canonical_url | default: 'https://forestelf.github.io/sourdough-physics/' }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ page.description }}" />
+  <meta property="og:url" content="{{ page.canonical_url | default: 'https://forestelf.github.io/sourdough-physics/' }}" />
+  <meta property="og:image" content="https://forestelf.github.io/sourdough-physics{{ page.image | default: '/images/pins/500g-flour-sourdough-hydration-chart.webp' }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:description" content="{{ page.description }}" />
+  <meta name="twitter:image" content="https://forestelf.github.io/sourdough-physics{{ page.image | default: '/images/pins/500g-flour-sourdough-hydration-chart.webp' }}" />
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'analytics_storage': 'granted',
+      'wait_for_update': 500
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-398B6K9K9L"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-398B6K9K9L', { 'anonymize_ip': true });
+  </script>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #1c1917;
+      background: #faf8f5;
+      margin: 0;
+      padding: 0;
+    }
+    .container-lg {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px 20px 60px;
+      background: #ffffff;
+      border-left: 1px solid #e7e5e4;
+      border-right: 1px solid #e7e5e4;
+    }
+    .site-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 14px;
+      margin-bottom: 24px;
+      border-bottom: 2px solid #f59e0b;
+      font-size: 14px;
+    }
+    .site-nav a {
+      color: #9a3412;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    h1 { font-size: 2rem; color: #1c1917; margin-top: 0; }
+    h2 { font-size: 1.35rem; color: #292524; margin-top: 2rem; border-bottom: 1px solid #e7e5e4; padding-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+    th, td { border: 1px solid #d6d3d1; padding: 8px 10px; text-align: left; }
+    th { background: #f5f5f4; font-weight: 700; }
+    tr:nth-child(even) { background: #fafaf9; }
+    blockquote {
+      background: #fffbeb;
+      border-left: 4px solid #f59e0b;
+      margin: 16px 0;
+      padding: 12px 16px;
+    }
+    a { color: #b45309; }
+    .pin-visual {
+      max-width: 560px;
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      border: 1px solid #d6d3d1;
+      display: block;
+      margin: 18px auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-lg markdown-body">
+    <nav class="site-nav" aria-label="Portal Navigation">
+      <a href="/sourdough-physics/">SourdoughCalc Open Food Physics Portal</a>
+      <a href="https://sourdoughcalc.app/?utm_source=forestelf_github&amp;utm_medium=offsite_geo&amp;utm_campaign=header_nav">Launch SourdoughCalc.app &rarr;</a>
+    </nav>
+    {{ content }}
+  </div>
+</body>
+</html>
