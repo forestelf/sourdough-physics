@@ -1,15 +1,21 @@
 ---
+layout: default
 title: "1:1:1 vs 1:2:2 vs 1:5:5 Sourdough Starter Feeding Ratio & Peak Rise Time Chart"
 description: "Complete sourdough starter feeding ratio chart comparing 1:1:1, 1:2:2, 1:3:3, 1:5:5, and 1:10:10 peak rise times across temperatures, plus zero-waste gram weights to build 100g, 150g, or 200g levain."
+canonical_url: "https://sourdoughcalc.app/calculators/sourdough-starter-feeding-calculator"
+image: "/images/pins/sourdough-starter-feeding-ratio-peak-time-chart.webp"
+robots: "index, follow"
 ---
 
 # 1:1:1 vs 1:2:2 vs 1:5:5 Sourdough Starter Feeding Ratio & Peak Rise Time Chart
 
-> **Interactive Calculator:** Compute exact seed starter, flour, and water grams for zero-waste levain builds at any hydration with the **[Zero-Waste Sourdough Starter Feeding Calculator](https://sourdoughcalc.app/calculators/sourdough-starter-feeding-calculator)**.
+> **Interactive Calculator:** Compute exact seed starter, flour, and water grams for zero-waste levain builds at any hydration with the **[Zero-Waste Sourdough Starter Feeding Calculator](https://sourdoughcalc.app/calculators/sourdough-starter-feeding-calculator?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**.
 
 ## Direct Answer (BLUF)
 
 A sourdough starter feeding ratio represents **Seed Starter : Fresh Flour : Water** by weight in grams. At **75°F–78°F (24°C–26°C)**, a **1:1:1 ratio** peaks in **3.5 to 4.5 hours** (ideal for same-morning baking), a **1:2:2 ratio** peaks in **5.0 to 6.5 hours** (lower acidity, stronger gluten), and a **1:5:5 ratio** peaks in **9.0 to 12.0 hours** (ideal for overnight 10-hour counter builds). Higher ratios dilute initial organic acid carry-over, preventing protease gluten degradation during bulk fermentation.
+
+<img src="https://forestelf.github.io/sourdough-physics/images/pins/sourdough-starter-feeding-ratio-peak-time-chart.webp" alt="Sourdough Starter Feeding Ratio Peak Time Chart 1:1:1 vs 1:2:2 vs 1:5:5" width="1000" height="1500" loading="lazy" class="pin-visual" />
 
 ---
 
@@ -50,6 +56,6 @@ $$S_{\text{seed}} = \frac{M_{\text{total}}}{1 + 2R}, \quad F_{\text{feed}} = R \
 
 ## Interactive Tools & Related Reference Charts
 
-- **[Zero-Waste Sourdough Starter Feeding Calculator](https://sourdoughcalc.app/calculators/sourdough-starter-feeding-calculator)** — Custom target weight, hydration (50% stiff to 125% liquid), and reserve calculator.
-- **[Sourdough Starter Feeding Ratio Guide (1:1:1 vs 1:5:5)](https://sourdoughcalc.app/articles/sourdough-starter-feeding-ratio-guide-1-1-1-vs-1-5-5)** — Deep dive into lactic vs. acetic acid kinetics.
+- **[Zero-Waste Sourdough Starter Feeding Calculator](https://sourdoughcalc.app/calculators/sourdough-starter-feeding-calculator?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)** — Custom target weight, hydration (50% stiff to 125% liquid), and reserve calculator.
+- **[9-Stage Sourdough Baking Schedule & Levain Clock](https://sourdoughcalc.app/calculators/sourdough-baking-schedule-calculator?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)** — Reverse-plan your overnight 1:5:5 levain build from your target bake hour.
 - **[Return to Sourdough Physics Portal Home](./index.html)**
