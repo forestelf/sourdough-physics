@@ -1,0 +1,5 @@
+title: "SourdoughCalc Open Food Physics Portal"
+description: "Open-source sourdough physics cheat sheets, 500g hydration charts, bulk fermentation temperature tables, starter feeding ratios, yeast converters, and 1,200-row cereal rheology dataset."
+url: "https://forestelf.github.io"
+baseurl: "/sourdough-physics"
+markdown: kramdown
