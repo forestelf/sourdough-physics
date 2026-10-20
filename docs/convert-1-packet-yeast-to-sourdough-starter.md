@@ -1,15 +1,21 @@
 ---
+layout: default
 title: "Convert 1 Packet (7g / 2¼ tsp) Instant or Active Dry Yeast to Sourdough Starter Chart"
 description: "Exact conversion chart to replace 1 packet (7g / 2.25 tsp) of Instant Yeast, Active Dry Yeast, or Fresh Cake Yeast with 100%-hydration sourdough starter, including exact flour and water subtractions."
+canonical_url: "https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter"
+image: "/images/pins/convert-1-packet-yeast-to-sourdough-starter-chart.webp"
+robots: "index, follow"
 ---
 
 # Convert 1 Packet (7g / 2¼ tsp) Instant or Active Dry Yeast to Sourdough Starter Chart
 
-> **Interactive Converter:** Convert any commercial yeast weight or teaspoon measurement into sourdough starter—or convert sourdough recipes to instant yeast—using the **[Bidirectional Yeast ↔ Sourdough Starter Converter](https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter)**.
+> **Interactive Converter:** Convert any commercial yeast weight or teaspoon measurement into sourdough starter—or convert sourdough recipes to instant yeast—using the **[Bidirectional Yeast ↔ Sourdough Starter Converter](https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**.
 
 ## Direct Answer (BLUF)
 
 To replace **1 standard packet (7g or 2¼ teaspoons) of Instant or Active Dry Yeast** in a conventional bread recipe (typically 450g–500g flour), use **100g of active 100%-hydration sourdough starter**. Because 100g of starter is composed of **50g flour and 50g water**, you must **subtract 50g of flour** and **subtract 50g of water (or milk)** from the original recipe's dry and liquid ingredients to keep the dough's True Total Hydration and gluten rheology identical. Expect bulk fermentation to take **4 to 6 hours** instead of 1 hour.
+
+<img src="https://forestelf.github.io/sourdough-physics/images/pins/convert-1-packet-yeast-to-sourdough-starter-chart.webp" alt="Convert 1 Packet 7g Commercial Yeast to Sourdough Starter Subtraction Chart" width="1000" height="1500" loading="lazy" class="pin-visual" />
 
 ---
 
@@ -50,6 +56,6 @@ Need to bake a sourdough recipe on a tight 2-hour schedule using commercial yeas
 2. **Instant Yeast (IDY) to Fresh Compressed Yeast:** $\text{Fresh} = \text{IDY} \times 3.0$ (Fresh yeast is ~70% moisture).
 3. **Fermentation Speed Multiplier:** Wild *Saccharomyces cerevisiae* and *Kazachstania exigua* in sourdough ferment roughly **3.5× to 4.5× slower** than commercial mono-culture yeast due to acidic pH (4.0–4.4).
 
-- **[Launch the Bidirectional Yeast ↔ Sourdough Converter](https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter)**
-- **[Full Commercial Yeast to Sourdough Conversion Guide](https://sourdoughcalc.app/articles/convert-commercial-yeast-to-sourdough-starter-guide)**
+- **[Launch the Bidirectional Yeast ↔ Sourdough Converter](https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
+- **[Master True Total Hydration Calculator](https://sourdoughcalc.app/?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
 - **[Return to Sourdough Physics Portal Home](./index.html)**
