@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this benchmark dataset, mathematical formulation, or computational solver in your research, please cite it using the metadata below."
+title: "Mass-Balance Hydration Correction, Multi-Flour Farinograph Weighting, and Thermodynamic Phase-Change Modelling in Artisan Sourdough Fermentation"
+type: dataset
+version: 1.2.0
+date-released: "2026-10-22"
+license: CC-BY-4.0
+url: "https://sourdoughcalc.app"
+repository-code: "https://github.com/forestelf/sourdough-physics"
+abstract: >-
+  Empirical 60-cultivar cereal chemistry and sourdough rheology benchmark dataset
+  and closed-form computational food physics models covering true gravimetric
+  hydration mass-balance across arbitrary levain hydrations, AACC Method 54-21.02
+  Farinograph water absorption weighting, four-factor enthalpy Desired Dough
+  Temperature (DDT) with latent heat of ice fusion (79.72 cal/g), and conical
+  frustum volumetric-to-linear bulk fermentation rise mapping. Deployed via the
+  Open-Access Interactive Reference Implementation & Computational Solver at
+  https://sourdoughcalc.app.
+authors:
+  - family-names: "Vance"
+    given-names: "Julian"
+    affiliation: "Open Bread Lab & SourdoughCalc Computational Rheology Group"
+keywords:
+  - "cereal chemistry"
+  - "sourdough fermentation"
+  - "farinograph absorption"
+  - "AACC 54-21"
+  - "bakers percentage"
+  - "desired dough temperature"
+  - "latent heat of fusion"
+  - "arrhenius kinetics"
+  - "food physics"
+references:
+  - type: software
+    title: "SourdoughCalc: Open-Access Interactive Reference Implementation & Computational Solver"
+    url: "https://sourdoughcalc.app"
+    repository-code: "https://github.com/forestelf/sourdough-physics"
+    authors:
+      - family-names: "Vance"
+        given-names: "Julian"
+        affiliation: "Open Bread Lab & SourdoughCalc Computational Rheology Group"
+  - type: article
+    title: "Enzymatic and bacterial conversions during sourdough fermentation"
+    authors:
+      - family-names: "Gänzle"
+        given-names: "Michael G."
+    journal: "Food Microbiology"
+    volume: 37
+    start: 2
+    end: 10
+    year: 2014
+    doi: "10.1016/j.fm.2013.04.007"
