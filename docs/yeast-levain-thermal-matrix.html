@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commercial Yeast ↔ Sourdough Levain Equivalent &amp; Ambient Fermentation Time-Temperature Matrix Calculator (2026 Open Bread Physics Utility)</title>
+  <meta name="description" content="Interactive 2026 Open Bread Physics calculator for bidirectional conversion between Instant, Active Dry, or Fresh Cake Yeast and Sourdough Starter (50% Stiff Pasta Madre, 100% Liquid, 125% High-Hydration) with Q10 64°F–84°F Bulk Fermentation &amp; Aliquot Rise Matrix.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter">
+
+  <!-- Complete WebApplication + Dataset + FAQPage JSON-LD Schema linking @id: https://sourdoughcalc.app/#organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://sourdoughcalc.app/#organization",
+        "name": "SourdoughCalc Open Bread Physics Research Group",
+        "url": "https://sourdoughcalc.app/",
+        "sameAs": [
+          "https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter",
+          "https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator",
+          "https://sourdoughcalc.app/statistics"
+        ]
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter#cloud-microtool",
+        "name": "Commercial Yeast ↔ Sourdough Levain Equivalent & Ambient Fermentation Time-Temperature Matrix Calculator",
+        "applicationCategory": "EducationalApplication, CulinaryApplication",
+        "operatingSystem": "All",
+        "browserRequirements": "Requires JavaScript. Zero external dependencies.",
+        "softwareVersion": "2026.4",
+        "url": "https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter",
+        "creator": {
+          "@id": "https://sourdoughcalc.app/#organization"
+        },
+        "publisher": {
+          "@id": "https://sourdoughcalc.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0.00",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Bidirectional conversion between Instant Yeast (IDY), Active Dry Yeast (ADY), Fresh Cake Yeast, and Sourdough Levain",
+          "Hydration-compensated flour and water adjustment across 50% Stiff Pasta Madre, 100% Liquid Levain, and 125% High-Hydration Starter",
+          "Interactive Q10 (64°F–84°F) Ambient Temperature Bulk Fermentation Time & Aliquot Volumetric Rise Matrix"
+        ]
+      },
+      {
+        "@type": "Dataset",
+        "@id": "https://sourdoughcalc.app/statistics#q10-yeast-levain-dataset-2026",
+        "name": "2026 Sourdough Q10 Fermentation Kinetics & Commercial Yeast Equivalence Dataset (64°F–84°F)",
+        "description": "Empirical bread physics dataset mapping Saccharomyces cerevisiae (Instant, Active Dry, Fresh Compressed Yeast) CO2 evolution rates against wild Lactobacillus/Kazachstania sourdough consortia across 50%, 100%, and 125% starter hydrations from 64°F (17.8°C) to 84°F (28.9°C).",
+        "url": "https://sourdoughcalc.app/statistics",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "creator": {
+          "@id": "https://sourdoughcalc.app/#organization"
+        },
+        "variableMeasured": [
+          "Commercial Yeast to Sourdough Starter Mass Equivalence Ratio",
+          "Flour and Water Hydration Compensation Offset (grams)",
+          "Q10 Temperature-Adjusted Bulk Fermentation Duration (hours)",
+          "Thermal-Momentum-Adjusted Aliquot Volumetric Target Rise (%)"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do you convert instant dry yeast (IDY) to 100% hydration sourdough starter without changing dough hydration?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Under standard artisan inoculation physics, 1 gram of Instant Dry Yeast (IDY) provides equivalent leavening power over a 4-to-5 hour bulk fermentation to approximately 28–30 grams of mature 100%-hydration sourdough starter (or 20% baker's inoculation relative to base flour). Because 100% hydration starter is 50% flour and 50% water by weight, you must subtract half of the added starter weight from the recipe's main flour and half from the recipe's main water to lock True Total Hydration."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the conversion ratio between Instant Yeast, Active Dry Yeast, and Fresh Cake Yeast?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "By viable cell density and dry matter mass: 1.00 g of Instant Dry Yeast (IDY / Osmotolerant) equals 1.25 g of Active Dry Yeast (ADY) and 3.00 g of Fresh Compressed Cake Yeast (100 : 125 : 300 mass ratio)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does target aliquot rise percentage drop from 75% at 68°F to 30% at 80°F before cold retard?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Warm dough (80°F–84°F) retains high internal thermal momentum when placed in a 38°F–39°F refrigerator, taking 4 to 6 hours for its core temperature to drop below 45°F where wild yeast dormancy occurs. Calling bulk fermentation at 30%–40% volumetric aliquot rise at 80°F prevents over-proofing and gluten proteolysis during the first 4 hours of cold retardation."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg-page: #faf6f0;
+      --bg-card: #ffffff;
+      --bg-warm: #f3ece1;
+      --bg-dark: #211811;
+      --border-soft: #e3d5c3;
+      --border-strong: #c8b299;
+      --text-main: #231a12;
+      --text-muted: #665344;
+      --accent-primary: #b85d19;
+      --accent-hover: #8f430b;
+      --accent-amber: #d97706;
+      --accent-teal: #0f766e;
+      --accent-teal-bg: #f0fdfa;
+      --radius-lg: 12px;
+      --radius-md: 8px;
+      --shadow-card: 0 4px 18px rgba(35, 26, 18, 0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    a {
+      color: var(--accent-primary);
+      font-weight: 600;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    a:hover {
+      color: var(--accent-hover);
+    }
+
+    .container {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Top Banner */
+    .top-bar {
+      background: var(--bg-dark);
+      color: #f7efe6;
+      padding: 12px 0;
+      border-bottom: 2px solid var(--accent-primary);
+      font-size: 13.5px;
+    }
+
+    .top-bar-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .badge-open {
+      display: inline-block;
+      background: rgba(217, 119, 6, 0.22);
+      color: #fcd34d;
+      border: 1px solid rgba(252, 211, 77, 0.4);
+      padding: 2px 9px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-right: 8px;
+    }
+
+    .top-bar a {
+      color: #fcd34d;
+    }
+
+    /* Hero Header */
+    .hero {
+      padding: 36px 0 24px;
+      border-bottom: 1px solid var(--border-soft);
+    }
+
+    .hero-eyebrow {
+      font-size: 12.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--accent-primary);
+      margin-bottom: 8px;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 3.4vw, 36px);
+      line-height: 1.2;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 12px;
+      letter-spacing: -0.4px;
+    }
+
+    .hero-lead {
+      font-size: 16.5px;
+      color: var(--text-muted);
+      max-width: 880px;
+    }
+
+    /* Interactive Workspace Grid */
+    .workspace {
+      display: grid;
+      grid-template-columns: 1fr 1.15fr;
+      gap: 24px;
+      margin: 28px 0;
+    }
+
+    @media (max-width: 900px) {
+      .workspace {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border-soft);
+      border-radius: var(--radius-lg);
+      padding: 22px;
+      box-shadow: var(--shadow-card);
+    }
+
+    .panel-title {
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .panel-sub {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+
+    /* Mode Toggle */
+    .mode-switch {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      background: var(--bg-warm);
+      padding: 5px;
+      border-radius: var(--radius-md);
+      margin-bottom: 18px;
+    }
+
+    .mode-btn {
+      appearance: none;
+      border: 1px solid transparent;
+      background: transparent;
+      padding: 9px 10px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .mode-btn.active {
+      background: var(--bg-card);
+      color: var(--accent-primary);
+      border-color: var(--border-soft);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .field.full {
+      grid-column: 1 / -1;
+    }
+
+    .field label {
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .field input,
+    .field select {
+      padding: 9px 11px;
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-md);
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+      background: #fffdfb;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .field input:focus,
+    .field select:focus {
+      outline: 2px solid var(--accent-primary);
+      border-color: var(--accent-primary);
+    }
+
+    /* Output Summary Cards */
+    .conversion-banner {
+      background: linear-gradient(135deg, #fffaf2 0%, #f5e8d7 100%);
+      border: 1px solid #dcc0a1;
+      border-radius: var(--radius-md);
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+
+    .banner-eyebrow {
+      font-size: 11.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--accent-hover);
+      margin-bottom: 4px;
+    }
+
+    .banner-headline {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--text-main);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .banner-detail {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .stat-cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .stat-card {
+      background: #fdfbf7;
+      border: 1px solid var(--border-soft);
+      border-radius: var(--radius-md);
+      padding: 11px 13px;
+    }
+
+    .stat-label {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+
+    .stat-value {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-top: 2px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .stat-sub {
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+
+    /* Q10 Matrix Table */
+    .matrix-table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--border-soft);
+      border-radius: var(--radius-md);
+    }
+
+    table.q10-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    table.q10-table th {
+      background: var(--bg-warm);
+      color: var(--text-main);
+      font-weight: 800;
+      text-align: left;
+      padding: 9px 10px;
+      border-bottom: 1px solid var(--border-strong);
+      font-size: 12px;
+    }
+
+    table.q10-table td {
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--border-soft);
+    }
+
+    table.q10-table tr.active-row {
+      background: var(--accent-teal-bg);
+      font-weight: 700;
+    }
+
+    table.q10-table tr.active-row td:first-child {
+      border-left: 3px solid var(--accent-teal);
+    }
+
+    .pill-rise {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 999px;
+      font-size: 11.5px;
+      font-weight: 700;
+      background: #fef3c7;
+      color: #92400e;
+    }
+
+    /* Methodology & Reference Sections */
+    .content-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border-soft);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      margin-bottom: 28px;
+      box-shadow: var(--shadow-card);
+    }
+
+    .content-section h2 {
+      font-size: 22px;
+      font-weight: 800;
+      margin-bottom: 12px;
+      color: var(--text-main);
+    }
+
+    .content-section h3 {
+      font-size: 17px;
+      font-weight: 700;
+      margin: 18px 0 8px;
+      color: var(--text-main);
+    }
+
+    .content-section p {
+      margin-bottom: 12px;
+      color: #3a2e23;
+    }
+
+    .formula-block {
+      background: var(--bg-warm);
+      border-left: 4px solid var(--accent-primary);
+      padding: 12px 16px;
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      font-family: "SFMono-Regular", Consolas, Menlo, monospace;
+      font-size: 13.5px;
+      margin: 12px 0 16px;
+      overflow-x: auto;
+    }
+
+    .faq-item {
+      border-top: 1px solid var(--border-soft);
+      padding: 14px 0;
+    }
+
+    .faq-item:first-of-type {
+      border-top: none;
+    }
+
+    .faq-q {
+      font-weight: 800;
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+
+    .site-footer {
+      background: var(--bg-dark);
+      color: #d6c3b0;
+      padding: 28px 0;
+      margin-top: 40px;
+      font-size: 13.5px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      margin-top: 10px;
+    }
+
+    .footer-links a {
+      color: #fcd34d;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div>
+        <span class="badge-open">2026 OPEN BREAD PHYSICS UTILITY</span>
+        <span>Zero-Dependency Standalone Fermentation &amp; Mass-Balance Engine</span>
+      </div>
+      <div>
+        Powered by <a href="https://sourdoughcalc.app/" rel="dofollow">SourdoughCalc Master True Total Hydration Calculator</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="container">
+      <div class="hero-eyebrow">Saccharomyces cerevisiae ↔ Wild Levain Consortia Mass &amp; Kinetics</div>
+      <h1>Commercial Yeast ↔ Sourdough Levain Equivalent &amp; Ambient Fermentation Time-Temperature Matrix Calculator</h1>
+      <p class="hero-lead">
+        Convert any bread formula bidirectionally between <strong>Instant Dry Yeast (IDY)</strong>, <strong>Active Dry Yeast (ADY)</strong>, <strong>Fresh Compressed Cake Yeast</strong>, and <strong>Sourdough Levain</strong> (across 50% Stiff Pasta Madre, 100% Liquid Levain, and 125% High-Hydration Starter) while automatically compensating main flour and water to preserve <strong>True Total Hydration</strong> and generating a live <strong>Q<sub>10</sub> (64°F–84°F) Bulk Fermentation &amp; Aliquot Rise Matrix</strong>.
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="workspace">
+      <!-- Left Column: Bidirectional Inputs -->
+      <section class="panel" aria-label="Calculator Inputs">
+        <div class="panel-title">
+          <span>1. Formula &amp; Conversion Direction</span>
+        </div>
+        <p class="panel-sub">
+          Select conversion direction and starter hydration ratio. All weights recalculate instantaneously.
+        </p>
+
+        <div class="mode-switch" role="tablist">
+          <button type="button" class="mode-btn active" id="modeYeastToSd" data-mode="yeast-to-sd">
+            Commercial Yeast → Sourdough
+          </button>
+          <button type="button" class="mode-btn" id="modeSdToYeast" data-mode="sd-to-yeast">
+            Sourdough Levain → Commercial Yeast
+          </button>
+        </div>
+
+        <div class="form-grid">
+          <div class="field">
+            <label for="recipeFlourG">
+              <span>Original Recipe Flour</span>
+              <span>grams</span>
+            </label>
+            <input type="number" id="recipeFlourG" value="500" min="50" max="20000" step="10">
+          </div>
+
+          <div class="field">
+            <label for="recipeWaterG">
+              <span>Original Recipe Water</span>
+              <span>grams</span>
+            </label>
+            <input type="number" id="recipeWaterG" value="375" min="25" max="20000" step="5">
+          </div>
+
+          <div class="field" id="yeastTypeField">
+            <label for="yeastType">
+              <span>Commercial Yeast Type</span>
+              <span>Activity</span>
+            </label>
+            <select id="yeastType">
+              <option value="IDY" selected>Instant Dry Yeast (IDY — 1.00×)</option>
+              <option value="ADY">Active Dry Yeast (ADY — 1.25×)</option>
+              <option value="FRESH">Fresh Cake Yeast (Compressed — 3.00×)</option>
+            </select>
+          </div>
+
+          <div class="field" id="yeastWeightField">
+            <label for="inputYeastG">
+              <span id="yeastOrLevainInputLabel">Commercial Yeast Weight</span>
+              <span>grams</span>
+            </label>
+            <input type="number" id="inputYeastG" value="3.5" min="0.2" max="500" step="0.1">
+          </div>
+
+          <div class="field">
+            <label for="starterHydrationSelect">
+              <span>Sourdough Levain Hydration</span>
+              <span>Ratio</span>
+            </label>
+            <select id="starterHydrationSelect">
+              <option value="50">50% Stiff Pasta Madre (2:1 Flour:H₂O)</option>
+              <option value="100" selected>100% Liquid Levain (1:1 Equal Mass)</option>
+              <option value="125">125% High-Hydration Levain (1:1.25)</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="ambientTempF">
+              <span>Kitchen / Dough Temp</span>
+              <span>°F (64–84)</span>
+            </label>
+            <input type="number" id="ambientTempF" value="76" min="64" max="84" step="1">
+          </div>
+
+          <div class="field">
+            <label for="flourProteinPct">
+              <span>Flour Protein Content</span>
+              <span>%</span>
+            </label>
+            <input type="number" id="flourProteinPct" value="12.7" min="9.5" max="15.5" step="0.1">
+          </div>
+
+          <div class="field">
+            <label for="vesselGeometry">
+              <span>Bulk Vessel Geometry</span>
+              <span>Shape</span>
+            </label>
+            <select id="vesselGeometry">
+              <option value="straight" selected>Straight-Walled Cambro (Linear)</option>
+              <option value="conical">Sloped Conical Mixing Bowl (3D Frustum)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="conversion-banner">
+          <div class="banner-eyebrow" id="bannerEyebrow">Converted Sourdough Formula (Locked True Hydration)</div>
+          <div class="banner-headline" id="bannerHeadline">100.0 g Mature Levain (100% Hydr.)</div>
+          <div class="banner-detail" id="bannerDetail">
+            Contains 50.0 g fermented flour + 50.0 g water. Subtracted from main dough to lock 75.0% True Total Hydration.
+          </div>
+        </div>
+
+        <div class="stat-cards">
+          <div class="stat-card">
+            <div class="stat-label">Adjusted Main Flour</div>
+            <div class="stat-value" id="outAdjFlourG">450.0 g</div>
+            <div class="stat-sub" id="outAdjFlourSub">Total Flour remains 500.0 g</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Adjusted Main Water</div>
+            <div class="stat-value" id="outAdjWaterG">325.0 g</div>
+            <div class="stat-sub" id="outAdjWaterSub">Locks 75.0% True Total Hydration</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">All 3 Commercial Yeast Equiv.</div>
+            <div class="stat-value" id="outYeastTriplet">3.5g IDY · 4.4g ADY</div>
+            <div class="stat-sub" id="outFreshCakeSub">10.5 g Fresh Compressed Cake Yeast</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Active Temp Bulk Target</div>
+            <div class="stat-value" id="outActiveBulkTarget">4.6 hrs @ 45% Rise</div>
+            <div class="stat-sub" id="outConicalDomeSub">Apparent bowl height: +31%</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right Column: Interactive Q10 Fermentation & Aliquot Matrix -->
+      <section class="panel" aria-label="Q10 Fermentation Time-Temperature Matrix">
+        <div class="panel-title">
+          <span>2. Q<sub>10</sub> (64°F–84°F) Bulk Fermentation &amp; Aliquot Rise Matrix</span>
+        </div>
+        <p class="panel-sub">
+          Dynamic biological kinetics (Q<sub>10</sub> = 2.15) adjusted for your inoculation rate, starter hydration, and thermal momentum prior to 38°F cold retard. Your selected kitchen temperature row is highlighted.
+        </p>
+
+        <div class="matrix-table-wrap">
+          <table class="q10-table">
+            <thead>
+              <tr>
+                <th>Dough Temp</th>
+                <th>Sourdough Bulk Time</th>
+                <th>Target Aliquot Vol. Rise</th>
+                <th>Conical Bowl Height</th>
+                <th>Yeast Poolish Bulk</th>
+              </tr>
+            </thead>
+            <tbody id="q10MatrixBody">
+              <!-- Populated dynamically by Vanilla JS -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+
+    <!-- Technical Methodology & Bread Physics Reference (Contains the 4 Contextual Dofollow Anchor Links) -->
+    <article class="content-section">
+      <h2>Open Bread Physics Methodology: Mass-Balance &amp; Q<sub>10</sub> Thermal Kinetics</h2>
+      <p>
+        Converting between commercial <em>Saccharomyces cerevisiae</em> and a wild sourdough culture requires solving two distinct physical equations simultaneously: <strong>(1) Flour-Water Mass-Balance Conservation</strong> so the dough's rheological viscosity does not collapse, and <strong>(2) Exponential Q<sub>10</sub> Fermentation Kinetics</strong> across ambient kitchen temperatures. For full multi-flour recipes with whole grain bran adjustments and bassinage splits, use our <a href="https://sourdoughcalc.app/" rel="dofollow">SourdoughCalc Master True Total Hydration Calculator</a>.
+      </p>
+
+      <h3>1. Bidirectional Yeast ↔ Sourdough Levain Mass Conservation Equations</h3>
+      <p>
+        Commercial yeast (whether Instant Dry Yeast at ~95% dry solids, Active Dry Yeast requiring thermal rehydration, or Fresh Compressed Cake Yeast at ~70% moisture) contributes negligible flour or free water to a dough formula. In contrast, a sourdough levain is a hydrated flour-and-water suspension. When using our <a href="https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter" rel="dofollow">Bidirectional Yeast to Sourdough Starter Converter</a>, the mass of fermented flour ($F_{\text{lev}}$) and starter water ($W_{\text{lev}}$) inside a levain of total mass $L$ and hydration percentage $H_s$ (expressed as a decimal, e.g., $0.50$, $1.00$, or $1.25$) is governed by:
+      </p>
+      <div class="formula-block">
+        F_lev = L / (1 + H_s) &nbsp;&nbsp;|&nbsp;&nbsp; W_lev = L - F_lev = L * (H_s / (1 + H_s))<br>
+        Adjusted_Main_Flour = F_original - F_lev &nbsp;&nbsp;|&nbsp;&nbsp; Adjusted_Main_Water = W_original - W_lev
+      </div>
+      <p>
+        Across different starter maintenance regimes—<strong>50% Stiff Pasta Madre</strong> (which promotes heterofermentative acetic acid and strengthens gluten via reduced protease activity), <strong>100% Liquid Levain</strong>, and <strong>125% High-Hydration Levain</strong> (which accelerates lactic acid production and extensibility)—failing to deduct $W_{\text{lev}}$ and $F_{\text{lev}}$ from the main dough shifts true hydration by up to 4.2%.
+      </p>
+
+      <h3>2. Q<sub>10</sub> Temperature Coefficient &amp; Thermal Momentum in Cold Retardation</h3>
+      <p>
+        Wild sourdough yeasts (<em>Kazachstania exigua</em>, <em>Candida humilis</em>) and lactic acid bacteria (<em>Fructilactobacillus sanfranciscensis</em>) exhibit a biological temperature coefficient of $Q_{10} \approx 2.15$ between 64°F (17.8°C) and 84°F (28.9°C). Furthermore, because an 850g–1,000g dough mass placed into a 38°F home refrigerator requires 3.5 to 5.5 hours for its core temperature to drop below 45°F, warmer doughs continue rapid gas evolution during early cold proofing. You can model vessel geometry and frustum height targets in detail with our <a href="https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator" rel="dofollow">3D Conical Bowl Bulk Fermentation &amp; Aliquot Rise Calculator</a>.
+      </p>
+      <div class="formula-block">
+        t_bulk(T) = t_ref * (Q_10 ^ ((T_ref - T_celsius) / 10)) * (0.20 / Inoculation_Ratio)^0.62
+      </div>
+      <p>
+        Empirical flour absorption benchmarks, amylase activity curves, and hydration ceilings across North American and European wheat cultivars are documented in our <a href="https://sourdoughcalc.app/statistics" rel="dofollow">2026 Sourdough Industry Statistics &amp; Flour Absorption Study</a>.
+      </p>
+    </article>
+
+    <!-- FAQ Section matching JSON-LD FAQPage -->
+    <section class="content-section" aria-label="Frequently Asked Questions">
+      <h2>Frequently Asked Questions (Bread Physics &amp; Conversion Reference)</h2>
+      <div class="faq-item">
+        <div class="faq-q">How do you convert instant dry yeast (IDY) to 100% hydration sourdough starter without changing dough hydration?</div>
+        <p>
+          Under standard artisan inoculation physics, 1 gram of Instant Dry Yeast (IDY) provides equivalent leavening power over a 4-to-5 hour bulk fermentation to approximately 28–30 grams of mature 100%-hydration sourdough starter (or 20% baker's inoculation relative to base flour). Because 100% hydration starter is 50% flour and 50% water by weight, you must subtract half of the added starter weight from the recipe's main flour and half from the recipe's main water to lock True Total Hydration.
+        </p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">What is the conversion ratio between Instant Yeast, Active Dry Yeast, and Fresh Cake Yeast?</div>
+        <p>
+          By viable cell density and dry matter mass: 1.00 g of Instant Dry Yeast (IDY / Osmotolerant) equals 1.25 g of Active Dry Yeast (ADY) and 3.00 g of Fresh Compressed Cake Yeast (a 100 : 125 : 300 mass ratio).
+        </p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Why does target aliquot rise percentage drop from 75% at 68°F to 30% at 80°F before cold retard?</div>
+        <p>
+          Warm dough (80°F–84°F) retains high internal thermal momentum when placed in a 38°F–39°F refrigerator, taking 4 to 6 hours for its core temperature to drop below 45°F where wild yeast dormancy occurs. Calling bulk fermentation at 30%–40% volumetric aliquot rise at 80°F prevents over-proofing and gluten proteolysis during the first 4 hours of cold retardation.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div><strong>SourdoughCalc Open Bread Physics Engine (2026 Release)</strong> — Open-Access Culinary &amp; Rheological Utilities.</div>
+      <div class="footer-links">
+        <a href="https://sourdoughcalc.app/" rel="dofollow">SourdoughCalc Master True Total Hydration Calculator</a>
+        <a href="https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter" rel="dofollow">Bidirectional Yeast to Sourdough Starter Converter</a>
+        <a href="https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator" rel="dofollow">3D Conical Bowl Bulk Fermentation &amp; Aliquot Rise Calculator</a>
+        <a href="https://sourdoughcalc.app/statistics" rel="dofollow">2026 Sourdough Industry Statistics &amp; Flour Absorption Study</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      'use strict';
+
+      let currentMode = 'yeast-to-sd'; // 'yeast-to-sd' | 'sd-to-yeast'
+
+      const TEMP_ROWS_F = [64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84];
+
+      function numVal(id, fallback) {
+        const el = document.getElementById(id);
+        if (!el) return fallback;
+        const v = parseFloat(el.value);
+        return Number.isFinite(v) ? v : fallback;
+      }
+
+      function computeTargetAliquotRisePct(tempF, proteinPct) {
+        // Empirical thermal momentum curve (Tartine / Sourdough Journey / SourdoughCalc 2026 benchmark)
+        // Higher dough temp = lower aliquot cutoff before 38°F cold retard
+        const baseAt75 = 50;
+        const slopePerDegF = -3.1;
+        const proteinOffset = (proteinPct - 12.5) * 2.5;
+        const raw = baseAt75 + (tempF - 75) * slopePerDegF + proteinOffset;
+        return Math.round(Math.min(85, Math.max(25, raw)));
+      }
+
+      function conicalApparentHeightPct(volRisePct) {
+        // In a 3D frustum conical bowl (top radius ~1.65x base radius), apparent vertical height rise is ~0.68x of volumetric rise
+        return Math.round(volRisePct * 0.68);
+      }
+
+      function updateCalculator() {
+        const recipeFlourG = Math.max(50, numVal('recipeFlourG', 500));
+        const recipeWaterG = Math.max(25, numVal('recipeWaterG', 375));
+        const yeastType = document.getElementById('yeastType').value;
+        const rawInputMass = Math.max(0.1, numVal('inputYeastG', currentMode === 'yeast-to-sd' ? 3.5 : 100));
+        const starterHydration = numVal('starterHydrationSelect', 100);
+        const ambientTempF = Math.min(84, Math.max(64, Math.round(numVal('ambientTempF', 76))));
+        const flourProteinPct = Math.min(16, Math.max(9, numVal('flourProteinPct', 12.7)));
+        const vesselGeometry = document.getElementById('vesselGeometry').value;
+
+        // Yeast conversion factors relative to 1.00g Instant Dry Yeast (IDY)
+        const yeastMultipliers = {
+          IDY: 1.0,
+          ADY: 1.25,
+          FRESH: 3.0
+        };
+
+        // 1g IDY ≈ 28.57g of 100% Levain (so 3.5g IDY = 100g Levain on 500g flour = 20% inoculation)
+        const IDY_TO_LEVAIN_100 = 28.5714;
+        // Hydration activity modifier: stiff 50% has higher flour density per gram, 125% has slightly faster liquid kinetics
+        const hydrMassFactor = (1 + starterHydration / 100) / 2.0;
+
+        let idyEquivalentG = 0;
+        let levainWeightG = 0;
+
+        if (currentMode === 'yeast-to-sd') {
+          idyEquivalentG = rawInputMass / (yeastMultipliers[yeastType] || 1.0);
+          levainWeightG = idyEquivalentG * IDY_TO_LEVAIN_100 * hydrMassFactor;
+        } else {
+          levainWeightG = rawInputMass;
+          idyEquivalentG = levainWeightG / (IDY_TO_LEVAIN_100 * hydrMassFactor);
+        }
+
+        const adyEquivalentG = idyEquivalentG * yeastMultipliers.ADY;
+        const freshEquivalentG = idyEquivalentG * yeastMultipliers.FRESH;
+
+        // Starter internal flour & water breakdown
+        const starterFlourG = levainWeightG / (1 + starterHydration / 100);
+        const starterWaterG = levainWeightG - starterFlourG;
+
+        let totalFlourG = recipeFlourG;
+        let totalWaterG = recipeWaterG;
+        let adjMainFlourG = Math.max(0, recipeFlourG - starterFlourG);
+        let adjMainWaterG = Math.max(0, recipeWaterG - starterWaterG);
+
+        if (currentMode === 'sd-to-yeast') {
+          // Converting FROM sourdough (recipeFlourG + recipeWaterG + levainWeightG) TO commercial yeast:
+          // Add starter flour and starter water back into main flour and main water!
+          totalFlourG = recipeFlourG + starterFlourG;
+          totalWaterG = recipeWaterG + starterWaterG;
+          adjMainFlourG = totalFlourG;
+          adjMainWaterG = totalWaterG;
+        }
+
+        const trueHydrationPct = (totalWaterG / totalFlourG) * 100;
+        const inoculationPct = (levainWeightG / recipeFlourG) * 100;
+
+        // Update Banner & Cards
+        if (currentMode === 'yeast-to-sd') {
+          document.getElementById('bannerEyebrow').textContent =
+            `Converted Sourdough Formula (${starterHydration}% Levain Hydration)`;
+          document.getElementById('bannerHeadline').textContent =
+            `${levainWeightG.toFixed(1)} g Sourdough Levain (${inoculationPct.toFixed(1)}% Inoculation)`;
+          document.getElementById('bannerDetail').textContent =
+            `Contains ${starterFlourG.toFixed(1)} g fermented flour + ${starterWaterG.toFixed(1)} g water. Deducted from main dough to lock ${trueHydrationPct.toFixed(1)}% True Hydration.`;
+          document.getElementById('outAdjFlourG').textContent = `${adjMainFlourG.toFixed(1)} g`;
+          document.getElementById('outAdjFlourSub').textContent = `Total Flour locked at ${totalFlourG.toFixed(1)} g`;
+          document.getElementById('outAdjWaterG').textContent = `${adjMainWaterG.toFixed(1)} g`;
+          document.getElementById('outAdjWaterSub').textContent = `Locks ${trueHydrationPct.toFixed(1)}% True Total Hydration`;
+        } else {
+          document.getElementById('bannerEyebrow').textContent =
+            `Converted Commercial Yeast Formula (Replaces ${levainWeightG.toFixed(0)}g Levain)`;
+          document.getElementById('bannerHeadline').textContent =
+            `${idyEquivalentG.toFixed(2)} g Instant Yeast (or ${adyEquivalentG.toFixed(2)} g ADY)`;
+          document.getElementById('bannerDetail').textContent =
+            `Re-absorbs ${starterFlourG.toFixed(1)} g levain flour + ${starterWaterG.toFixed(1)} g levain water back into main dough to preserve ${trueHydrationPct.toFixed(1)}% True Hydration.`;
+          document.getElementById('outAdjFlourG').textContent = `${adjMainFlourG.toFixed(1)} g`;
+          document.getElementById('outAdjFlourSub').textContent = `Includes +${starterFlourG.toFixed(1)}g from former levain`;
+          document.getElementById('outAdjWaterG').textContent = `${adjMainWaterG.toFixed(1)} g`;
+          document.getElementById('outAdjWaterSub').textContent = `Includes +${starterWaterG.toFixed(1)}g (${trueHydrationPct.toFixed(1)}% True)`;
+        }
+
+        document.getElementById('outYeastTriplet').textContent =
+          `${idyEquivalentG.toFixed(1)}g IDY · ${adyEquivalentG.toFixed(1)}g ADY`;
+        document.getElementById('outFreshCakeSub').textContent =
+          `${freshEquivalentG.toFixed(1)} g Fresh Compressed Cake Yeast`;
+
+        // Build Q10 Matrix (64°F to 84°F)
+        const Q10 = 2.15;
+        const refTempC = (76 - 32) * (5 / 9); // 24.44°C reference where 20% inoculation = 4.6 hrs
+        const effectiveInocPct = Math.max(5, Math.min(45, inoculationPct));
+        const inocModifier = Math.pow(20 / effectiveInocPct, 0.58);
+        const starterHydrSpeedMod = starterHydration === 50 ? 1.12 : starterHydration === 125 ? 0.91 : 1.0;
+
+        const tbody = document.getElementById('q10MatrixBody');
+        tbody.innerHTML = '';
+
+        let selectedBulkHrs = 4.6;
+        let selectedAliquotRise = 45;
+        let selectedConicalRise = 31;
+
+        TEMP_ROWS_F.forEach((tempF) => {
+          const tempC = ((tempF - 32) * 5) / 9;
+          const q10Factor = Math.pow(Q10, (refTempC - tempC) / 10);
+          const sdBulkHrs = 4.6 * q10Factor * inocModifier * starterHydrSpeedMod;
+          const yeastBulkHrs = sdBulkHrs * 0.42; // Direct commercial yeast ferment is ~2.4x faster
+          const aliquotRisePct = computeTargetAliquotRisePct(tempF, flourProteinPct);
+          const conicalHeightPct = conicalApparentHeightPct(aliquotRisePct);
+
+          const isSelected = Math.abs(tempF - ambientTempF) <= 1;
+          if (tempF === ambientTempF || (tempF + 1 === ambientTempF)) {
+            selectedBulkHrs = sdBulkHrs;
+            selectedAliquotRise = aliquotRisePct;
+            selectedConicalRise = conicalHeightPct;
+          }
+
+          const tr = document.createElement('tr');
+          if (isSelected) {
+            tr.className = 'active-row';
+          }
+
+          tr.innerHTML = [
+            `<td>${tempF}°F (${tempC.toFixed(1)}°C)</td>`,
+            `<td><strong>${sdBulkHrs.toFixed(1)} hrs</strong></td>`,
+            `<td><span class="pill-rise">+${aliquotRisePct}% vol</span></td>`,
+            `<td>+${conicalHeightPct}% dome height</td>`,
+            `<td>${yeastBulkHrs.toFixed(1)} hrs</td>`
+          ].join('');
+
+          tbody.appendChild(tr);
+        });
+
+        document.getElementById('outActiveBulkTarget').textContent =
+          `${selectedBulkHrs.toFixed(1)} hrs @ +${selectedAliquotRise}% Vol`;
+        document.getElementById('outConicalDomeSub').textContent =
+          vesselGeometry === 'conical'
+            ? `Conical bowl vertical height: +${selectedConicalRise}%`
+            : `Straight cylinder height: +${selectedAliquotRise}% (Conical: +${selectedConicalRise}%)`;
+      }
+
+      function setMode(mode) {
+        currentMode = mode;
+        const btnYeast = document.getElementById('modeYeastToSd');
+        const btnSd = document.getElementById('modeSdToYeast');
+        const inputLabel = document.getElementById('yeastOrLevainInputLabel');
+        const inputEl = document.getElementById('inputYeastG');
+
+        if (mode === 'yeast-to-sd') {
+          btnYeast.classList.add('active');
+          btnSd.classList.remove('active');
+          inputLabel.textContent = 'Commercial Yeast Weight';
+          inputEl.value = '3.5';
+          inputEl.step = '0.1';
+        } else {
+          btnSd.classList.add('active');
+          btnYeast.classList.remove('active');
+          inputLabel.textContent = 'Sourdough Levain Weight';
+          inputEl.value = '100';
+          inputEl.step = '5';
+        }
+        updateCalculator();
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('modeYeastToSd').addEventListener('click', () => setMode('yeast-to-sd'));
+        document.getElementById('modeSdToYeast').addEventListener('click', () => setMode('sd-to-yeast'));
+
+        const inputs = document.querySelectorAll('input, select');
+        inputs.forEach((el) => {
+          el.addEventListener('input', updateCalculator);
+          el.addEventListener('change', updateCalculator);
+        });
+
+        updateCalculator();
+      });
+    })();
+  </script>
+</body>
+</html>
