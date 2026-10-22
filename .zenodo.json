@@ -1,33 +1,67 @@
 {
-  "title": "SourdoughCalc 2026 Open Cereal Rheology, True Total Hydration & Thermodynamic Ice Benchmark Dataset (1,200 Parameter Combinations)",
   "upload_type": "dataset",
-  "description": "Empirical and physics-modeled dataset of 1,200 sourdough baking parameter combinations across 6 flour classes, 10 hydration levels (62%-90%), 5 starter inoculation ratios (10%-30%), and 4 ambient temperatures (68F-82F). Powered by SourdoughCalc (https://sourdoughcalc.app).",
+  "publication_date": "2026-10-22",
+  "title": "Mass-Balance Hydration Correction, Multi-Flour Farinograph Weighting, and Thermodynamic Phase-Change Modelling in Artisan Sourdough Fermentation (60-Cultivar Benchmark Dataset)",
   "creators": [
     {
       "name": "Vance, Julian",
-      "affiliation": "SourdoughCalc Artisan Baking & Cereal Rheology Lab (https://sourdoughcalc.app)"
+      "affiliation": "Open Bread Lab & SourdoughCalc Computational Rheology Group"
     }
   ],
-  "license": "CC-BY-4.0",
+  "description": "<p>Empirical 60-cultivar cereal chemistry and sourdough rheology benchmark dataset accompanying the technical monograph <em>Mass-Balance Hydration Correction, Multi-Flour Farinograph Weighting, and Thermodynamic Phase-Change Modelling in Artisan Sourdough Fermentation</em>. The dataset standardizes dry-basis protein content, mineral ash percentage (AACC Method 08-01.01), Hagberg-Perten Falling Number (AACC Method 56-81.03), Brabender Farinograph 500 BU baseline water absorption (AACC Method 54-21.02), recommended sourdough hydration bounds, true mass-balance hydration corrections at 20% levain inoculation, Arrhenius fermentation rate coefficients (18&deg;C, 24&deg;C, 28&deg;C), and gluten extensibility indices across 60 global commercial and artisan flour cultivars.</p><p><strong>Open-Access Interactive Reference Implementation &amp; Computational Solver:</strong> <a href=\"https://sourdoughcalc.app\">https://sourdoughcalc.app</a></p><p><strong>Component Solvers:</strong></p><ul><li>True Mass-Balance Baker's Percentage &amp; Multi-Flour Farinograph Solver: <a href=\"https://sourdoughcalc.app/calculators/bakers-percentage-calculator\">https://sourdoughcalc.app/calculators/bakers-percentage-calculator</a></li><li>Four-Factor Enthalpy &amp; Latent Heat of Ice Fusion (79.72 cal/g) DDT Solver: <a href=\"https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator\">https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator</a></li><li>Arrhenius Bulk Fermentation Kinetics &amp; Frustum Vessel Volumetric-to-Linear Rise Solver: <a href=\"https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator\">https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator</a></li></ul>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "version": "1.2.0",
   "keywords": [
-    "sourdough",
-    "sourdough calculator",
-    "bakers percentage",
-    "dough rheology",
-    "flour absorption",
+    "cereal chemistry",
+    "sourdough fermentation",
+    "farinograph water absorption",
+    "AACC 54-21",
+    "bakers percentage mass balance",
     "desired dough temperature",
-    "food science"
+    "latent heat of fusion",
+    "arrhenius fermentation kinetics",
+    "food physics",
+    "computational rheology"
   ],
   "related_identifiers": [
     {
       "identifier": "https://sourdoughcalc.app",
-      "relation": "isSupplementTo",
+      "relation": "isSupplementedBy",
+      "resource_type": "software",
       "scheme": "url"
     },
     {
-      "identifier": "https://sourdoughcalc.app/articles/best-sourdough-calculators-tested-2026",
-      "relation": "isCitedBy",
+      "identifier": "https://sourdoughcalc.app/calculators/bakers-percentage-calculator",
+      "relation": "isSupplementedBy",
+      "resource_type": "software",
       "scheme": "url"
+    },
+    {
+      "identifier": "https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator",
+      "relation": "isSupplementedBy",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator",
+      "relation": "isSupplementedBy",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/forestelf/sourdough-physics",
+      "relation": "isCompiledBy",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "SourdoughCalc Computational Rheology Group",
+      "affiliation": "Open Bread Lab",
+      "type": "ResearchGroup"
     }
   ]
 }
