@@ -192,3 +192,15 @@ licensable `ImageObject` schema:
 - [Sourdough Starter Feeding Ratios Explained: 1:1:1 vs. 1:2:2 vs. 1:5:5 Peak Time & Acidity Chart](https://sourdoughcalc.app/articles/sourdough-starter-feeding-ratios-1-1-1-vs-1-5-5?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 - [How to Add Sourdough Discard to Any Recipe: Flour, Liquid & Baking Soda Subtraction Chart](https://sourdoughcalc.app/articles/sourdough-discard-substitution-math-and-acid-chemistry?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 - [Tangzhong & Yudane Sourdough Science: How Starch Gelatinization Makes Soft Brioche, Shokupan & Cinnamon Rolls](https://sourdoughcalc.app/articles/tangzhong-and-yudane-enriched-sourdough-science?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+
+## 7. 2026 Industry Statistics, Benchmark Matrix & Cereal Science Monographs
+
+- [2026 Sourdough & Artisan Bread Industry Statistics (Top 15 US Cities Study)](https://sourdoughcalc.app/statistics?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [Best Sourdough Calculators 2026: 5-Tool Lab Bench Comparison Matrix](https://sourdoughcalc.app/compare/best-sourdough-calculators-2026?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [Baker's Percentages & Bread Hydration Ratios: Mathematical Reference](https://sourdoughcalc.app/guides/bakers-percentages-and-bread-hydration?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [Pre-ferment Biochemistry, Proofing Kinetics & Starch/Protein Change](https://sourdoughcalc.app/science/preferment-proofing-starch-protein-kinetics?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [Flour Rheology, Farinograph Water Absorption & Sourdough Starter Maintenance](https://sourdoughcalc.app/science/flour-rheology-farinograph-hydration-and-starter-maintenance?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [Kalicube Entity Home & Open-Physics Methodology](https://sourdoughcalc.app/about?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [Free Embeddable Sourdough Calculator Widget (`/embed`)](https://sourdoughcalc.app/embed?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [Interactive Cloud Micro-Tool: Yeast ↔ Levain & Ambient Fermentation Matrix](https://forestelf.github.io/sourdough-physics/yeast-levain-thermal-matrix.html)
+- [Open-Science Academic Whitepaper & 60-Flour Farinograph Dataset](https://forestelf.github.io/sourdough-physics/whitepaper.html)
