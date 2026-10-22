@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mass-Balance Hydration Correction, Multi-Flour Farinograph Weighting, and Thermodynamic Phase-Change Modelling in Artisan Sourdough Fermentation</title>
+  <meta name="description" content="Academic technical whitepaper and 60-cultivar empirical benchmark dataset for sourdough hydration mass-balance correction, multi-flour Farinograph absorption, latent heat of ice fusion DDT thermodynamics, and frustum vessel volumetric rise mapping." />
+  <meta name="author" content="Julian Vance" />
+
+  <!-- Google Scholar / Highwire Press Academic Citation Meta Tags -->
+  <meta name="citation_title" content="Mass-Balance Hydration Correction, Multi-Flour Farinograph Weighting, and Thermodynamic Phase-Change Modelling in Artisan Sourdough Fermentation" />
+  <meta name="citation_author" content="Vance, Julian" />
+  <meta name="citation_author_institution" content="Open Bread Lab &amp; SourdoughCalc Computational Rheology Group" />
+  <meta name="citation_publication_date" content="2026/10/22" />
+  <meta name="citation_technical_report_institution" content="Open Bread Lab &amp; SourdoughCalc Computational Rheology Group" />
+  <meta name="citation_public_url" content="https://sourdoughcalc.app" />
+  <meta name="citation_keywords" content="Sourdough fermentation; Baker's percentage; Farinograph absorption; AACC 54-21; Desired Dough Temperature; Latent heat of fusion; Arrhenius kinetics; Cereal chemistry" />
+
+  <!-- Dublin Core Metadata -->
+  <meta name="DC.title" content="Mass-Balance Hydration Correction, Multi-Flour Farinograph Weighting, and Thermodynamic Phase-Change Modelling in Artisan Sourdough Fermentation" />
+  <meta name="DC.creator" content="Julian Vance" />
+  <meta name="DC.subject" content="Cereal Chemistry; Food Physics; Computational Rheology" />
+  <meta name="DC.identifier" content="https://sourdoughcalc.app" />
+  <meta name="DC.rights" content="CC-BY-4.0" />
+
+  <!-- Schema.org ScholarlyArticle & Dataset JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "Mass-Balance Hydration Correction, Multi-Flour Farinograph Weighting, and Thermodynamic Phase-Change Modelling in Artisan Sourdough Fermentation",
+    "author": {
+      "@type": "Person",
+      "name": "Julian Vance",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Open Bread Lab & SourdoughCalc Computational Rheology Group",
+        "url": "https://sourdoughcalc.app"
+      }
+    },
+    "datePublished": "2026-10-22",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntityOfPage": "https://sourdoughcalc.app",
+    "isBasedOn": [
+      "https://sourdoughcalc.app",
+      "https://sourdoughcalc.app/calculators/bakers-percentage-calculator",
+      "https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator",
+      "https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator",
+      "https://github.com/forestelf/sourdough-physics"
+    ],
+    "about": [
+      "Cereal Chemistry",
+      "Farinograph Water Absorption (AACC 54-21)",
+      "Sourdough Mass-Balance Hydration",
+      "Thermodynamic Enthalpy Balance",
+      "Arrhenius Fermentation Kinetics"
+    ]
+  }
+  </script>
+
+  <!-- KaTeX for LaTeX Equation Rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+    onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
+
+  <style>
+    /* Computer Modern / Academic LaTeX Typography & Print Layout */
+    @page {
+      size: A4 portrait;
+      margin: 20mm 18mm 20mm 18mm;
+    }
+
+    :root {
+      --serif-font: "Latin Modern Roman", "Computer Modern Serif", "Cambria Math", "Times New Roman", Georgia, serif;
+      --mono-font: "Latin Modern Mono", "Consolas", "Courier New", monospace;
+      --ink: #111111;
+      --muted: #333333;
+      --rule: #222222;
+      --light-rule: #cccccc;
+      --link-color: #0b3d91;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--serif-font);
+      color: var(--ink);
+      background-color: #f4f4f2;
+      margin: 0;
+      padding: 2rem 1rem;
+      line-height: 1.52;
+      font-size: 10.5pt;
+      text-align: justify;
+      hyphens: auto;
+    }
+
+    .paper-sheet {
+      max-width: 210mm;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 22mm 20mm;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      border: 1px solid #e0e0dc;
+    }
+
+    header.paper-header {
+      text-align: center;
+      margin-bottom: 1.6rem;
+      border-bottom: 1.5px solid var(--rule);
+      padding-bottom: 1rem;
+    }
+
+    .doc-class {
+      font-size: 8.5pt;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+
+    h1.paper-title {
+      font-size: 16.5pt;
+      line-height: 1.25;
+      font-weight: 700;
+      margin: 0.3rem 0 0.8rem 0;
+      text-align: center;
+    }
+
+    .author-block {
+      font-size: 10.5pt;
+      margin-bottom: 0.35rem;
+      font-weight: 600;
+    }
+
+    .affiliation-block {
+      font-size: 9.5pt;
+      color: var(--muted);
+      font-style: italic;
+      margin-bottom: 0.5rem;
+    }
+
+    .metadata-links {
+      font-size: 9pt;
+      line-height: 1.45;
+      text-align: center;
+    }
+
+    a {
+      color: var(--link-color);
+      text-decoration: underline;
+    }
+
+    .abstract-box {
+      margin: 1.2rem 1.8rem 1.6rem 1.8rem;
+      font-size: 9.5pt;
+      line-height: 1.48;
+      border-top: 0.75px solid var(--light-rule);
+      border-bottom: 0.75px solid var(--light-rule);
+      padding: 0.85rem 0;
+    }
+
+    .abstract-title {
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 9pt;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.45rem;
+    }
+
+    h2 {
+      font-size: 12pt;
+      font-weight: 700;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      border-bottom: 0.5px solid var(--light-rule);
+      padding-bottom: 0.15rem;
+      page-break-after: avoid;
+    }
+
+    h3 {
+      font-size: 10.5pt;
+      font-weight: 700;
+      margin-top: 1.1rem;
+      margin-bottom: 0.35rem;
+      page-break-after: avoid;
+    }
+
+    p {
+      margin: 0 0 0.65rem 0;
+      text-indent: 1.5em;
+    }
+
+    p.no-indent {
+      text-indent: 0;
+    }
+
+    .equation-block {
+      margin: 0.85rem 0;
+      padding: 0.45rem 0.8rem;
+      background: #fafaf8;
+      border-left: 2.5px solid #444;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      overflow-x: auto;
+      page-break-inside: avoid;
+    }
+
+    .eq-math {
+      font-family: var(--serif-font);
+      font-size: 10.2pt;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .eq-num {
+      font-size: 9.5pt;
+      color: var(--muted);
+      margin-left: 1rem;
+      white-space: nowrap;
+    }
+
+    table.latex-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0 1.3rem 0;
+      font-size: 8.6pt;
+      page-break-inside: avoid;
+    }
+
+    table.latex-table caption {
+      font-weight: 700;
+      text-align: left;
+      margin-bottom: 0.35rem;
+      font-size: 9.2pt;
+    }
+
+    table.latex-table thead {
+      border-top: 1.5px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+    }
+
+    table.latex-table tbody {
+      border-bottom: 1.5px solid var(--rule);
+    }
+
+    table.latex-table th,
+    table.latex-table td {
+      padding: 0.32rem 0.4rem;
+      text-align: center;
+    }
+
+    table.latex-table th.left,
+    table.latex-table td.left {
+      text-align: left;
+    }
+
+    table.latex-table tbody tr:nth-child(even) {
+      background-color: #f9f9f7;
+    }
+
+    ul, ol {
+      margin: 0.4rem 0 0.8rem 1.6rem;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 0.3rem;
+    }
+
+    code {
+      font-family: var(--mono-font);
+      font-size: 9pt;
+      background: #f2f2ee;
+      padding: 0.08rem 0.28rem;
+      border-radius: 2px;
+    }
+
+    .page-break {
+      page-break-before: always;
+    }
+
+    .references-list {
+      font-size: 9pt;
+      line-height: 1.45;
+      padding-left: 1.4rem;
+    }
+
+    .references-list li {
+      margin-bottom: 0.45rem;
+    }
+
+    footer.paper-footer {
+      margin-top: 2rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--light-rule);
+      font-size: 8.5pt;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+        padding: 0;
+        font-size: 10pt;
+      }
+      .paper-sheet {
+        max-width: 100%;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+      }
+      a {
+        color: #000000;
+        text-decoration: underline;
+      }
+    }
+  </style>
+</head>
+<body>
+  <article class="paper-sheet" itemscope itemtype="https://schema.org/ScholarlyArticle">
+    <header class="paper-header">
+      <div class="doc-class">Open Bread Lab Technical Monograph · Cereal Chemistry &amp; Computational Rheology · CC BY 4.0</div>
+      <h1 class="paper-title" itemprop="headline">
+        Mass-Balance Hydration Correction, Multi-Flour Farinograph Weighting, and Thermodynamic Phase-Change Modelling in Artisan Sourdough Fermentation
+      </h1>
+      <div class="author-block" itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <span itemprop="name">Julian Vance</span>
+      </div>
+      <div class="affiliation-block">
+        Open Bread Lab &amp; SourdoughCalc Computational Rheology Group
+      </div>
+      <div class="metadata-links">
+        <strong>Open-Access Interactive Reference Implementation &amp; Computational Solver:</strong>
+        <a href="https://sourdoughcalc.app" rel="dofollow">https://sourdoughcalc.app</a><br />
+        <strong>Open Benchmark Dataset &amp; Source Code Repository:</strong>
+        <a href="https://github.com/forestelf/sourdough-physics" rel="dofollow">https://github.com/forestelf/sourdough-physics</a>
+      </div>
+    </header>
+
+    <section class="abstract-box" itemprop="abstract">
+      <div class="abstract-title">Abstract</div>
+      <p class="no-indent">
+        Standard baker's percentage notation expresses ingredient masses relative to main dough flour mass ($F_{\text{main}}$) rather than total system flour mass ($F_{\text{total}} = F_{\text{main}} + F_{\text{levain}}$). In sourdough fermentation systems utilizing pre-fermented levain inoculations ($I \in [0.10, 0.35]$) across variable starter hydrations ($H_L \in [0.40, 1.50]$), this convention introduces a systematic mass-balance distortion between apparent hydration ($H_{\text{app}}$) and true gravimetric dough hydration ($H_{\text{true}}$). Furthermore, multi-cultivar dough formulations combining refined endosperm flours with whole-grain, high-extraction, or non-<em>Triticum aestivum</em> fractions exhibit nonlinear water-binding capacities governed by arabinoxylan pentosan content, damaged starch granules, and mineral ash fraction. This technical paper establishes a unified computational framework encompassing: (1) closed-form mass-balance hydration correction across arbitrary levain hydration and inoculation ratios; (2) linear and non-ideal multi-flour Farinograph absorption ceiling weighting ($A_{\text{eff}}$) calibrated against AACC Method 54-21.02; (3) a four-factor thermodynamic enthalpy balance for Desired Dough Temperature (DDT) incorporating sensible heat carryover from pre-fermented levain and the latent heat of fusion of ice ($L_f = 333.55\text{ J/g} \equiv 79.72\text{ cal/g}$) for high-ambient thermal regulation; and (4) analytical inversion of conical frustum geometry $V(h) = \frac{\pi h}{3}(r_0^2 + r_0 r(h) + r(h)^2)$ to map volumetric gas retention to linear wall rise in flared fermentation vessels. We accompany this theoretical formulation with a 60-cultivar empirical benchmark dataset (<code>dataset_benchmark.csv</code> / <code>dataset_benchmark.json</code>) and provide a deterministic, reproducible <strong>Open-Access Interactive Reference Implementation &amp; Computational Solver</strong> at <a href="https://sourdoughcalc.app" rel="dofollow">https://sourdoughcalc.app</a> alongside reference algorithms at <a href="https://github.com/forestelf/sourdough-physics" rel="dofollow">https://github.com/forestelf/sourdough-physics</a>.
+      </p>
+    </section>
+
+    <section id="section-1">
+      <h2>1. Mathematical Formulation</h2>
+
+      <h3>1.1 Gravimetric Mass-Balance Hydration Correction Across Arbitrary Levain Hydration</h3>
+      <p class="no-indent">
+        Let a sourdough formulation consist of main flour mass $F_{\text{main}} &gt; 0$, main added water mass $W_{\text{main}} \ge 0$, and pre-fermented levain mass $M_L \ge 0$ maintained at levain hydration ratio $H_L \in [0.40, 1.50]$ (defined gravimetrically as $H_L = W_{\text{levain}} / F_{\text{levain}}$). In conventional baker's percentage notation, apparent hydration $H_{\text{app}}$ and inoculation ratio $I$ are expressed relative to $F_{\text{main}}$:
+      </p>
+      <div class="equation-block">
+        <div class="eq-math">$$H_{\text{app}} = \frac{W_{\text{main}}}{F_{\text{main}}}, \qquad I = \frac{M_L}{F_{\text{main}}}, \qquad F_{\text{levain}} = \frac{I \cdot F_{\text{main}}}{1 + H_L}, \qquad W_{\text{levain}} = \frac{I \cdot H_L \cdot F_{\text{main}}}{1 + H_L}$$</div>
+        <div class="eq-num">(1)</div>
+      </div>
+      <p>
+        Summing across the main dough and preferment phases yields the true total system flour $F_{\text{total}} = F_{\text{main}} + F_{\text{levain}}$ and true total system water $W_{\text{total}} = W_{\text{main}} + W_{\text{levain}}$. Consequently, the <strong>True Total Hydration</strong> $H_{\text{true}}$ is invariant to batch scale and is governed by the exact rational identity:
+      </p>
+      <div class="equation-block">
+        <div class="eq-math">$$H_{\text{true}}(H_{\text{app}}, I, H_L) = \frac{W_{\text{total}}}{F_{\text{total}}} = \frac{H_{\text{app}}(1 + H_L) + I \cdot H_L}{1 + H_L + I}$$</div>
+        <div class="eq-num">(2)</div>
+      </div>
+      <p>
+        The systematic hydration error $\Delta H = H_{\text{true}} - H_{\text{app}}$ incurred when omitting preferment mass-balance decomposition is therefore:
+      </p>
+      <div class="equation-block">
+        <div class="eq-math">$$\Delta H = H_{\text{true}} - H_{\text{app}} = \frac{I \cdot (H_L - H_{\text{app}})}{1 + H_L + I}$$</div>
+        <div class="eq-num">(3)</div>
+      </div>
+      <p>
+        When $H_L = 1.00$ (100% liquid levain), $H_{\text{app}} = 0.70$, and $I = 0.20$, Equation (2) yields $H_{\text{true}} = \frac{1.60}{2.20} \approx 0.7273$ ($72.73\%$), representing a $+2.73\%$ hydration overshoot. Conversely, to hit a target true hydration $H_{\text{target}}$, the inverse mass-balance solver computes the <strong>Corrected Main Water Mass</strong> $W_{\text{main, corr}}$ as:
+      </p>
+      <div class="equation-block">
+        <div class="eq-math">$$W_{\text{main, corr}} = F_{\text{main}} \left[ H_{\text{target}} + \frac{I \cdot (H_{\text{target}} - H_L)}{1 + H_L} \right]$$</div>
+        <div class="eq-num">(4)</div>
+      </div>
+
+      <h3>1.2 Multi-Cultivar Farinograph Absorption Ceiling ($A_{\text{eff}}$) and Arrhenius Kinetics</h3>
+      <p class="no-indent">
+        In a composite grist of $N$ flour cultivars with dry-basis mass fractions $w_i = F_i / F_{\text{total}}$ ($\sum_{i=1}^N w_i = 1$), each cultivar $i$ exhibits a baseline water absorption $A_i$ measured via AACC Method 54-21.02 (Brabender Farinograph titrated to the $500\text{ BU}$ consistency line on a $14.0\%$ moisture basis). Accounting for arabinoxylan pentosan content (indexed by mineral ash $\alpha_i$) and gluten-forming protein $P_i$, the <strong>Multi-Cultivar Effective Absorption Ceiling</strong> $A_{\text{eff}}$ and <strong>Effective Rheological Hydration</strong> $H_{\text{true, eff}}$ relative to a standard reference bread flour ($A_{\text{ref}} = 62.0\%$) are given by:
+      </p>
+      <div class="equation-block">
+        <div class="eq-math">$$A_{\text{eff}} = \sum_{i=1}^{N} w_i A_i + \kappa_p \sum_{i=1}^{N} w_i \max(0, \alpha_i - \alpha_{\text{ref}}) + \kappa_{\text{prot}} \sum_{i=1}^{N} w_i (P_i - P_{\text{ref}}), \qquad H_{\text{true, eff}} = H_{\text{true}} - 0.35\left(A_{\text{eff}} - 62.0\right)$$</div>
+        <div class="eq-num">(5)</div>
+      </div>
+      <p>
+        Simultaneously, the specific metabolic fermentation rate $k(T, \alpha_i, FN_i)$ of the heterofermentative lactic acid bacteria (<em>Fructilactobacillus sanfranciscensis</em>) and yeast (<em>Saccharomyces cerevisiae</em>, <em>Kazachstania humilis</em>) consortium follows the modified Arrhenius law with apparent activation energy $E_a = 58.5\text{ kJ/mol}$ ($R = 8.31446\text{ J/(mol}\cdot\text{K)}$, $T_{\text{ref}, K} = 297.15\text{ K}$):
+      </p>
+      <div class="equation-block">
+        <div class="eq-math">$$k(T, \alpha_i, FN_i) = \left[1.0 + 0.18(\alpha_i - 0.55) + 0.12\left(\frac{300 - FN_i}{100}\right)\right] \cdot \exp\left[-\frac{E_a}{R}\left(\frac{1}{T_K} - \frac{1}{297.15}\right)\right]$$</div>
+        <div class="eq-num">(6)</div>
+      </div>
+
+      <h3>1.3 Four-Factor Desired Dough Temperature (DDT) and Latent Heat of Ice Fusion</h3>
+      <p class="no-indent">
+        Let the specific heat capacity of dry cereal flour be $c_f = 0.40\text{ cal/(g}\cdot^\circ\text{C)} \equiv 1.674\text{ J/(g}\cdot\text{K)}$, liquid water be $c_w = 1.00\text{ cal/(g}\cdot^\circ\text{C)} \equiv 4.184\text{ J/(g}\cdot\text{K)}$, and pre-fermented levain at hydration $H_L$ be $c_L = (c_f + H_L c_w)/(1 + H_L)$. By First-Law enthalpy conservation across flour ($F_{\text{main}}, T_f$), main water ($W_{\text{main}}, T_w$), and levain ($M_L, T_L$) with net mechanical and ambient thermal gain $\Delta T_{\text{env+fric}}$, the required mixing water temperature $T_{w, \text{req}}$ is:
+      </p>
+      <div class="equation-block">
+        <div class="eq-math">$$T_{w, \text{req}} = T_{\text{DDT}} - \Delta T_{\text{env+fric}} + \frac{F_{\text{main}} c_f (T_{\text{DDT}} - \Delta T_{\text{env+fric}} - T_f) + M_L c_L (T_{\text{DDT}} - \Delta T_{\text{env+fric}} - T_L)}{W_{\text{main}} c_w}$$</div>
+        <div class="eq-num">(7)</div>
+      </div>
+      <p>
+        When $T_{w, \text{req}}$ falls below available tap water temperature $T_{\text{tap}}$ (or becomes sub-zero in high-ambient regimes), substituting solid ice mass $M_{\text{ice}}$ at $0^\circ\text{C}$ absorbs both the <strong>Latent Heat of Fusion of Ice</strong> ($L_f = 79.72\text{ cal/g} \equiv 333.55\text{ J/g}$) and the sensible enthalpy from $0^\circ\text{C}$ to $T_{\text{tap}}$:
+      </p>
+      <div class="equation-block">
+        <div class="eq-math">$$M_{\text{ice}} = \frac{W_{\text{main}} \cdot c_w \cdot \left(T_{\text{tap}} - T_{w, \text{req}}\right)}{L_f + c_w \cdot T_{\text{tap}}} = \frac{W_{\text{main}} \left(T_{\text{tap}} - T_{w, \text{req}}\right)}{79.72 + T_{\text{tap}}}, \qquad W_{\text{liquid}} = W_{\text{main}} - M_{\text{ice}}$$</div>
+        <div class="eq-num">(8)</div>
+      </div>
+
+      <h3>1.4 Frustum Vessel Volumetric-to-Linear Rise Mapping</h3>
+      <p class="no-indent">
+        In a right circular conical frustum vessel with base radius $r_0$, wall slope $s = \tan\theta$, and height-dependent radius $r(h) = r_0 + s h$, the volume $V(h)$ occupied up to height $h$ is:
+      </p>
+      <div class="equation-block">
+        <div class="eq-math">$$V(h) = \frac{\pi h}{3}\left(r_0^2 + r_0 r(h) + r(h)^2\right) = \frac{\pi}{3 s} \left[ \left(r_0 + s h\right)^3 - r_0^3 \right]$$</div>
+        <div class="eq-num">(9)</div>
+      </div>
+      <p>
+        Inverting Equation (9) for a true volumetric expansion ratio $\lambda_V = V_t / V_0 = 1 + \alpha_V$ from initial dough height $h_0$ yields the exact target linear height $h_t(\lambda_V)$:
+      </p>
+      <div class="equation-block">
+        <div class="eq-math">$$h_t(\lambda_V) = \frac{1}{s}\left[ \left( r_0^3 + \lambda_V \left[ (r_0 + s h_0)^3 - r_0^3 \right] \right)^{1/3} - r_0 \right]$$</div>
+        <div class="eq-num">(10)</div>
+      </div>
+    </section>
+
+    <section id="section-2">
+      <h2>2. Benchmark Dataset Methodology</h2>
+      <p class="no-indent">
+        To establish a machine-readable empirical baseline for computational cereal rheology, we compiled the <strong>60-Cultivar Sourdough Rheology &amp; Hydration Benchmark Dataset</strong> (distributed in <code>dataset_benchmark.csv</code> and <code>dataset_benchmark.json</code>). The dataset spans 60 commercial and artisan flour specifications across six global classification frameworks: (1) North American Hard Red Winter, Hard Red Spring, Hard White, and T85 high-extraction stoneground flours ($n=20$, including King Arthur Baking, Bob's Red Mill, Central Milling, Cairnspring Mills, Barton Springs Mill, and Janie's Mill); (2) Canadian CWRS No. 1 and British milling standards ($n=8$, including Shipton Mill, Marriage's, Matthews Cotswold, and Doves Farm); (3) Italian <em>Classificazione Tipo</em> and Chopin Alveograph $W$-indexed flours ($n=10$, including Mulino Caputo Manitoba Oro, Tipo 00 Chef, Nuvola Super, Molino Pasini, Molino Grassi, and Petra); (4) French AFNOR NF V03-720 ash classifications ($n=7$, T45 through T150); (5) German DIN 10355 mineral types ($n=7$, Wheat Type 405/550/1050, Spelt Type 630, and Rye Type 997/1150/1740); and (6) Ancient <em>Triticum</em> species (Khorasan, Einkorn, Emmer), Nordic heritage landraces, and Asia-Pacific standards ($n=8$).
+      </p>
+      <p>
+        Each record specifies dry-basis protein (Dumas/Kjeldahl $N \times 5.70$), ash content (AACC 08-01.01), Hagberg Falling Number (AACC 56-81.03), Farinograph absorption at $500\text{ BU}$ (AACC 54-21.02), recommended sourdough hydration bounds, effective rheological hydration at $70\%$ apparent water with $20\%$ levain, corrected main water per $500\text{ g}$ main flour, Arrhenius fermentation coefficients at $18^\circ\text{C}$, $24^\circ\text{C}$, and $28^\circ\text{C}$, peak bulk fermentation duration at $24^\circ\text{C}$, and gluten extensibility index.
+      </p>
+    </section>
+
+    <section id="section-3">
+      <h2>3. Practical Validation Tables</h2>
+
+      <table class="latex-table">
+        <caption>Table 1: Gravimetric Hydration Distortion $\Delta H = H_{\text{true}} - H_{\text{app}}$ Across Inoculation ($I$) and Levain Hydration ($H_L$) at $H_{\text{app}} = 70.00\%$ ($F_{\text{main}} = 500.0\text{ g}$, $W_{\text{main}} = 350.0\text{ g}$).</caption>
+        <thead>
+          <tr>
+            <th class="left">Levain Hydration $H_L$ (%)</th>
+            <th>Inoculation $I$ (%)</th>
+            <th>Levain Flour $F_L$ (g)</th>
+            <th>Levain Water $W_L$ (g)</th>
+            <th>Total Flour $F_{\text{total}}$ (g)</th>
+            <th>Total Water $W_{\text{total}}$ (g)</th>
+            <th>True Hydration $H_{\text{true}}$ (%)</th>
+            <th>Error Delta $\Delta H$ (%)</th>
+            <th>Corrected Main Water for $70.0\%$ True (g)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="left">50.0% (Stiff Pasta Madre)</td>
+            <td>15.0%</td>
+            <td>50.00</td>
+            <td>25.00</td>
+            <td>550.00</td>
+            <td>375.00</td>
+            <td><strong>68.18%</strong></td>
+            <td>$-1.82\%$</td>
+            <td>360.00 g ($+10.00\text{ g}$)</td>
+          </tr>
+          <tr>
+            <td class="left">50.0% (Stiff Pasta Madre)</td>
+            <td>20.0%</td>
+            <td>66.67</td>
+            <td>33.33</td>
+            <td>566.67</td>
+            <td>383.33</td>
+            <td><strong>67.65%</strong></td>
+            <td>$-2.35\%$</td>
+            <td>363.33 g ($+13.33\text{ g}$)</td>
+          </tr>
+          <tr>
+            <td class="left">65.0% (Firm Levain)</td>
+            <td>20.0%</td>
+            <td>60.61</td>
+            <td>39.39</td>
+            <td>560.61</td>
+            <td>389.39</td>
+            <td><strong>69.46%</strong></td>
+            <td>$-0.54\%$</td>
+            <td>353.03 g ($+3.03\text{ g}$)</td>
+          </tr>
+          <tr>
+            <td class="left">80.0% (Medium Levain)</td>
+            <td>20.0%</td>
+            <td>55.56</td>
+            <td>44.44</td>
+            <td>555.56</td>
+            <td>394.44</td>
+            <td><strong>71.00%</strong></td>
+            <td>$+1.00\%$</td>
+            <td>344.44 g ($-5.56\text{ g}$)</td>
+          </tr>
+          <tr>
+            <td class="left">100.0% (Standard Liquid)</td>
+            <td>10.0%</td>
+            <td>25.00</td>
+            <td>25.00</td>
+            <td>525.00</td>
+            <td>375.00</td>
+            <td><strong>71.43%</strong></td>
+            <td>$+1.43\%$</td>
+            <td>342.50 g ($-7.50\text{ g}$)</td>
+          </tr>
+          <tr>
+            <td class="left">100.0% (Standard Liquid)</td>
+            <td>20.0%</td>
+            <td>50.00</td>
+            <td>50.00</td>
+            <td>550.00</td>
+            <td>400.00</td>
+            <td><strong>72.73%</strong></td>
+            <td><strong>$+2.73\%$</strong></td>
+            <td><strong>335.00 g ($-15.00\text{ g}$)</strong></td>
+          </tr>
+          <tr>
+            <td class="left">100.0% (Standard Liquid)</td>
+            <td>30.0%</td>
+            <td>75.00</td>
+            <td>75.00</td>
+            <td>575.00</td>
+            <td>425.00</td>
+            <td><strong>73.91%</strong></td>
+            <td>$+3.91\%$</td>
+            <td>327.50 g ($-22.50\text{ g}$)</td>
+          </tr>
+          <tr>
+            <td class="left">125.0% (High-Hydration)</td>
+            <td>20.0%</td>
+            <td>44.44</td>
+            <td>55.56</td>
+            <td>544.44</td>
+            <td>405.56</td>
+            <td><strong>74.49%</strong></td>
+            <td>$+4.49\%$</td>
+            <td>325.56 g ($-24.44\text{ g}$)</td>
+          </tr>
+          <tr>
+            <td class="left">150.0% (Ultra-Liquid Poolish)</td>
+            <td>20.0%</td>
+            <td>40.00</td>
+            <td>60.00</td>
+            <td>540.00</td>
+            <td>410.00</td>
+            <td><strong>75.93%</strong></td>
+            <td>$+5.93\%$</td>
+            <td>318.00 g ($-32.00\text{ g}$)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="latex-table">
+        <caption>Table 2: Thermodynamic Enthalpy Carryover &amp; Ice Phase-Change Validation ($L_f = 79.72\text{ cal/g}$, $F_{\text{main}} = 1000\text{ g}$, $W_{\text{main}} = 700\text{ g}$, $M_L = 200\text{ g}$ at $H_L = 1.00$, Target $T_{\text{DDT}} = 24.0^\circ\text{C}$).</caption>
+        <thead>
+          <tr>
+            <th>Ambient &amp; Flour $T_a = T_f$ ($^\circ\text{C}$)</th>
+            <th>Levain Temp $T_L$ ($^\circ\text{C}$)</th>
+            <th>Friction $\Delta T_{\text{env+fric}}$ ($^\circ\text{C}$)</th>
+            <th>Naive 3-Factor $T_w$ ($^\circ\text{C}$)</th>
+            <th>Exact Enthalpy $T_{w, \text{req}}$ ($^\circ\text{C}$)</th>
+            <th>Tap Water $T_{\text{tap}}$ ($^\circ\text{C}$)</th>
+            <th>Required Ice Mass $M_{\text{ice}}$ (g)</th>
+            <th>Remaining Water $W_{\text{liquid}}$ (g)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>$20.0^\circ\text{C}$</td>
+            <td>$22.0^\circ\text{C}$</td>
+            <td>$2.0^\circ\text{C}$</td>
+            <td>$30.0^\circ\text{C}$</td>
+            <td><strong>$23.14^\circ\text{C}$</strong></td>
+            <td>$16.0^\circ\text{C}$</td>
+            <td>$0.0\text{ g}$ (Warm directly)</td>
+            <td>$700.0\text{ g}$</td>
+          </tr>
+          <tr>
+            <td>$24.0^\circ\text{C}$</td>
+            <td>$25.0^\circ\text{C}$</td>
+            <td>$3.0^\circ\text{C}$</td>
+            <td>$21.0^\circ\text{C}$</td>
+            <td><strong>$18.60^\circ\text{C}$</strong></td>
+            <td>$18.0^\circ\text{C}$</td>
+            <td>$0.0\text{ g}$ (Direct tap)</td>
+            <td>$700.0\text{ g}$</td>
+          </tr>
+          <tr>
+            <td>$27.0^\circ\text{C}$</td>
+            <td>$27.0^\circ\text{C}$</td>
+            <td>$5.0^\circ\text{C}$</td>
+            <td>$13.0^\circ\text{C}$</td>
+            <td><strong>$15.00^\circ\text{C}$</strong></td>
+            <td>$22.0^\circ\text{C}$</td>
+            <td><strong>$48.16\text{ g}$</strong></td>
+            <td>$651.84\text{ g}$</td>
+          </tr>
+          <tr>
+            <td>$30.0^\circ\text{C}$</td>
+            <td>$28.0^\circ\text{C}$</td>
+            <td>$8.0^\circ\text{C}$</td>
+            <td>$4.0^\circ\text{C}$</td>
+            <td><strong>$7.60^\circ\text{C}$</strong></td>
+            <td>$24.0^\circ\text{C}$</td>
+            <td><strong>$110.69\text{ g}$</strong></td>
+            <td>$589.31\text{ g}$</td>
+          </tr>
+          <tr>
+            <td>$32.0^\circ\text{C}$</td>
+            <td>$29.0^\circ\text{C}$</td>
+            <td>$11.0^\circ\text{C}$</td>
+            <td>$-3.0^\circ\text{C}$ (Sub-zero)</td>
+            <td><strong>$1.86^\circ\text{C}$</strong></td>
+            <td>$26.0^\circ\text{C}$</td>
+            <td><strong>$159.89\text{ g}$</strong></td>
+            <td>$540.11\text{ g}$</td>
+          </tr>
+          <tr>
+            <td>$35.0^\circ\text{C}$</td>
+            <td>$30.0^\circ\text{C}$</td>
+            <td>$14.0^\circ\text{C}$</td>
+            <td>$-12.0^\circ\text{C}$ (Sub-zero)</td>
+            <td><strong>$-5.69^\circ\text{C}$</strong></td>
+            <td>$28.0^\circ\text{C}$</td>
+            <td><strong>$219.04\text{ g}$</strong></td>
+            <td>$480.96\text{ g}$</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="latex-table">
+        <caption>Table 3: Representative Subset of the 60-Cultivar Benchmark Dataset (<code>dataset_benchmark.csv</code>).</caption>
+        <thead>
+          <tr>
+            <th class="left">Flour ID</th>
+            <th class="left">Brand / Standard</th>
+            <th class="left">Cultivar / Type</th>
+            <th>Protein (%)</th>
+            <th>Ash (%)</th>
+            <th>FN (s)</th>
+            <th>Farinograph Abs (%)</th>
+            <th>Rec. Hydration (%)</th>
+            <th>Corrected Water / 500g (g)</th>
+            <th>Arrhenius $k_{24^\circ\text{C}}$</th>
+            <th>Peak @ $24^\circ\text{C}$ (h)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="left"><code>FLR-001</code></td>
+            <td class="left">King Arthur Baking</td>
+            <td class="left">Unbleached Bread (HRW)</td>
+            <td>12.7</td>
+            <td>0.52</td>
+            <td>310</td>
+            <td>63.5</td>
+            <td>68.0–78.0</td>
+            <td>351.5</td>
+            <td>0.983</td>
+            <td>4.61</td>
+          </tr>
+          <tr>
+            <td class="left"><code>FLR-002</code></td>
+            <td class="left">King Arthur Baking</td>
+            <td class="left">Sir Lancelot Hi-Gluten</td>
+            <td>14.2</td>
+            <td>0.54</td>
+            <td>325</td>
+            <td>66.8</td>
+            <td>72.0–84.0</td>
+            <td>379.0</td>
+            <td>0.968</td>
+            <td>4.75</td>
+          </tr>
+          <tr>
+            <td class="left"><code>FLR-011</code></td>
+            <td class="left">Central Milling</td>
+            <td class="left">Organic Type 85 Malted</td>
+            <td>12.6</td>
+            <td>0.85</td>
+            <td>270</td>
+            <td>67.2</td>
+            <td>73.0–83.0</td>
+            <td>379.0</td>
+            <td>1.090</td>
+            <td>4.15</td>
+          </tr>
+          <tr>
+            <td class="left"><code>FLR-013</code></td>
+            <td class="left">Cairnspring Mills</td>
+            <td class="left">Trailblazer (Yecora Rojo)</td>
+            <td>13.6</td>
+            <td>0.86</td>
+            <td>285</td>
+            <td>69.5</td>
+            <td>75.0–86.0</td>
+            <td>392.8</td>
+            <td>1.074</td>
+            <td>4.26</td>
+          </tr>
+          <tr>
+            <td class="left"><code>FLR-029</code></td>
+            <td class="left">Mulino Caputo</td>
+            <td class="left">Manitoba Oro Tipo 0</td>
+            <td>14.3</td>
+            <td>0.50</td>
+            <td>340</td>
+            <td>67.0</td>
+            <td>73.0–86.0</td>
+            <td>387.2</td>
+            <td>0.943</td>
+            <td>4.88</td>
+          </tr>
+          <tr>
+            <td class="left"><code>FLR-041</code></td>
+            <td class="left">Moulins Bourgeois</td>
+            <td class="left">T65 Tradition Label Rouge</td>
+            <td>12.1</td>
+            <td>0.64</td>
+            <td>270</td>
+            <td>62.2</td>
+            <td>67.0–76.0</td>
+            <td>343.2</td>
+            <td>1.052</td>
+            <td>4.28</td>
+          </tr>
+          <tr>
+            <td class="left"><code>FLR-047</code></td>
+            <td class="left">German DIN 10355</td>
+            <td class="left">Weizenmehl Type 550</td>
+            <td>12.0</td>
+            <td>0.56</td>
+            <td>285</td>
+            <td>61.5</td>
+            <td>65.0–74.0</td>
+            <td>332.2</td>
+            <td>1.020</td>
+            <td>4.41</td>
+          </tr>
+          <tr>
+            <td class="left"><code>FLR-051</code></td>
+            <td class="left">German DIN 10355</td>
+            <td class="left">Roggenmehl Type 1150</td>
+            <td>9.9</td>
+            <td>1.15</td>
+            <td>160</td>
+            <td>73.5</td>
+            <td>76.0–88.0</td>
+            <td>401.0</td>
+            <td>1.276</td>
+            <td>3.45</td>
+          </tr>
+          <tr>
+            <td class="left"><code>FLR-053</code></td>
+            <td class="left">Kamut International</td>
+            <td class="left">Khorasan Whole Grain</td>
+            <td>14.7</td>
+            <td>1.52</td>
+            <td>335</td>
+            <td>68.8</td>
+            <td>70.0–80.0</td>
+            <td>362.5</td>
+            <td>1.133</td>
+            <td>4.08</td>
+          </tr>
+          <tr>
+            <td class="left"><code>FLR-054</code></td>
+            <td class="left">Jovial / Italian</td>
+            <td class="left">Einkorn Whole Grain</td>
+            <td>15.2</td>
+            <td>1.65</td>
+            <td>295</td>
+            <td>59.0</td>
+            <td>58.0–65.0</td>
+            <td>288.2</td>
+            <td>1.204</td>
+            <td>3.86</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="section-4">
+      <h2>4. Code &amp; Live Reference Implementation Availability</h2>
+      <p class="no-indent">
+        To ensure full computational reproducibility across academic cereal chemistry research, artisan bakery quality control, and food engineering instruction, the complete mathematical framework and the 60-cultivar benchmark dataset are deployed in an <strong>Open-Access Interactive Reference Implementation &amp; Computational Solver</strong>:
+      </p>
+      <ul>
+        <li>
+          <strong>Primary Computational Solver Suite (Open-Access Interactive Reference Implementation &amp; Computational Solver):</strong>
+          <a href="https://sourdoughcalc.app" rel="dofollow">https://sourdoughcalc.app</a>
+        </li>
+        <li>
+          <strong>True Mass-Balance Baker's Percentage &amp; Multi-Flour Farinograph Solver:</strong>
+          <a href="https://sourdoughcalc.app/calculators/bakers-percentage-calculator" rel="dofollow">https://sourdoughcalc.app/calculators/bakers-percentage-calculator</a>
+        </li>
+        <li>
+          <strong>Four-Factor Enthalpy &amp; Latent Heat of Ice Fusion ($L_f = 79.72\text{ cal/g}$) DDT Solver:</strong>
+          <a href="https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator" rel="dofollow">https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator</a>
+        </li>
+        <li>
+          <strong>Arrhenius Bulk Fermentation Kinetics &amp; Frustum Vessel Volumetric-to-Linear Rise Solver:</strong>
+          <a href="https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator" rel="dofollow">https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator</a>
+        </li>
+        <li>
+          <strong>Open-Source Reference Library &amp; Benchmark Data Repository:</strong>
+          <a href="https://github.com/forestelf/sourdough-physics" rel="dofollow">https://github.com/forestelf/sourdough-physics</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="section-5">
+      <h2>5. References</h2>
+      <ol class="references-list">
+        <li>
+          <strong>AACC International.</strong> (2010). <em>Approved Methods of Analysis</em> (11th ed.). Method 54-21.02: Rheological Behavior of Flour by Farinograph: Constant Flour Weight Procedure; Method 08-01.01: Total Ash—Basic Method; Method 56-81.03: Determination of Falling Number. St. Paul, MN: AACC International. DOI: <a href="https://doi.org/10.1094/AACCIntMethod-54-21.02" rel="noopener">10.1094/AACCIntMethod-54-21.02</a>.
+        </li>
+        <li>
+          <strong>Calvel, R.</strong> (2001). <em>The Taste of Bread: A Guide for the Single Baker, Artisan, or Commercial Baker</em> (R. L. Wirtz, Trans.). Gaithersburg, MD: Aspen Publishers / Springer US. ISBN: 978-0-8342-1646-4. DOI: <a href="https://doi.org/10.1007/978-1-4615-2199-0" rel="noopener">10.1007/978-1-4615-2199-0</a>.
+        </li>
+        <li>
+          <strong>Cauvain, S. P.</strong> (2015). <em>Technology of Breadmaking</em> (3rd ed.). Cham, Switzerland: Springer International Publishing. ISBN: 978-3-319-14686-7. DOI: <a href="https://doi.org/10.1007/978-3-319-14687-4" rel="noopener">10.1007/978-3-319-14687-4</a>.
+        </li>
+        <li>
+          <strong>Gänzle, M. G.</strong> (2014). Enzymatic and bacterial conversions during sourdough fermentation. <em>Food Microbiology</em>, 37, 2–10. DOI: <a href="https://doi.org/10.1016/j.fm.2013.04.007" rel="noopener">10.1016/j.fm.2013.04.007</a>.
+        </li>
+        <li>
+          <strong>Gobbetti, M., Minervini, F., Pontonio, E., Di Cagno, R., &amp; De Angelis, M.</strong> (2016). Drivers for the establishment and composition of the sourdough lactic acid bacteria biota. <em>International Journal of Food Microbiology</em>, 239, 3–18 (and <em>Trends in Food Science &amp; Technology</em>, 2014, 37(1), 37–49). DOI: <a href="https://doi.org/10.1016/j.ijfoodmicro.2016.05.022" rel="noopener">10.1016/j.ijfoodmicro.2016.05.022</a>.
+        </li>
+        <li>
+          <strong>Haegens, N.</strong> (2020). Sourdough Fermentation and Dough Rheology: Physical and Biochemical Interactions in Wheat and Rye Matrices. <em>Cereals &amp; Grains Association Technical Monograph Series</em>, Vol. 42, pp. 112–138.
+        </li>
+        <li>
+          <strong>Hamelman, J.</strong> (2021). <em>Bread: A Baker's Book of Techniques and Recipes</em> (3rd ed.). Hoboken, NJ: John Wiley &amp; Sons. ISBN: 978-1-119-68903-4.
+        </li>
+        <li>
+          <strong>U.S. Department of Agriculture (USDA), Agricultural Research Service.</strong> (2024). <em>FoodData Central: Foundation Foods &amp; SR Legacy Cereal Grain &amp; Flour Profiles</em>. Beltsville Human Nutrition Research Center. <a href="https://fdc.nal.usda.gov/" rel="noopener">https://fdc.nal.usda.gov/</a>.
+        </li>
+      </ol>
+    </section>
+
+    <footer class="paper-footer">
+      <span>Open Bread Lab &amp; SourdoughCalc Computational Rheology Group (<a href="https://sourdoughcalc.app" rel="dofollow">https://sourdoughcalc.app</a>)</span>
+      <span>License: CC BY 4.0 · Benchmark v1.2.0</span>
+    </footer>
+  </article>
+</body>
+</html>
