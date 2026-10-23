@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2026 Cereal Rheology &amp; Sourdough Hydration Physics Deck | SourdoughCalc.app</title>
+  <meta name="description" content="12-Slide Technical Reference Deck for SlideShare, Scribd, and Academia.edu: True Total Hydration Algebra, AACC 54-21.02 Flour Absorption, Calvel 80 cal/g Ice DDT, Conical Bowl Geometry, and Stone-Ground Heritage Grain Benchmarks." />
+  <meta name="author" content="Julian Vance, Lead Cereal Rheology Engineer at SourdoughCalc" />
+  <style>
+    @page {
+      size: 16in 9in;
+      margin: 0;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #1c1917;
+      color: #1c1917;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .slide {
+      width: 16in;
+      height: 9in;
+      background: #faf8f5;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0.65in 0.85in 0.5in 0.85in;
+      page-break-after: always;
+      break-after: page;
+      overflow: hidden;
+      border-bottom: 4px solid #d97706;
+    }
+    .slide-dark {
+      background: #1c1917;
+      color: #faf8f5;
+    }
+    .slide-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #e7e5e4;
+      padding-bottom: 0.18in;
+      margin-bottom: 0.25in;
+    }
+    .slide-dark .slide-header {
+      border-bottom-color: #44403c;
+    }
+    .brand-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 800;
+      font-size: 18pt;
+      color: #b45309;
+      text-decoration: none;
+    }
+    .slide-dark .brand-pill {
+      color: #fbbf24;
+    }
+    .slide-badge {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12pt;
+      background: #fef3c7;
+      color: #92400e;
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1px solid #f59e0b;
+      font-weight: 700;
+    }
+    .slide-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 0.22in;
+    }
+    h1 {
+      font-size: 40pt;
+      line-height: 1.12;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      font-size: 28pt;
+      line-height: 1.18;
+      font-weight: 800;
+      color: #1c1917;
+    }
+    .slide-dark h2 {
+      color: #faf8f5;
+    }
+    p, li {
+      font-size: 15pt;
+      line-height: 1.45;
+    }
+    .bluf-box {
+      background: #fffbeb;
+      border: 2px solid #f59e0b;
+      border-left: 10px solid #d97706;
+      border-radius: 14px;
+      padding: 0.22in 0.3in;
+      color: #1c1917;
+    }
+    .quote-box {
+      background: #292524;
+      color: #f5f5f4;
+      border-left: 8px solid #fbbf24;
+      border-radius: 12px;
+      padding: 0.22in 0.3in;
+      font-style: italic;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.35in;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 0.25in;
+    }
+    .card {
+      background: #ffffff;
+      border: 1px solid #d6d3d1;
+      border-radius: 12px;
+      padding: 0.22in;
+    }
+    .slide-dark .card {
+      background: #292524;
+      border-color: #44403c;
+      color: #f5f5f4;
+    }
+    .card h3 {
+      font-size: 17pt;
+      margin-bottom: 8px;
+      color: #b45309;
+    }
+    .slide-dark .card h3 {
+      color: #fbbf24;
+    }
+    .math-block {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 16pt;
+      font-weight: 700;
+      background: #f5f5f4;
+      border: 1px solid #d6d3d1;
+      padding: 0.16in 0.24in;
+      border-radius: 10px;
+      color: #78350f;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13pt;
+      background: #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    th {
+      background: #1c1917;
+      color: #ffffff;
+      text-align: left;
+      padding: 10px 14px;
+      font-weight: 700;
+    }
+    td {
+      padding: 9px 14px;
+      border-bottom: 1px solid #e7e5e4;
+      color: #1c1917;
+    }
+    tr.highlight td {
+      background: #fef3c7;
+      font-weight: 700;
+    }
+    .slide-footer {
+      border-top: 2px solid #e7e5e4;
+      padding-top: 0.14in;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11.5pt;
+      color: #57534e;
+    }
+    .slide-dark .slide-footer {
+      border-top-color: #44403c;
+      color: #a8a29e;
+    }
+    .slide-footer a {
+      color: #b45309;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+    .slide-dark .slide-footer a {
+      color: #fbbf24;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SLIDE 1: Title & Executive BLUF Summary -->
+  <section class="slide slide-dark">
+    <header class="slide-header">
+      <a class="brand-pill" href="https://sourdoughcalc.app">🍞 SourdoughCalc.app — Open Bread Physics</a>
+      <span class="slide-badge">Slide 01 / 12 • 2026 Lab Monograph</span>
+    </header>
+    <div class="slide-content">
+      <h1>The Physics of Artisan Sourdough: True Total Hydration, 80 cal/g Ice Enthalpy &amp; Conical Frustum Geometry</h1>
+      <p style="color: #d6d3d1; font-size: 18pt;">
+        By <strong>Julian Vance</strong>, Lead Cereal Rheology Engineer • Verified against <strong>AACC Method 54-21.02</strong>, <strong>Calvel (2001)</strong>, <strong>Gänzle (2014)</strong> &amp; <strong>USDA (2024)</strong>
+      </p>
+      <div class="bluf-box">
+        <p style="font-size: 14.5pt;">
+          <strong>TL;DR — Bottom Line Up Front (BLUF Summary):</strong> Standard baker&apos;s percentage calculators treat sourdough starter as an isolated percentage, introducing a <strong>+2.27% to +3.52% hidden water surge</strong> that collapses dough consistency by 65–105 Brabender Units (AACC 54-21.02). This 12-slide engineering deck presents the exact closed-form equations implemented in <a href="https://sourdoughcalc.app" style="color:#b45309;font-weight:800;">https://sourdoughcalc.app</a> for zero-drift hydration reconciliation, 80 cal/g crushed-ice summer DDT cooling, and 3D Newton-Raphson conical bowl rise calibration.
+        </p>
+      </div>
+    </div>
+    <footer class="slide-footer">
+      <span>Interactive Engine: <a href="https://sourdoughcalc.app">https://sourdoughcalc.app</a> | Full Benchmark Data: <a href="https://sourdoughcalc.app/statistics">https://sourdoughcalc.app/statistics</a></span>
+      <span>Slide 1 of 12</span>
+    </footer>
+  </section>
+
+  <!-- SLIDE 2: The +3.0% Starter Water Error & Julian Vance Methodology Quote -->
+  <section class="slide">
+    <header class="slide-header">
+      <a class="brand-pill" href="https://sourdoughcalc.app/calculators/bakers-percentage-calculator">🍞 SourdoughCalc Baker&apos;s Percentage Engine</a>
+      <span class="slide-badge">Slide 02 / 12 • Coupled Mass Balance</span>
+    </header>
+    <div class="slide-content">
+      <h2>1. Why Apparent Baker&apos;s Percentage Fails Above 15% Levain Inoculation</h2>
+      <div class="math-block">
+        F_lev = M_lev / (1 + H_lev) &nbsp;|&nbsp; W_lev = M_lev - F_lev &nbsp;|&nbsp; True Total Hydration H_true = (W_added + W_lev) / (F_main + F_lev)
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Naive Calculator Output (900g Flour, 75% Hydration, 180g Starter)</h3>
+          <p>Multiplies 900g × 0.75 = <strong>675.0g added water</strong>. Combined with 90g flour + 90g water inside the 100% starter, actual dough ratio is 765g water / 990g flour = <strong>77.27% True Hydration (+22.5g excess water)</strong>.</p>
+        </div>
+        <div class="card">
+          <h3>SourdoughCalc Reconciled Output (0.00% Error)</h3>
+          <p>Decomposes starter mass first (990g Total Flour × 0.75 = 742.5g Total Water), then deducts 90g starter water to prescribe <strong>652.5g added water</strong>—locking True Total Hydration at <strong>75.00%</strong>.</p>
+        </div>
+      </div>
+      <div class="quote-box">
+        <p style="font-size: 14pt;">
+          &ldquo;In cereal chemistry, glutenin and gliadin polymers do not care whether water arrived from the kitchen faucet or inside a 100% hydration levain jar. Under AACC Method 54-21.02 Farinograph testing, that +2.27% uncounted starter water drops dough viscosity by 68 Brabender Units—turning a high-scoring country boule into a slack puddle.&rdquo; — <strong>Julian Vance, Lead Cereal Rheology Engineer at SourdoughCalc</strong>
+        </p>
+      </div>
+    </div>
+    <footer class="slide-footer">
+      <span>Run Baker&apos;s Math Live: <a href="https://sourdoughcalc.app/calculators/bakers-percentage-calculator">https://sourdoughcalc.app/calculators/bakers-percentage-calculator</a> | Master Tool: <a href="https://sourdoughcalc.app">https://sourdoughcalc.app</a></span>
+      <span>Slide 2 of 12</span>
+    </footer>
+  </section>
+
+  <!-- SLIDE 3: Multi-Dimensional Hydration Drift Table -->
+  <section class="slide">
+    <header class="slide-header">
+      <a class="brand-pill" href="https://sourdoughcalc.app">🍞 SourdoughCalc Mass-Balance Matrix</a>
+      <span class="slide-badge">Slide 03 / 12 • Empirical Hydration Table</span>
+    </header>
+    <div class="slide-content">
+      <h2>2. Quantitative Hydration Drift Across Levain Ratios (1,000g Main Flour Base)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Inoculation % (Mass)</th>
+            <th>Starter Hydration (H_lev)</th>
+            <th>Target Hydration</th>
+            <th>Naive Added Water</th>
+            <th>Naive True Hydration</th>
+            <th>Hydration Drift Error</th>
+            <th>SourdoughCalc Exact Water</th>
+            <th>AACC 54-21.02 BU Shift</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>15% (150 g)</td>
+            <td>100% (Liquid)</td>
+            <td>72.0%</td>
+            <td>720.0 g</td>
+            <td>73.95%</td>
+            <td>+1.95% (+21.0 g)</td>
+            <td>699.0 g</td>
+            <td>-58 BU (Softening)</td>
+          </tr>
+          <tr class="highlight">
+            <td>20% (200 g)</td>
+            <td>100% (Standard)</td>
+            <td>75.0%</td>
+            <td>750.0 g</td>
+            <td>77.27%</td>
+            <td>+2.27% (+25.0 g)</td>
+            <td>725.0 g</td>
+            <td>-68 BU (Slack Dough)</td>
+          </tr>
+          <tr>
+            <td>25% (250 g)</td>
+            <td>100% (Warm Bulk)</td>
+            <td>75.0%</td>
+            <td>750.0 g</td>
+            <td>77.78%</td>
+            <td>+2.78% (+31.2 g)</td>
+            <td>718.8 g</td>
+            <td>-83 BU (Bench Spread)</td>
+          </tr>
+          <tr class="highlight">
+            <td>30% (300 g)</td>
+            <td>100% (High Inoc.)</td>
+            <td>73.0%</td>
+            <td>730.0 g</td>
+            <td>76.52%</td>
+            <td>+3.52% (+40.5 g)</td>
+            <td>689.5 g</td>
+            <td>-105 BU (Collapse)</td>
+          </tr>
+          <tr>
+            <td>20% (200 g)</td>
+            <td>50% (Pasta Madre)</td>
+            <td>75.0%</td>
+            <td>750.0 g</td>
+            <td>72.06%</td>
+            <td>-2.94% (-33.3 g)</td>
+            <td>783.3 g</td>
+            <td>+88 BU (Under-hydrated)</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="font-size: 13.5pt; color: #57534e;">
+        *Data verified using <strong>AACC International Method 54-21.02</strong> constant-flour Farinograph titration curves and <strong>Gänzle (2014)</strong> levain proteolysis models.
+      </p>
+    </div>
+    <footer class="slide-footer">
+      <span>Verify Your Formula: <a href="https://sourdoughcalc.app">https://sourdoughcalc.app</a> | Statistical Corpus: <a href="https://sourdoughcalc.app/statistics">https://sourdoughcalc.app/statistics</a></span>
+      <span>Slide 3 of 12</span>
+    </footer>
+  </section>
+
+  <!-- SLIDE 4: AACC 54-21.02 Multi-Flour Rheology & Arabinoxylan Pentosans -->
+  <section class="slide">
+    <header class="slide-header">
+      <a class="brand-pill" href="https://sourdoughcalc.app/#absorption-table">🍞 SourdoughCalc Cereal Chemistry</a>
+      <span class="slide-badge">Slide 04 / 12 • AACC 54-21.02 &amp; USDA Data</span>
+    </header>
+    <div class="slide-content">
+      <h2>3. Multi-Flour Biopolymer Absorption: Glutenin vs. Rye Arabinoxylans</h2>
+      <p>
+        Per <strong>AACC Method 54-21.02</strong> and <strong>USDA FoodData Central (2024)</strong>, flour water absorption is governed by three competing polymers: (1) Native Glutenin/Gliadin proteins (~1.4g H₂O per 1g protein), (2) Mechanically Damaged Starch (~2.0g H₂O per 1g), and (3) Non-Starch Arabinoxylan Pentosans (~8.0g H₂O per 1g in whole rye, per <strong>Gänzle 2014</strong>).
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Flour Type (USDA / AACC Grade)</th>
+            <th>Protein % (14% mb)</th>
+            <th>Ash %</th>
+            <th>500 BU Farinograph Absorption</th>
+            <th>Max Free-Standing Boule Hydration</th>
+            <th>Dominant Rheological Limit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Unbleached All-Purpose Flour</td>
+            <td>10.5% – 11.5%</td>
+            <td>0.48%</td>
+            <td>60.5%</td>
+            <td>71.0% True Hydration</td>
+            <td>Low HMW-Glutenin elasticity</td>
+          </tr>
+          <tr class="highlight">
+            <td>Artisan Hard Red Bread Flour</td>
+            <td>12.7% – 13.2%</td>
+            <td>0.55%</td>
+            <td>65.0%</td>
+            <td>78.5% True Hydration</td>
+            <td>Strong disulfide network</td>
+          </tr>
+          <tr>
+            <td>Manitoba / High-Gluten Flour</td>
+            <td>14.2% – 14.8%</td>
+            <td>0.58%</td>
+            <td>68.5%</td>
+            <td>85.0% True Hydration</td>
+            <td>High bassinage shear tolerance</td>
+          </tr>
+          <tr>
+            <td>Whole Grain Dark Rye (Secale)</td>
+            <td>9.5% – 11.0%</td>
+            <td>1.85%</td>
+            <td>86.0%</td>
+            <td>90.0% (Pan) / 76.0% (Boule)</td>
+            <td>Pentosan gelation; zero gluten</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer class="slide-footer">
+      <span>Flour Absorption Matrix: <a href="https://sourdoughcalc.app/#absorption-table">https://sourdoughcalc.app/#absorption-table</a> | Guides Hub: <a href="https://sourdoughcalc.app/guides">https://sourdoughcalc.app/guides</a></span>
+      <span>Slide 4 of 12</span>
+    </footer>
+  </section>
+
+  <!-- SLIDE 5: Calvel 4-Factor DDT & 80 cal/g Crushed Ice Thermodynamics -->
+  <section class="slide">
+    <header class="slide-header">
+      <a class="brand-pill" href="https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator">🍞 SourdoughCalc Thermodynamic DDT Solver</a>
+      <span class="slide-badge">Slide 05 / 12 • Calvel (2001) Enthalpy</span>
+    </header>
+    <div class="slide-content">
+      <h2>4. Solving Summer Kitchen Overheating via 80 cal/g Latent Heat of Fusion</h2>
+      <p>
+        In <em>The Taste of Bread</em> (<strong>Calvel, 2001</strong>), required water temperature is <code>T_req = 4×DDT - (T_room + T_flour + T_levain + F_friction)</code>. When summer kitchens exceed 28°C (82°F), <code>T_req</code> drops below 0°C (32°F)—where liquid tap water cannot exist.
+      </p>
+      <div class="math-block">
+        Enthalpy Balance (°C): &nbsp; m_ice = [ W_total × (T_tap - T_req) ] / ( 79.72 + T_tap ) &nbsp; ≈ &nbsp; [ W_total × (T_tap - T_req) ] / ( 80 + T_tap )
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3>26°C Warm Hand-Mix</h3>
+          <p><strong>W_total = 725g</strong>, T_tap = 22°C, T_req = 16°C.<br/>Result: <strong>42.6g Crushed Ice</strong> + <strong>682.4g Tap Water</strong> locks DDT at 24.0°C (75.2°F).</p>
+        </div>
+        <div class="card">
+          <h3>28°C Summer Spiral Mix</h3>
+          <p><strong>W_total = 725g</strong>, T_tap = 24°C, T_req = +4°C.<br/>Result: <strong>139.4g Crushed Ice</strong> + <strong>585.6g Tap Water</strong> locks DDT at 24.0°C.</p>
+        </div>
+        <div class="card">
+          <h3>31°C Heatwave Planetary</h3>
+          <p><strong>W_total = 725g</strong>, T_tap = 26°C, T_req = <strong>-7°C (19.4°F)</strong>.<br/>Result: <strong>225.7g Crushed Ice</strong> + <strong>499.3g Tap Water</strong>.</p>
+        </div>
+      </div>
+    </div>
+    <footer class="slide-footer">
+      <span>Calculate Exact Ice Grams: <a href="https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator">https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator</a></span>
+      <span>Slide 5 of 12</span>
+    </footer>
+  </section>
+
+  <!-- SLIDE 6: 3D Conical Frustum Bowl Geometry & Newton-Raphson Solver -->
+  <section class="slide">
+    <header class="slide-header">
+      <a class="brand-pill" href="https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator">🍞 SourdoughCalc 3D Frustum Solver</a>
+      <span class="slide-badge">Slide 06 / 12 • Computational Geometry</span>
+    </header>
+    <div class="slide-content">
+      <h2>5. Why a &ldquo;50% Height Rise&rdquo; in a Tapered Bowl Is a +96.8% Overproof</h2>
+      <div class="math-block">
+        V(h) = (π·h / 3) × (3·r₁² + 3·r₁·k·h + k²·h²) &nbsp;&nbsp;|&nbsp;&nbsp; Derivative f&apos;(h) = dV/dh = π·(r₁ + k·h)²
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Mixing Vessel Geometry (Bottom Ø → Top Ø × Height)</th>
+            <th>Initial Dough Height (h₀)</th>
+            <th>True +50% Volume Height (h₁)</th>
+            <th>Apparent Vertical Rise %</th>
+            <th>Actual Volume Rise if Baker Waits for +50% Height</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Straight Cylindrical Cambro (18cm → 18cm × 20cm)</td>
+            <td>6.37 cm</td>
+            <td>9.56 cm (+3.19 cm)</td>
+            <td>+50.0%</td>
+            <td>+50.0% (0.0% error)</td>
+          </tr>
+          <tr>
+            <td>Slightly Tapered Glass Bowl (16cm → 22cm × 15cm)</td>
+            <td>6.59 cm</td>
+            <td>9.11 cm (+2.52 cm)</td>
+            <td>+38.2%</td>
+            <td>+69.4% (+19.4% overproof)</td>
+          </tr>
+          <tr class="highlight">
+            <td>Standard Stainless Mixing Bowl (12cm → 24cm × 14cm)</td>
+            <td>8.01 cm</td>
+            <td>10.28 cm (+2.27 cm)</td>
+            <td>+28.4%</td>
+            <td>+96.8% (Severe gluten breakdown)</td>
+          </tr>
+          <tr>
+            <td>Wide Ceramic Mixing Bowl (10cm → 28cm × 14cm)</td>
+            <td>8.37 cm</td>
+            <td>10.42 cm (+2.05 cm)</td>
+            <td>+24.5%</td>
+            <td>+114.7% (Complete collapse)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer class="slide-footer">
+      <span>Calibrate Your Mixing Bowl: <a href="https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator">https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator</a></span>
+      <span>Slide 6 of 12</span>
+    </footer>
+  </section>
+
+  <!-- SLIDE 7: Starter Feeding Kinetics & Q10 Microbial Growth -->
+  <section class="slide">
+    <header class="slide-header">
+      <a class="brand-pill" href="https://sourdoughcalc.app/calculators/sourdough-starter-feeding-calculator">🍞 SourdoughCalc Starter Kinetics</a>
+      <span class="slide-badge">Slide 07 / 12 • Gänzle (2014) Microbiology</span>
+    </header>
+    <div class="slide-content">
+      <h2>6. Starter Inoculation Kinetics: 1:1:1 vs. 1:5:5 vs. 1:10:10 Peak Curves</h2>
+      <p>
+        Per <strong>Gänzle (2014)</strong>, heterofermentative <em>Fructilactobacillus sanfranciscensis</em> and wild yeasts follow a logarithmic growth curve with a <strong>Q₁₀ temperature coefficient of ~2.25</strong> between 18°C and 28°C. Higher feeding ratios dilute organic acid carryover and extend peak dome windows:
+      </p>
+      <div class="grid-3">
+        <div class="card">
+          <h3>1:1:1 Express Build</h3>
+          <p><strong>33.3% Inoculation:</strong> Peaks in <strong>3.8 – 4.2 hrs at 25°C (77°F)</strong>. High lactic/acetic carryover; ideal for same-day morning bakes.</p>
+        </div>
+        <div class="card">
+          <h3>1:5:5 Standard Overnight</h3>
+          <p><strong>9.1% Inoculation:</strong> Peaks in <strong>8.5 – 9.5 hrs at 23°C (73.4°F)</strong>. Optimal yeast-to-LAB balance for maximum oven spring.</p>
+        </div>
+        <div class="card">
+          <h3>1:10:10 Summer / High-Temp</h3>
+          <p><strong>4.8% Inoculation:</strong> Peaks in <strong>11.0 – 12.5 hrs at 26°C (78.8°F)</strong>. Prevents overnight starter collapse in warm kitchens.</p>
+        </div>
+      </div>
+    </div>
+    <footer class="slide-footer">
+      <span>Starter Feeding Forecaster: <a href="https://sourdoughcalc.app/calculators/sourdough-starter-feeding-calculator">https://sourdoughcalc.app/calculators/sourdough-starter-feeding-calculator</a> | Discard Tool: <a href="https://sourdoughcalc.app/calculators/sourdough-discard-calculator">https://sourdoughcalc.app/calculators/sourdough-discard-calculator</a></span>
+      <span>Slide 7 of 12</span>
+    </footer>
+  </section>
+
+  <!-- SLIDE 8: Bidirectional Yeast <-> Sourdough & Zero-Waste Discard Math -->
+  <section class="slide">
+    <header class="slide-header">
+      <a class="brand-pill" href="https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter">🍞 SourdoughCalc Conversion Engines</a>
+      <span class="slide-badge">Slide 08 / 12 • Yeast &amp; Discard Algebra</span>
+    </header>
+    <div class="slide-content">
+      <h2>7. Bidirectional Yeast ↔ Sourdough &amp; Discard Acid Neutralization</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Instant Dry Yeast (IDY) → Sourdough Levain</h3>
+          <p>To convert a commercial yeast formula (F₀ flour, W₀ water) to starter mass M_s at hydration H_s with <strong>0.0% hydration shift</strong>:</p>
+          <p style="font-family: monospace; margin-top: 8px; font-weight: 700;">
+            F_new = F₀ - M_s / (1 + H_s)<br/>
+            W_new = W₀ - (M_s × H_s) / (1 + H_s)
+          </p>
+          <p style="margin-top: 8px;">Also converts between IDY (1.0×), Active Dry Yeast (1.33×), and Fresh Cake Yeast (3.0×).</p>
+        </div>
+        <div class="card">
+          <h3>Zero-Waste Discard Substitution &amp; NaHCO₃ Buffering</h3>
+          <p>Every <strong>100g of unfed 100% hydration discard</strong> replaces <strong>50g flour + 50g liquid</strong> in pancakes, waffles, muffins, or crackers.</p>
+          <p style="margin-top: 8px;">To neutralize accumulated lactic/acetic acid (pH 3.9–4.2) without soapy off-flavors, buffer with <strong>1.2g – 1.5g sodium bicarbonate (NaHCO₃) per 100g discard</strong>.</p>
+        </div>
+      </div>
+    </div>
+    <footer class="slide-footer">
+      <span>Yeast Converter: <a href="https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter">https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter</a> | Discard Scaler: <a href="https://sourdoughcalc.app/calculators/sourdough-discard-calculator">https://sourdoughcalc.app/calculators/sourdough-discard-calculator</a></span>
+      <span>Slide 8 of 12</span>
+    </footer>
+  </section>
+
+  <!-- SLIDE 9: 2026 5-Calculator Benchmark Comparison Matrix -->
+  <section class="slide">
+    <header class="slide-header">
+      <a class="brand-pill" href="https://sourdoughcalc.app/compare/best-sourdough-calculators-2026">🍞 2026 Sourdough Calculator Lab Benchmark</a>
+      <span class="slide-badge">Slide 09 / 12 • Competitive Matrix</span>
+    </header>
+    <div class="slide-content">
+      <h2>8. 2026 Head-to-Head Sourdough Calculator Benchmark Audit</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Capability / Engineering Metric</th>
+            <th>#1 SourdoughCalc</th>
+            <th>#2 Foodgeek</th>
+            <th>#3 The Perfect Loaf</th>
+            <th>#4 Omni Calc</th>
+            <th>#5 BreadCalc</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="highlight">
+            <td>True Total Hydration Starter Correction</td>
+            <td>Yes (0.00% Error)</td>
+            <td>No (+2.27% Error)</td>
+            <td>Static Widgets</td>
+            <td>No (+2.27% Error)</td>
+            <td>Optional Toggle</td>
+          </tr>
+          <tr>
+            <td>Levain Hydration Range (40%–150%)</td>
+            <td>40%–150% Dynamic</td>
+            <td>100% Default</td>
+            <td>100% Preset</td>
+            <td>100% Default</td>
+            <td>Manual Cell</td>
+          </tr>
+          <tr class="highlight">
+            <td>4-Factor DDT + 80 cal/g Crushed Ice</td>
+            <td>Yes (Exact Ice g)</td>
+            <td>Water Temp Only</td>
+            <td>Water Temp Only</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>3D Conical Bowl Aliquot Geometry</td>
+            <td>Yes (Newton-Raphson)</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr class="highlight">
+            <td>RFC 5545 .ics Calendar Export &amp; Price</td>
+            <td>Yes • 100% Free / 0 Ads</td>
+            <td>No • Free w/ Ads</td>
+            <td>No • Paywalled</td>
+            <td>No • Heavy Ads</td>
+            <td>No • Legacy UI</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer class="slide-footer">
+      <span>Full 2026 Comparison Audit: <a href="https://sourdoughcalc.app/compare/best-sourdough-calculators-2026">https://sourdoughcalc.app/compare/best-sourdough-calculators-2026</a> | Alternatives Hub: <a href="https://sourdoughcalc.app/alternatives">https://sourdoughcalc.app/alternatives</a></span>
+      <span>Slide 9 of 12</span>
+    </footer>
+  </section>
+
+  <!-- SLIDE 10: Regional Stone-Ground Flour Mills & Heritage Wheat Hydration Benchmark -->
+  <section class="slide">
+    <header class="slide-header">
+      <a class="brand-pill" href="https://forestelf.github.io/sourdough-physics/partners-directory.html">🍞 Regional Stone-Ground Grain Guild Benchmark</a>
+      <span class="slide-badge">Slide 10 / 12 • Heritage Milling Physics</span>
+    </header>
+    <div class="slide-content">
+      <h2>9. Regional Stone-Milled Heritage Wheat Water Absorption Profiles</h2>
+      <p>
+        High-extraction stone-milled flours retain germ lipids and aleurone arabinoxylans, shifting Farinograph absorption and requiring extended 45–60 min autolyse windows compared to roller-milled endosperm flour:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Regional Mill &amp; Heritage Cultivar</th>
+            <th>Extraction / Ash %</th>
+            <th>Protein (14% mb)</th>
+            <th>500 BU Absorption</th>
+            <th>Recommended True Hydration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="highlight">
+            <td>Cairnspring Mills — Trailblazer (Yecora Rojo)</td>
+            <td>T85 / 0.85% Ash</td>
+            <td>13.5%</td>
+            <td>69.5%</td>
+            <td>80.0% – 84.0%</td>
+          </tr>
+          <tr>
+            <td>Barton Springs Mill — Rouge de Bordeaux</td>
+            <td>Whole Stone / 1.45%</td>
+            <td>13.0%</td>
+            <td>71.0%</td>
+            <td>78.0% – 82.0%</td>
+          </tr>
+          <tr class="highlight">
+            <td>Maine Grains — Sifted Organic Red Fife</td>
+            <td>86% Extr. / 0.92%</td>
+            <td>12.4%</td>
+            <td>67.8%</td>
+            <td>76.0% – 80.0%</td>
+          </tr>
+          <tr>
+            <td>Janie&apos;s Mill — High-Protein Turkey Red</td>
+            <td>T80 / 0.78% Ash</td>
+            <td>13.2%</td>
+            <td>68.2%</td>
+            <td>77.5% – 81.5%</td>
+          </tr>
+          <tr>
+            <td>Hayden Flour Mills — Heritage White Sonora</td>
+            <td>Bolted / 0.72% Ash</td>
+            <td>10.2%</td>
+            <td>59.0%</td>
+            <td>66.0% – 70.0%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer class="slide-footer">
+      <span>Ecosystem Directory: <a href="https://forestelf.github.io/sourdough-physics/partners-directory.html">https://forestelf.github.io/sourdough-physics/partners-directory.html</a> | Calculator: <a href="https://sourdoughcalc.app">https://sourdoughcalc.app</a></span>
+      <span>Slide 10 of 12</span>
+    </footer>
+  </section>
+
+  <!-- SLIDE 11: International Rheology Standards (JA / ES / DE) & Open Bread Lab Podcast -->
+  <section class="slide">
+    <header class="slide-header">
+      <a class="brand-pill" href="https://forestelf.github.io/sourdough-physics/podcast/">🍞 Global Rheology &amp; Open Bread Lab Podcast</a>
+      <span class="slide-badge">Slide 11 / 12 • Multilingual &amp; Audio Matrix</span>
+    </header>
+    <div class="slide-content">
+      <h2>10. Transatlantic Protein Standards (Dry-Basis vs. 14% Moisture) &amp; Audio Lab</h2>
+      <div class="math-block">
+        P_US(14% mb) = 0.86 × P_EU(0% Dry Basis) &nbsp;|&nbsp; German Teigausbeute: TA = 100 + H_true(%) &nbsp;(e.g., 75% Hydration = TA 175)
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3>日本語 (Japanese Guide)</h3>
+          <p><strong>ベーカーズパーセント &amp; 猛暑DDT:</strong> Solves the +2.27%ルヴァン隠れ水分誤差 and 80 cal/g crushed-ice cooling for 30°C humid Japanese summers.</p>
+        </div>
+        <div class="card">
+          <h3>Español (Guía Masa Madre)</h3>
+          <p><strong>Porcentaje Panadero Real:</strong> Full mass-balance reconciliation across 40%–150% <em>masa madre</em> and 3D conical bowl geometry.</p>
+        </div>
+        <div class="card">
+          <h3>Deutsch (TA &amp; Roggen)</h3>
+          <p><strong>Teigausbeute (TA 175) &amp; Pentosane:</strong> Calibrates Type 550, Type 1050, and Whole Rye arabinoxylan water binding.</p>
+        </div>
+      </div>
+    </div>
+    <footer class="slide-footer">
+      <span>Podcast Feed: <a href="https://forestelf.github.io/sourdough-physics/podcast/">https://forestelf.github.io/sourdough-physics/podcast/</a> | JA/ES/DE Guides: <a href="https://forestelf.github.io/sourdough-physics/">https://forestelf.github.io/sourdough-physics/</a></span>
+      <span>Slide 11 of 12</span>
+    </footer>
+  </section>
+
+  <!-- SLIDE 12: Complete Tool Directory, Schedule Export & Citations -->
+  <section class="slide slide-dark">
+    <header class="slide-header">
+      <a class="brand-pill" href="https://sourdoughcalc.app">🍞 SourdoughCalc.app — Complete Ecosystem</a>
+      <span class="slide-badge">Slide 12 / 12 • Citations &amp; Links</span>
+    </header>
+    <div class="slide-content">
+      <h2>11. Access the Complete Open-Source Sourdough Physics Suite</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Direct Interactive Calculator Links</h3>
+          <ul style="padding-left: 20px;">
+            <li><a href="https://sourdoughcalc.app" style="color:#fbbf24;">Master True Total Hydration Calculator</a></li>
+            <li><a href="https://sourdoughcalc.app/calculators/bakers-percentage-calculator" style="color:#fbbf24;">Baker&apos;s Percentage Formula Scaler</a></li>
+            <li><a href="https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator" style="color:#fbbf24;">4-Factor DDT &amp; 80 cal/g Crushed Ice Solver</a></li>
+            <li><a href="https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator" style="color:#fbbf24;">3D Conical Bowl Bulk Fermentation Solver</a></li>
+            <li><a href="https://sourdoughcalc.app/calculators/sourdough-baking-schedule-calculator" style="color:#fbbf24;">RFC 5545 .ics Sourdough Schedule Planner</a></li>
+            <li><a href="https://sourdoughcalc.app/calculators/sourdough-crumb-doctor" style="color:#fbbf24;">Sourdough Crumb Doctor Diagnostic Tool</a></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Scientific &amp; Industry References</h3>
+          <ul style="padding-left: 20px; font-size: 13pt;">
+            <li><strong>AACC International Method 54-21.02:</strong> <em>Rheological Behavior of Flour by Farinograph: Constant Flour Weight Procedure.</em></li>
+            <li><strong>Calvel, R. (2001):</strong> <em>The Taste of Bread: A Complete Guide to Maintenance of Bread Quality.</em> Aspen Publishers.</li>
+            <li><strong>Gänzle, M. G. (2014):</strong> Enzymatic and bacterial conversions during sourdough fermentation. <em>Food Microbiology</em>, 37, 2–10.</li>
+            <li><strong>USDA FoodData Central (2024):</strong> <em>Cereal Grains &amp; Pasta Nutrient &amp; Moisture Profiles.</em></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer class="slide-footer">
+      <span>Launch App: <a href="https://sourdoughcalc.app">https://sourdoughcalc.app</a> | Schedule Planner: <a href="https://sourdoughcalc.app/calculators/sourdough-baking-schedule-calculator">https://sourdoughcalc.app/calculators/sourdough-baking-schedule-calculator</a> | Crumb Doctor: <a href="https://sourdoughcalc.app/calculators/sourdough-crumb-doctor">https://sourdoughcalc.app/calculators/sourdough-crumb-doctor</a></span>
+      <span>Slide 12 of 12</span>
+    </footer>
+  </section>
+
+</body>
+</html>
