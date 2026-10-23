@@ -1,0 +1,97 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:30.000
+Julian Vance: Welcome to the SourdoughCalc Open Bread Lab. I'm Julian Vance, a cereal rheology engineer, and sitting across from me—still dusted in bolted Red Fife flour from this morning's bake—is Clara Meyer, founder of Hearth & Crumb Micro-Bakery.
+
+2
+00:00:30.000 --> 00:01:00.000
+Clara Meyer: Good morning, Julian. Though honestly, if you had caught me at five-thirty this morning when one of my new apprentices scaled our Saturday country batard batch using a random browser calculator she found on her phone, I wouldn't have been nearly this polite.
+
+3
+00:01:00.000 --> 00:01:30.000
+Julian Vance: Let me guess. She punched in a thousand grams of flour, seventy-five percent water, and twenty percent starter, and when you walked over to do the first coil fold, the dough looked like pancake batter.
+
+4
+00:01:30.000 --> 00:02:00.000
+Clara Meyer: Spot on! It was pooling in the corners of the Cambro tub. She swore up and down she scaled seventy-five percent hydration. And technically, she weighed seven hundred and fifty grams of water to a thousand grams of flour. On paper, seven-fifty divided by a thousand is seventy-five percent. So why was my dough behaving like an eighty-percent ciabatta?
+
+5
+00:02:00.000 --> 00:02:30.000
+Julian Vance: Because she fell into what we call the three-percent starter hydration lie. When we ran our 2026 benchmark study across twenty-five of the highest-ranking online sourdough calculators, eighty percent of them committed this exact conservation-of-mass error. They treat sourdough starter—your levain—like an inert spice or a handful of toasted sesame seeds, rather than what it physically is: a living suspension of flour and water that shifts the entire denominator of your dough formula.
+
+6
+00:02:30.000 --> 00:03:00.000
+Clara Meyer: Let's break those numbers down right on the bench so anyone listening while weighing out their morning levain can hear what happens inside the bowl. Say I have one thousand grams of main-bowl bread flour. I add seven hundred and fifty grams of water. Then I add two hundred grams of a standard one-hundred-percent hydration starter—that's twenty percent inoculation.
+
+7
+00:03:00.000 --> 00:03:30.000
+Julian Vance: Right. Now, if a calculator ignores the starter's internal mass, it says: seven hundred and fifty grams of water divided by one thousand grams of flour equals seventy-five percent hydration. Done. Except that two hundred grams of one-hundred-percent hydration starter didn't materialize out of thin air. Because it's fed at equal parts flour and water by weight, that two-hundred-gram scoop of levain contains exactly one hundred grams of flour and one hundred grams of water.
+
+8
+00:03:30.000 --> 00:04:00.000
+Clara Meyer: So the moment I mix that levain into my autolyse, I don't have a thousand grams of flour anymore. I have eleven hundred grams of total flour—a thousand in the main bowl plus a hundred from the starter. And I don't have seven hundred and fifty grams of water; I have eight hundred and fifty grams of total water.
+
+9
+00:04:00.000 --> 00:04:30.000
+Julian Vance: And what is eight hundred and fifty divided by eleven hundred? It's seventy-seven point two seven percent true total hydration. And if you're using a twenty-five or thirty percent inoculation—which lots of home bakers do in the winter to speed up bulk fermentation—or if you're maintaining a one-hundred-and-twenty-five percent liquid levain, that hidden water error jumps to over three point four percent.
+
+10
+00:04:30.000 --> 00:05:00.000
+Clara Meyer: People hear "two point three percent" or "three percent" and think, "Wait, Julian, is twenty-five or thirty extra grams of water per kilo really the difference between a tall, blistered artisan loaf and a flat frisbee?" From the bakery bench, I can tell you the answer is a brutal yes. Dough rheology is completely non-linear.
+
+11
+00:05:00.000 --> 00:05:30.000
+Julian Vance: That is the exact physics insight most people miss. Glutenin and gliadin networks don't lose strength on a gentle, linear slope as you add water. Up until a flour's specific water absorption capacity—what cereal chemists measure on a Brabender Farinograph in Brabender Units—water acts as a plasticizer that helps gluten strands align and cross-link. Every gram of water up to that ceiling is either tightly bound to damaged starch granules or trapped within the hydrophilic pockets of gluten proteins.
+
+12
+00:05:30.000 --> 00:06:00.000
+Clara Meyer: And what happens the moment you cross that absorption ceiling by even two percent?
+
+13
+00:06:00.000 --> 00:06:30.000
+Julian Vance: Every single additional gram of water becomes *free water* in the continuous liquid phase. Instead of hydrating protein, it lubricates slippage between the gluten sheets. A shift from seventy-five percent to seventy-seven point three percent true hydration doesn't reduce dough yield stress by two percent—it can drop the elastic storage modulus, what rheologists call $G'$, by eighteen to twenty-five percent. Your dough crosses the slump threshold. You shape a tight boules on the wood bench, turn around to preheat your Dutch oven, and three minutes later it's puddled out like a stingray.
+
+14
+00:06:30.000 --> 00:07:00.000
+Clara Meyer: And there is a second problem with that starter mass that makes the three-percent error even worse in real life. That one hundred grams of flour coming in from your mature levain isn't fresh flour! It's been sitting at seventy-eight degrees Fahrenheit for six to ten hours with *Lactobacillus sanfranciscensis* and endogenous cereal proteases chewing through its peptide bonds.
+
+15
+00:07:00.000 --> 00:07:30.000
+Julian Vance: Exactly. In cereal science, we call that proteolytic degradation. As lactic acid bacteria drop the pH of your mature levain down around three point eight to four point two, native wheat aspartic proteases hit their optimal enzymatic activity window. They literally snip the high-molecular-weight glutenin macropolymers into shorter fragments. So the hundred grams of flour inside your levain has already lost roughly forty to sixty percent of its water-binding elasticity compared to the thousand grams of fresh flour in your main bowl.
+
+16
+00:07:30.000 --> 00:08:00.000
+Clara Meyer: Which means not only is a naive calculator sneaking an extra twenty-five to thirty-five grams of water into your dough without telling you, it's dumping that water onto a flour fraction whose gluten scaffolding has already been partially dissolved by acid and enzymes! No wonder home bakers follow a blog recipe for "seventy-five percent hydration," use standard twelve-percent protein flour from the grocery store, and feel like they're failing as bakers when they can't even get the dough off the counter.
+
+17
+00:08:00.000 --> 00:08:30.000
+Julian Vance: It's never the baker's hands—it's almost always broken math upstream. And that's why we built the conservation-of-mass engine at `sourdoughcalc.app`—that's S-O-U-R-D-O-U-G-H-C-A-L-C dot A-P-P. Instead of treating starter as an afterthought, the solver decomposes your levain mass first. The equation is straightforward but non-negotiable: levain flour mass $F_{\text{lev}}$ equals total levain mass $M_{\text{lev}}$ divided by one plus the starter's hydration ratio $H_{\text{lev}}$.
+
+18
+00:08:30.000 --> 00:09:00.000
+Clara Meyer: Let's walk through how that formula handles different starter styles, because in our bakery we don't just use a one-hundred-percent hydration starter. For our panettone and our high-hydration ciabatta, we keep a fifty-percent hydration stiff starter—a classic Italian *lievito madre*—and for our French country pain au levain, we use a one-hundred-percent liquid levain.
+
+19
+00:09:00.000 --> 00:09:30.000
+Julian Vance: Let's do the math for both. Suppose you start with one thousand grams of main-bowl flour and two hundred grams of starter. If that two hundred grams of starter is a fifty-percent stiff *lievito madre*, we divide two hundred by one point five. That gives us one hundred and thirty-three point three grams of flour and sixty-six point seven grams of water inside the stiff starter—compared to one hundred grams of flour and one hundred grams of water in a liquid starter.
+
+20
+00:09:30.000 --> 00:10:00.000
+Clara Meyer: Look how different that is! If you want your final dough to sit at an exact seventy-five percent true total hydration with one thousand grams of fresh flour plus two hundred grams of liquid starter, how much water goes into the main bowl?
+
+21
+00:10:00.000 --> 00:10:30.000
+Julian Vance: Total flour is eleven hundred grams. Seventy-five percent of eleven hundred grams is eight hundred and twenty-five grams of total target water. Since the liquid levain already contributes one hundred grams of water, your main-bowl autolyse water must be **seven hundred and twenty-five grams**—not seven hundred and fifty! And don't forget salt: two percent salt on eleven hundred grams of total flour is **twenty-two grams**, not twenty. Shorting your salt by ten percent weakens ionic charge-shielding on gluten proteins and accelerates yeast respiration.
+
+22
+00:10:30.000 --> 00:11:00.000
+Clara Meyer: That is why every formula sheet hanging on the speed racks at Hearth & Crumb is generated from true total flour weight. If you want to audit your own recipe right now, open `sourdoughcalc.app`—again, that is S-O-U-R-D-O-U-G-H-C-A-L-C dot A-P-P—and toggle between "Main Flour Mode" and "True Total Flour Mode" on the Master Calculator. You'll immediately see the exact gram discrepancy between what you *thought* your hydration was and what your gluten network was actually fighting against.
+
+23
+00:11:00.000 --> 00:11:30.000
+Julian Vance: Once you lock in your true total hydration, you can change your starter inoculation from ten percent in July to twenty-five percent in January, or switch from liquid levain to stiff *lievito madre*, and the solver automatically adjusts your autolyse water gram-for-gram.
+
+24
+00:11:30.000 --> 00:12:00.000
+Clara Meyer: Next episode, we're tackling summer kitchens above seventy-eight degrees Fahrenheit and how to use the eighty-calories-per-gram latent heat of fusion of crushed ice to nail your Desired Dough Temperature. Until then, keep your scales calibrated and your starter active!
