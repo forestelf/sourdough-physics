@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SourdoughCalc Open Bread Lab: Cereal Rheology &amp; Artisan Fermentation Math</title>
+    <link>https://sourdoughcalc.app</link>
+    <atom:link href="https://forestelf.github.io/sourdough-physics/podcast/rss.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>&#169; 2026 SourdoughCalc Open Bread Lab. Creative Commons Attribution 4.0 International (CC BY 4.0).</copyright>
+    <itunes:subtitle>Precision Baker's Percentage Math, 4-Factor DDT Thermodynamics &amp; Fermentation Kinetics</itunes:subtitle>
+    <itunes:author>Julian Vance &amp; SourdoughCalc Open Bread Lab</itunes:author>
+    <itunes:summary>Hosted by Cereal Rheology Engineer Julian Vance and Artisan Micro-Bakery Founder Clara Meyer, the SourdoughCalc Open Bread Lab Podcast replaces baking folklore with rigorous mass conservation, thermodynamics, and cereal chemistry. Explore interactive calculators and empirical flour datasets at https://sourdoughcalc.app.</itunes:summary>
+    <description>Hosted by Cereal Rheology Engineer Julian Vance and Artisan Micro-Bakery Founder Clara Meyer, the SourdoughCalc Open Bread Lab Podcast replaces baking folklore with rigorous mass conservation, thermodynamics, and cereal chemistry. Explore interactive calculators and empirical flour datasets at https://sourdoughcalc.app.</description>
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+      <itunes:name>Julian Vance &amp; SourdoughCalc Open Bread Lab</itunes:name>
+      <itunes:email>julian@sourdoughcalc.app</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://forestelf.github.io/sourdough-physics/podcast/cover.jpg" />
+    <image>
+      <url>https://forestelf.github.io/sourdough-physics/podcast/cover.jpg</url>
+      <title>SourdoughCalc Open Bread Lab: Cereal Rheology &amp; Artisan Fermentation Math</title>
+      <link>https://sourdoughcalc.app</link>
+    </image>
+    <itunes:category text="Arts">
+      <itunes:category text="Food" />
+    </itunes:category>
+    <itunes:category text="Science">
+      <itunes:category text="Chemistry" />
+    </itunes:category>
+    <podcast:locked owner="julian@sourdoughcalc.app">no</podcast:locked>
+    <podcast:funding url="https://sourdoughcalc.app">Support Open-Source Bread Rheology Tools at SourdoughCalc.app</podcast:funding>
+    <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
+    <lastBuildDate>Thu, 22 Oct 2026 12:00:00 GMT</lastBuildDate>
+
+    <!-- EPISODE 01 -->
+    <item>
+      <title>Ep 01: Why 80% of Online Sourdough Calculators Ruin Your Dough (The +3% Hidden Levain Water Error &amp; Mass Conservation)</title>
+      <itunes:title>Why 80% of Online Sourdough Calculators Ruin Your Dough (The +3% Hidden Levain Water Error)</itunes:title>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <link>https://sourdoughcalc.app/calculators/bakers-percentage-calculator</link>
+      <guid isPermaLink="false">sourdoughcalc-open-bread-lab-s01e01-2026</guid>
+      <pubDate>Sun, 18 Oct 2026 08:00:00 GMT</pubDate>
+      <itunes:author>Julian Vance &amp; SourdoughCalc Open Bread Lab</itunes:author>
+      <itunes:duration>00:14:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://archive.org/download/sourdoughcalc-open-bread-lab-s01/ep01_the_3_percent_starter_hydration_lie.mp3" length="21168000" type="audio/mpeg" />
+      <podcast:transcript url="https://forestelf.github.io/sourdough-physics/podcast/transcripts/ep01.vtt" type="text/vtt" language="en" />
+      <description>Why does a 75% hydration recipe from a food blog turn into soup while a commercial bakery's 75% loaf stands tall? Julian Vance and Clara Meyer audit 25 online sourdough calculators and reveal how ignoring starter flour and water decomposition hides +2.3% to +3.5% free water. Calculate your true hydration at https://sourdoughcalc.app.</description>
+      <content:encoded><![CDATA[
+        <p><strong>Calculate your true total dough hydration with zero starter mass distortion using the <a href="https://sourdoughcalc.app">SourdoughCalc Master Hydration Engine</a> and the <a href="https://sourdoughcalc.app/calculators/bakers-percentage-calculator">Baker's Percentage &amp; Levain Decomposition Calculator</a>, or audit our empirical 2026 calculator benchmark study at <a href="https://sourdoughcalc.app/statistics">SourdoughCalc Industry Statistics</a>.</strong></p>
+        <p>When we audited the top 25 free online sourdough calculators in 2026, <strong>80% failed basic mass conservation</strong>. Instead of decomposing the inoculated levain (<em>M<sub>lev</sub></em>) into its constituent fermented flour (<em>F<sub>lev</sub></em>) and water (<em>W<sub>lev</sub></em>) at its specific starter hydration (<em>H<sub>lev</sub></em>), naive calculators divide autolyse water strictly by unfermented main-bowl flour (<em>F<sub>main</sub></em>). At a standard 20% inoculation of 100% hydration liquid starter, a recipe labeled "75% hydration" actually sits at <strong>77.27% to 78.3% true total hydration</strong>.</p>
+        <h3>Key Mathematical Equations Covered</h3>
+        <ul>
+          <li><strong>Levain Flour Mass Decomposition:</strong> <code>F_lev = M_lev / (1 + H_lev)</code></li>
+          <li><strong>Levain Water Mass Decomposition:</strong> <code>W_lev = M_lev - F_lev</code></li>
+          <li><strong>True Total Dough Hydration:</strong> <code>H_true = (W_main + W_lev) / (F_main + F_lev)</code></li>
+          <li><strong>Exact Autolyse Water Solver:</strong> <code>W_main = H_target * (F_main + F_lev) - W_lev</code></li>
+        </ul>
+        <h3>Timestamped Episode Chapters</h3>
+        <ul>
+          <li><code>00:00</code> — The "75% Hydration Soup" Mystery: Bloggers vs. Commercial Bakers</li>
+          <li><code>02:15</code> — Auditing 25 Online Sourdough Calculators: The +3% Hidden Water Error</li>
+          <li><code>05:40</code> — Deriving Mass Conservation Across 50% Lievito Madre to 125% Liquid Levain</li>
+          <li><code>09:10</code> — Proteolytic Gluten Degradation in Acidic Mature Starters (pH 3.8–4.2)</li>
+          <li><code>12:30</code> — Practical Bench Workflow with <a href="https://sourdoughcalc.app">sourdoughcalc.app</a></li>
+        </ul>
+        <h3>Related Open Bread Lab Tools</h3>
+        <ul>
+          <li><a href="https://sourdoughcalc.app">Master Sourdough Hydration &amp; Baker's Percentage Calculator</a></li>
+          <li><a href="https://sourdoughcalc.app/calculators/bakers-percentage-calculator">Multi-Flour &amp; Levain Baker's Percentage Solver</a></li>
+          <li><a href="https://sourdoughcalc.app/calculators/sourdough-starter-feeding-calculator">Sourdough Starter Feeding Ratio &amp; Peak Time Calculator</a></li>
+          <li><a href="https://sourdoughcalc.app/statistics">2026 Sourdough Hydration &amp; Rheology Statistical Benchmark</a></li>
+        </ul>
+      ]]></content:encoded>
+    </item>
+
+    <!-- EPISODE 02 -->
+    <item>
+      <title>Ep 02: Saving Summer Bakes Above 78°F (The 4-Factor Desired Dough Temperature &amp; 80 cal/g Crushed Ice Equation)</title>
+      <itunes:title>Saving Summer Bakes Above 78°F (4-Factor DDT &amp; 80 cal/g Crushed Ice Math)</itunes:title>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <link>https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator</link>
+      <guid isPermaLink="false">sourdoughcalc-open-bread-lab-s01e02-2026</guid>
+      <pubDate>Mon, 19 Oct 2026 08:00:00 GMT</pubDate>
+      <itunes:author>Julian Vance &amp; SourdoughCalc Open Bread Lab</itunes:author>
+      <itunes:duration>00:14:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://archive.org/download/sourdoughcalc-open-bread-lab-s01/ep02_summer_sourdough_and_latent_heat_ice_math.mp3" length="20592000" type="audio/mpeg" />
+      <podcast:transcript url="https://forestelf.github.io/sourdough-physics/podcast/transcripts/ep02.vtt" type="text/vtt" language="en" />
+      <description>When summer kitchens climb past 78°F (25.5°C), wild yeast kinetics and protease enzymes go into overdrive. Learn the 4-Factor Desired Dough Temperature (DDT) equation and the 80 cal/g Latent Heat of Fusion ice-mass balance at https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator.</description>
+      <content:encoded><![CDATA[
+        <p><strong>Stop summer over-proofing before you mix a single gram of flour using the <a href="https://sourdoughcalc.app">SourdoughCalc Master Formulation Suite</a> and our <a href="https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator">4-Factor Desired Dough Temperature (DDT) &amp; Crushed Ice Calculator</a>, backed by thermal telemetry at <a href="https://sourdoughcalc.app/statistics">SourdoughCalc Industry Statistics</a>.</strong></p>
+        <p>When ambient kitchen temperatures climb past 78°F (25.5°C), sourdough fermentation accelerates exponentially along the Q10 ≈ 2.1 Van 't Hoff biological curve while endogenous protease enzymes shred gluten elasticity. Julian Vance and Clara Meyer derive the complete thermodynamic fix: the <strong>4-Factor DDT Equation</strong> and the <strong>Latent Heat of Fusion Ice Substitution Formula (L_f = 80 cal/g)</strong> when your required water temperature drops below your cold tap limit.</p>
+        <h3>Key Mathematical Equations Covered</h3>
+        <ul>
+          <li><strong>4-Factor DDT Required Water Temp:</strong> <code>T_water = 4 * T_DDT - (T_room + T_flour + T_levain + Delta_T_friction)</code></li>
+          <li><strong>Metric Crushed Ice Substitution (g, °C):</strong> <code>M_ice = [M_water * (T_tap - T_req)] / (80 + T_tap)</code></li>
+          <li><strong>Fahrenheit Equivalent (144 BTU/lb):</strong> <code>M_ice = [M_water * (T_tap_F - T_req_F)] / [144 + (T_tap_F - 32)]</code></li>
+        </ul>
+        <h3>Timestamped Episode Chapters</h3>
+        <ul>
+          <li><code>00:00</code> — Why July Sourdough Turns Sticky &amp; Sour: The 78°F Enzymatic Cliff</li>
+          <li><code>02:15</code> — The 4-Factor DDT Equation: Room, Flour, Levain &amp; Mixer Friction</li>
+          <li><code>05:40</code> — Friction Calibration: Hand Rubaud (2°F) vs. Planetary (14°F) vs. Spiral (22°F)</li>
+          <li><code>09:10</code> — Deriving the 80 cal/g Latent Heat of Fusion Crushed Ice Formula</li>
+          <li><code>12:30</code> — Splitting Tap Water and Ice to the Gram on <a href="https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator">sourdoughcalc.app</a></li>
+        </ul>
+        <h3>Related Open Bread Lab Tools</h3>
+        <ul>
+          <li><a href="https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator">4-Factor Desired Dough Temperature (DDT) &amp; Ice Calculator</a></li>
+          <li><a href="https://sourdoughcalc.app/calculators/sourdough-baking-schedule-calculator">Reverse Sourdough Baking Schedule &amp; Timeline Calculator</a></li>
+          <li><a href="https://sourdoughcalc.app">Master Sourdough Hydration Calculator</a></li>
+          <li><a href="https://sourdoughcalc.app/statistics">Empirical Mixer Friction &amp; Thermal Decay Data</a></li>
+        </ul>
+      ]]></content:encoded>
+    </item>
+
+    <!-- EPISODE 03 -->
+    <item>
+      <title>Ep 03: Why Waiting for Sourdough to "Double in Size" Destroys Your Gluten (3D Conical Bowl Frustum Math &amp; Thermal Carryover)</title>
+      <itunes:title>Why Waiting for Sourdough to "Double in Size" Destroys Your Gluten (3D Frustum Math)</itunes:title>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <link>https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator</link>
+      <guid isPermaLink="false">sourdoughcalc-open-bread-lab-s01e03-2026</guid>
+      <pubDate>Tue, 20 Oct 2026 08:00:00 GMT</pubDate>
+      <itunes:author>Julian Vance &amp; SourdoughCalc Open Bread Lab</itunes:author>
+      <itunes:duration>00:14:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://archive.org/download/sourdoughcalc-open-bread-lab-s01/ep03_sloped_bowl_geometry_and_aliquot_myths.mp3" length="21000000" type="audio/mpeg" />
+      <podcast:transcript url="https://forestelf.github.io/sourdough-physics/podcast/transcripts/ep03.vtt" type="text/vtt" language="en" />
+      <description>Waiting for dough to double its vertical height in a sloped mixing bowl actually triples or quadruples its volume! Plus why 30g aliquot jars fail whenever dough temp differs from room temp, and how Newton's Law of Cooling governs fridge carryover at https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator.</description>
+      <content:encoded><![CDATA[
+        <p><strong>Calculate your exact target percentage rise and pull-time before cold retard using the <a href="https://sourdoughcalc.app">SourdoughCalc Master Formulation Engine</a>, the <a href="https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator">Bulk Fermentation &amp; Thermal Carryover Calculator</a>, and the <a href="https://sourdoughcalc.app/calculators/sourdough-crumb-doctor">Interactive Sourdough Crumb Doctor</a>.</strong></p>
+        <p>In Episode 03, Julian Vance and Clara Meyer dismantle the two most destructive myths in bulk fermentation: <strong>3D Conical Bowl Height Illusion</strong> and <strong>Zero-Thermal-Inertia Aliquot Sampling</strong>. In a flared mixing bowl modeled as a conical frustum, a 100% volume doubling increases vertical height by only 34%. Furthermore, a 900g loaf placed into a 38°F (3.3°C) refrigerator retains fermentation momentum for 4 to 6 hours—meaning an 80°F dough must be shaped at <strong>30% volumetric rise</strong>, whereas a 68°F dough requires <strong>75% to 80% rise</strong>.</p>
+        <h3>Key Mathematical Equations Covered</h3>
+        <ul>
+          <li><strong>Conical Frustum Volume vs. Height:</strong> <code>V(h) = (pi * h / 3) * (r_1^2 + r_1*r(h) + r(h)^2), r(h) = r_1 + h*tan(theta)</code></li>
+          <li><strong>Newton's Law of Cooling in Cold Retard:</strong> <code>T_core(t) = T_fridge + (T_initial - T_fridge) * exp(-t / tau)</code></li>
+          <li><strong>Temperature-Compensated Target Rise:</strong> 80°F → 30% rise | 75°F → 50% rise | 70°F → 75% rise</li>
+        </ul>
+        <h3>Timestamped Episode Chapters</h3>
+        <ul>
+          <li><code>00:00</code> — The "Double in Size" Carryover Myth from Commercial Yeast Baking</li>
+          <li><code>02:15</code> — 3D Frustum Geometry: Why 34% Height Gain in a Flared Bowl = 100% Volume Doubling</li>
+          <li><code>05:40</code> — The Aliquot Jar Fallacy: Surface-Area-to-Volume Ratio (A/V) vs. 900g Core Mass</li>
+          <li><code>09:10</code> — Fridge Thermal Inertia: Why an 80°F Dough Must Be Cut Off at 30% Rise</li>
+          <li><code>12:30</code> — Straight-Walled Vessels &amp; Target Rise Charts on <a href="https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator">sourdoughcalc.app</a></li>
+        </ul>
+        <h3>Related Open Bread Lab Tools</h3>
+        <ul>
+          <li><a href="https://sourdoughcalc.app/calculators/sourdough-bulk-fermentation-calculator">Sourdough Bulk Fermentation &amp; Target Rise Calculator</a></li>
+          <li><a href="https://sourdoughcalc.app/calculators/sourdough-crumb-doctor">Sourdough Crumb Doctor (Underproofed vs. Overproofed Diagnostic)</a></li>
+          <li><a href="https://sourdoughcalc.app/statistics">Sourdough Thermal Carryover &amp; Vessel Geometry Dataset</a></li>
+        </ul>
+      ]]></content:encoded>
+    </item>
+
+    <!-- EPISODE 04 -->
+    <item>
+      <title>Ep 04: King Arthur 12.7% vs. European T55 &amp; Whole Rye Pentosans (Calculating Your Flour Blend's True Absorption Ceiling)</title>
+      <itunes:title>King Arthur 12.7% vs. European T55 &amp; Rye Pentosans (Flour Absorption Ceilings)</itunes:title>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <link>https://sourdoughcalc.app</link>
+      <guid isPermaLink="false">sourdoughcalc-open-bread-lab-s01e04-2026</guid>
+      <pubDate>Wed, 21 Oct 2026 08:00:00 GMT</pubDate>
+      <itunes:author>Julian Vance &amp; SourdoughCalc Open Bread Lab</itunes:author>
+      <itunes:duration>00:14:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://archive.org/download/sourdoughcalc-open-bread-lab-s01/ep04_flour_protein_ceilings_us_vs_europe.mp3" length="21360000" type="audio/mpeg" />
+      <podcast:transcript url="https://forestelf.github.io/sourdough-physics/podcast/transcripts/ep04.vtt" type="text/vtt" language="en" />
+      <description>Why does an 80% hydration American Tartine recipe turn French T55 or German Type 550 flour into soup? Discover the 0.86 conversion factor between EU Dry-Basis protein and US 14%-Moisture-Basis protein, plus how rye pentosans and spelt gliadins shift your hydration ceiling at https://sourdoughcalc.app.</description>
+      <content:encoded><![CDATA[
+        <p><strong>Calculate the exact maximum water absorption ceiling for any custom blend of North American bread flour, European T55/T65, Tipo 00, whole wheat, spelt, or rye using the <a href="https://sourdoughcalc.app">SourdoughCalc Master Hydration &amp; Flour Blend Solver</a>, the <a href="https://sourdoughcalc.app/calculators/bakers-percentage-calculator">Multi-Flour Baker's Percentage Calculator</a>, and our global flour dataset at <a href="https://sourdoughcalc.app/statistics">SourdoughCalc Industry Statistics</a>.</strong></p>
+        <p>European laboratories report flour protein on a <strong>0% Dry Matter Basis</strong> while North American mills (AACC standard) report on a <strong>14% Moisture Basis</strong>—meaning a European flour labeled 11.5% protein is actually <strong>9.89% protein</strong> on the American scale! Julian Vance and Clara Meyer explain Chopin Alveograph W-values, damaged starch absorption, rye arabinoxylan pentosans (which bind 8x their weight in water), and spelt gliadin extensibility.</p>
+        <h3>Key Mathematical Equations Covered</h3>
+        <ul>
+          <li><strong>EU Dry-Basis to US 14% Moisture-Basis Protein:</strong> <code>P_14% = 0.86 * P_dry</code></li>
+          <li><strong>Composite Multi-Flour Absorption Ceiling:</strong> <code>H_max = H_base + alpha_pro * (P_eff - 11.5) + sum(f_i * Delta_H_i)</code></li>
+          <li><strong>Grain Absorption Modifiers:</strong> Whole Wheat <code>+0.12 g/g</code> | Whole Rye Pentosans <code>+0.25 g/g</code> | Spelt <code>-0.08 g/g</code></li>
+        </ul>
+        <h3>Timestamped Episode Chapters</h3>
+        <ul>
+          <li><code>00:00</code> — The Transatlantic Hydration Disaster: California 80% Hydration vs. Paris T55</li>
+          <li><code>02:15</code> — The Nutrition Label Illusion: 14% Moisture Basis (US) vs. 0% Dry Matter Basis (EU)</li>
+          <li><code>05:40</code> — Hard Red Spring Wheat vs. Soft European Winter Wheat: Alveograph W &amp; Starch Damage</li>
+          <li><code>09:10</code> — Beyond Gluten: Whole Rye Arabinoxylan Pentosans vs. Spelt Gliadin Flow</li>
+          <li><code>12:30</code> — Blending Flours &amp; Safe Hydration Ceilings on <a href="https://sourdoughcalc.app">sourdoughcalc.app</a></li>
+        </ul>
+        <h3>Related Open Bread Lab Tools</h3>
+        <ul>
+          <li><a href="https://sourdoughcalc.app">Master Sourdough Hydration &amp; Regional Flour Ceiling Calculator</a></li>
+          <li><a href="https://sourdoughcalc.app/calculators/bakers-percentage-calculator">Multi-Grain Baker's Percentage Calculator</a></li>
+          <li><a href="https://sourdoughcalc.app/statistics">US vs. EU Flour Protein &amp; Brabender Absorption Benchmark</a></li>
+        </ul>
+      ]]></content:encoded>
+    </item>
+
+    <!-- EPISODE 05 -->
+    <item>
+      <title>Ep 05: Converting Any Commercial Yeast Recipe to Sourdough (50% Lievito Madre to 125% Liquid Levain) &amp; Discard Acid Neutralization Chemistry</title>
+      <itunes:title>Converting Commercial Yeast to Sourdough &amp; Zero-Waste Discard Acid Chemistry</itunes:title>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <link>https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter</link>
+      <guid isPermaLink="false">sourdoughcalc-open-bread-lab-s01e05-2026</guid>
+      <pubDate>Thu, 22 Oct 2026 08:00:00 GMT</pubDate>
+      <itunes:author>Julian Vance &amp; SourdoughCalc Open Bread Lab</itunes:author>
+      <itunes:duration>00:14:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://archive.org/download/sourdoughcalc-open-bread-lab-s01/ep05_yeast_to_sourdough_and_zero_waste_discard.mp3" length="21480000" type="audio/mpeg" />
+      <podcast:transcript url="https://forestelf.github.io/sourdough-physics/podcast/transcripts/ep05.vtt" type="text/vtt" language="en" />
+      <description>Replace the broken "1 packet of yeast = 100g starter" rule with exact mass-conservation equations across 50% stiff Lievito Madre to 125% liquid levain. Plus the 0.85g per 100g sodium bicarbonate stoichiometry for zero-waste sourdough discard at https://sourdoughcalc.app/calculators/sourdough-discard-calculator.</description>
+      <content:encoded><![CDATA[
+        <p><strong>Convert any commercial yeast bread, pizza, or enriched brioche recipe to natural levain—or reformulate any pastry around leftover discard—using the <a href="https://sourdoughcalc.app">SourdoughCalc Master Formulation Engine</a>, the <a href="https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter">Commercial Yeast-to-Sourdough Converter</a>, and the <a href="https://sourdoughcalc.app/calculators/sourdough-discard-calculator">Zero-Waste Sourdough Discard &amp; Acid Neutralization Calculator</a>.</strong></p>
+        <p>Why do blog rules telling you to "swap 1 packet (7g) of yeast for 100g starter" wreck enriched doughs and small batches? Julian Vance and Clara Meyer present the unified mass-conservation equations across <strong>50% stiff Lievito Madre to 125% liquid levain</strong>, explain why high-sugar/high-butter brioche demands stiff starter to overcome osmotic stress, and derive the exact <strong>sodium bicarbonate (NaHCO3) stoichiometry (0.85g per 100g discard)</strong> to neutralize lactic and acetic acids in discard pancakes, waffles, and muffins.</p>
+        <h3>Key Mathematical Equations Covered</h3>
+        <ul>
+          <li><strong>Commercial Yeast Equivalency:</strong> <code>M_IDY = 0.80 * M_ADY = 0.333 * M_fresh</code></li>
+          <li><strong>Sourdough Mass-Preserving Substitution:</strong> <code>F_new = F_recipe - M_lev / (1 + H_lev)</code>, <code>W_new = W_recipe - M_lev * [H_lev / (1 + H_lev)]</code></li>
+          <li><strong>Discard Acid Neutralization Stoichiometry:</strong> <code>M_NaHCO3_bonus = 0.0085 * M_discard</code> (at pH 3.9–4.1, TTA 12 mL)</li>
+        </ul>
+        <h3>Timestamped Episode Chapters</h3>
+        <ul>
+          <li><code>00:00</code> — Why "1 Packet of Yeast = 100g Starter" Wrecks Large &amp; Small Batches</li>
+          <li><code>02:15</code> — IDY, ADY, and Compressed Fresh Yeast vs. Total Flour Inoculation Scaling</li>
+          <li><code>05:40</code> — Osmotic Pressure in Brioche &amp; Cinnamon Rolls: The Case for 50% Lievito Madre</li>
+          <li><code>09:10</code> — Zero-Waste Discard Math: Preserving Batter Viscosity in Waffles &amp; Muffins</li>
+          <li><code>12:30</code> — Calculating Exact Baking Soda (NaHCO3) Bonus Grams on <a href="https://sourdoughcalc.app/calculators/sourdough-discard-calculator">sourdoughcalc.app</a></li>
+        </ul>
+        <h3>Related Open Bread Lab Tools</h3>
+        <ul>
+          <li><a href="https://sourdoughcalc.app/calculators/yeast-to-sourdough-converter">Commercial Yeast (IDY/ADY/Fresh) to Sourdough Converter</a></li>
+          <li><a href="https://sourdoughcalc.app/calculators/sourdough-discard-calculator">Zero-Waste Sourdough Discard &amp; Baking Soda Calculator</a></li>
+          <li><a href="https://sourdoughcalc.app">Master Sourdough Hydration &amp; Baker's Percentage Calculator</a></li>
+          <li><a href="https://sourdoughcalc.app/statistics">Sourdough Acidity (pH / TTA) &amp; Fermentation Kinetics Statistics</a></li>
+        </ul>
+      ]]></content:encoded>
+    </item>
+  </channel>
+</rss>
