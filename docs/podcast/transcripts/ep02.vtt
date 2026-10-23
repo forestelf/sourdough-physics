@@ -1,0 +1,105 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:30.000
+Julian Vance: Welcome back to the SourdoughCalc Open Bread Lab. I'm Julian Vance, cereal rheology engineer, joined by Clara Meyer, founder of Hearth & Crumb Micro-Bakery. Clara, every year around mid-June, our inbox floods with the exact same panic message from bakers across warm climates: "My starter and flour haven't changed—why did my sourdough suddenly start tearing during shaping and coming out flat and gummy?"
+
+2
+00:00:30.000 --> 00:01:00.000
+Clara Meyer: I call it the July Heartbreak. All spring, a baker has a predictable five-hour bulk fermentation. Then a summer heatwave hits, the kitchen climbs past eighty degrees Fahrenheit, cold tap water runs warm from heated street pipes, and suddenly their dough feels like wet chewing gum two hours into bulk.
+
+3
+00:01:00.000 --> 00:01:30.000
+Julian Vance: And the instinctive mistake almost every baker makes is trying to fix a thermodynamic problem at the *end* of bulk fermentation instead of at the *beginning* of the mix. Why doesn't simply cutting bulk fermentation short by an hour fix an eighty-three-degree dough, Clara?
+
+4
+00:01:30.000 --> 00:02:00.000
+Clara Meyer: Because dough temperature right out of the mixer—Desired Dough Temperature, or DDT—sets the biochemical clock for the entire loaf. At eighty-three degrees Fahrenheit instead of seventy-six degrees, wild yeast and lactic acid bacteria go into metabolic overdrive, while endogenous protease enzymes wake up and shred your gluten network faster than coil folds can build strength.
+
+5
+00:02:00.000 --> 00:02:30.000
+Julian Vance: Plus, when you put that eighty-three-degree loaf into your thirty-eight-degree home refrigerator for an overnight cold retard, the thermal mass of an eight-hundred-gram boule inside an insulated rattan banneton takes over five hours just to drop below fifty degrees! So the core blows straight through its fermentation window inside the fridge.
+
+6
+00:02:30.000 --> 00:03:00.000
+Clara Meyer: Which brings us to the single most important habit separating a frustrated home baker from a consistent artisan baker: using a digital probe thermometer before you mix, and calculating your Desired Dough Temperature using the Four-Factor DDT formula. Let's walk through those four factors step by step.
+
+7
+00:03:00.000 --> 00:03:30.000
+Julian Vance: In an un-retarded sourdough system where levain makes up fifteen to twenty-five percent of the formula, we use the Four-Factor DDT equation rather than the commercial yeast Three-Factor formula. Your target Desired Dough Temperature—which for an open-crumb artisan country loaf is almost universally seventy-five to seventy-eight degrees Fahrenheit, or twenty-four to twenty-five point five degrees Celsius—is multiplied by four.
+
+8
+00:03:30.000 --> 00:04:00.000
+Clara Meyer: Why multiply by four? Because there are four thermal inputs that determine the final temperature of your mixed dough: first, your ambient room temperature ($T_{\text{room}}$); second, the temperature of your flour right out of the bin ($T_{\text{flour}}$); third, the internal temperature of your mature levain ($T_{\text{levain}}$); and fourth, your mixing friction factor ($\Delta T_{\text{friction}}$).
+
+9
+00:04:00.000 --> 00:04:30.000
+Julian Vance: And the fifth variable—the only one you can actively change in sixty seconds before mixing—is your water temperature, $T_{\text{water}}$. So the equation is simply: required water temperature equals four times your target DDT, minus the sum of room temperature, flour temperature, levain temperature, and friction factor. Let's run a real July scenario in Fahrenheit so everyone can hear how fast the numbers drop.
+
+10
+00:04:30.000 --> 00:05:00.000
+Clara Meyer: Okay, let's take a warm summer afternoon. Our target DDT is seventy-six degrees Fahrenheit. Four times seventy-six gives us a total thermal budget of three hundred and four degrees Fahrenheit. Now let's measure our kitchen: the room is eighty degrees. The flour sitting in the pantry is seventy-nine degrees. And the mature starter sitting on the counter is eighty-one degrees.
+
+11
+00:05:00.000 --> 00:05:30.000
+Julian Vance: Before we even add mixer friction, eighty plus seventy-nine plus eighty-one is two hundred and forty degrees. Now let's talk about the fourth factor: friction. Every time you deform dough—whether by hand or with a steel hook—mechanical work converts directly into thermal energy via viscous dissipation in the gluten-starch matrix. If you mix by hand using the Rubaud method or slap-and-fold for four minutes, your friction factor is only about two to three degrees Fahrenheit.
+
+12
+00:05:30.000 --> 00:06:00.000
+Clara Meyer: What if someone is mixing in a standard KitchenAid planetary stand mixer with a C-hook or spiral attachment?
+
+13
+00:06:00.000 --> 00:06:30.000
+Julian Vance: A planetary stand mixer is surprisingly inefficient mechanically—it smears the dough against the stainless steel bowl wall, generating high localized shear heat. Eight minutes on speed two in a planetary mixer typically adds twelve to sixteen degrees Fahrenheit of friction heat! And a commercial dual-speed spiral mixer running three minutes on first speed and five minutes on second speed adds eighteen to twenty-four degrees Fahrenheit.
+
+14
+00:06:30.000 --> 00:07:00.000
+Clara Meyer: Let's plug a modest fourteen-degree planetary mixer friction factor into our summer scenario. Two hundred and forty degrees from the room, flour, and levain, plus fourteen degrees of friction, equals two hundred and fifty-four degrees. Subtract two hundred and fifty-four from our three-hundred-and-four-degree budget, and what required water temperature do we get?
+
+15
+00:07:00.000 --> 00:07:30.000
+Julian Vance: Fifty degrees Fahrenheit—ten degrees Celsius! And what happens if you're using a commercial spiral mixer with a twenty-two-degree friction factor in that same eighty-degree kitchen? Your required water temperature drops to **forty-two degrees Fahrenheit**—or five point five degrees Celsius.
+
+16
+00:07:30.000 --> 00:08:00.000
+Clara Meyer: Now here is the practical wall every baker hits in July. You turn on the cold faucet at your kitchen sink, stick your Thermapen under the stream, and the "cold" tap water is coming out at seventy-two degrees Fahrenheit! Even if you keep a pitcher of water in the fridge, once you pour it into a warm mixing bowl, or if you forgot to chill two liters of water the night before, how do you get seven hundred and fifty grams of mixing water down to forty-two degrees Fahrenheit in ninety seconds without guessing?
+
+17
+00:08:00.000 --> 00:08:30.000
+Julian Vance: You use crushed ice and the **Latent Heat of Fusion** equation. This is where kitchen guesswork completely fails and thermodynamics shines. Most people think ice cools water just because ice is thirty-two degrees Fahrenheit—zero degrees Celsius. If that were true, mixing one hundred grams of zero-degree water into six hundred and fifty grams of twenty-two-degree Celsius tap water would barely budge the temperature.
+
+18
+00:08:30.000 --> 00:09:00.000
+Clara Meyer: What makes solid ice so much more powerful than thirty-two-degree liquid water?
+
+19
+00:09:00.000 --> 00:09:30.000
+Julian Vance: Phase change energy! Before a single gram of solid ice at zero degrees Celsius can warm up to one degree Celsius, its crystalline hydrogen-bond lattice must absorb **eighty calories per gram**—or three hundred and thirty-four Joules per gram—just to melt from solid ice at zero degrees into liquid water at zero degrees. That eighty calories per gram is eighty times the heat capacity of liquid water warming by one degree Celsius!
+
+20
+00:09:30.000 --> 00:10:00.000
+Clara Meyer: That is why a small handful of crushed ice drops dough temperature so fast! Walk us through the exact mass-balance equation we built into `sourdoughcalc.app`—that's S-O-U-R-D-O-U-G-H-C-A-L-C dot A-P-P—so bakers know how the calculator splits their total water weight between tap water and crushed ice.
+
+21
+00:10:00.000 --> 00:10:30.000
+Julian Vance: In metric units, where the specific heat of water is one calorie per gram per degree Celsius and the latent heat of fusion of ice is eighty calories per gram, the heat absorbed by the melting ice and its subsequent warming from zero degrees up to your required water temperature must equal the heat released by your tap water cooling down. When you solve that algebraic balance while keeping your total water mass ($M_{\text{water}} = M_{\text{tap}} + M_{\text{ice}}$) strictly constant, the exact ice weight in grams is:
+
+22
+00:10:30.000 --> 00:11:00.000
+Clara Meyer: Let's test that with real numbers! Say our recipe calls for seven hundred and fifty grams of total water. Our tap water is twenty-two degrees Celsius—seventy-two Fahrenheit—and our Four-Factor DDT calculation says we need mixing water at six degrees Celsius—forty-three Fahrenheit.
+
+23
+00:11:00.000 --> 00:11:30.000
+Julian Vance: We take seven hundred and fifty grams times the sixteen-degree Celsius drop, giving twelve thousand, and divide by eighty plus twenty-two (one hundred and two). That equals **one hundred and eighteen grams of crushed ice**, plus **six hundred and thirty-two grams of tap water**!
+
+24
+00:11:30.000 --> 00:12:00.000
+Clara Meyer: Your total water weight stays locked at seven hundred and fifty grams—zero change to dough hydration! You tare your pitcher, weigh one hundred and eighteen grams of crushed ice, pour tap water on top up to seven hundred and fifty grams total, stir until melted, and hit forty-three degrees Fahrenheit on the nose.
+
+25
+00:12:00.000 --> 00:12:30.000
+Julian Vance: And if your required water temperature ever calculates *below* thirty-two degrees Fahrenheit in a commercial bakery running high-speed spiral mixers, weigh finely shaved flake ice directly into the flour bowl so latent heat absorbs mechanical friction in real time—just never use whole ice cubes that could damage your spiral hook.
+
+26
+00:12:30.000 --> 00:13:00.000
+Clara Meyer: Bookmark the Four-Factor DDT and Crushed Ice Calculator at `sourdoughcalc.app`—once again, S-O-U-R-D-O-U-G-H-C-A-L-C dot A-P-P—to get your exact gram split of tap water and ice in half a second. Next episode, we're busting the biggest visual myth in sourdough: why waiting for dough to "double in size" inside a sloped mixing bowl guarantees an over-proofed loaf!
