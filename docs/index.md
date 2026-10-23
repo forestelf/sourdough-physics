@@ -7,10 +7,10 @@ image: "/images/pins/500g-flour-sourdough-hydration-chart.webp"
 robots: "index, follow"
 ---
 
-# SourdoughCalc Open Food Physics & 1,200-Row Rheology Benchmark Portal (v2.2.1)
+# SourdoughCalc Open Food Physics & 1,200-Row Rheology Benchmark Portal (v2.3.0)
 
 > **Official Web Application:** [https://sourdoughcalc.app](https://sourdoughcalc.app/?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)  
-> **750+ Page Baker's Math Reference Matrix:** [https://sourdoughcalc.app/guides](https://sourdoughcalc.app/guides?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)  
+> **900+ Page Baker's Math Reference Matrix:** [https://sourdoughcalc.app/guides](https://sourdoughcalc.app/guides?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)  
 > **2026 Sourdough Calculators Tested Benchmark:** [https://sourdoughcalc.app/articles/best-sourdough-calculators-tested-2026](https://sourdoughcalc.app/articles/best-sourdough-calculators-tested-2026?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)  
 > **1,200-Row Open CSV Dataset:** [https://sourdoughcalc.app/datasets/sourdough-rheology-1200-benchmark.csv](https://sourdoughcalc.app/datasets/sourdough-rheology-1200-benchmark.csv?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 
@@ -49,7 +49,7 @@ robots: "index, follow"
 - [SourdoughCalc vs. King Arthur Baker's Percentage Guide](https://sourdoughcalc.app/alternatives/king-arthur-bakers-percentage?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 - [SourdoughCalc vs. The Bread Code Sourdough Framework](https://sourdoughcalc.app/alternatives/the-bread-code-sourdough-framework?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 
-## 3. Pre-Computed Baker's Math Lookup Guides (Waves 1–5: 750 Active Pages, 1,050 Total)
+## 3. Pre-Computed Baker's Math Lookup Guides (Waves 1–6: 900 Active Pages, 1,050 Total)
 
 - **Full Matrix Hub:** [https://sourdoughcalc.app/guides](https://sourdoughcalc.app/guides?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 
@@ -122,6 +122,17 @@ robots: "index, follow"
 - [1:5:5 Overnight Sourdough Starter Ratio for 150g (10–12 Hour Peak)](https://sourdoughcalc.app/guides/1-5-5-sourdough-starter-ratio-for-150g?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 - [1:10:10 High-Ratio Sourdough Starter Feed for 200g (Warm Summer Overnight)](https://sourdoughcalc.app/guides/1-10-10-sourdough-starter-ratio-for-200g?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 - [1:2:1 Stiff Sourdough Starter (50% Hydration Lievito Madre) for 100g](https://sourdoughcalc.app/guides/1-2-1-stiff-sourdough-starter-ratio-for-100g?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+
+### Wave 6: Sourdough Discard Recipe Substitution Guides (150 Pages, Activated 2026-10-23)
+
+- [Use 100g Sourdough Discard in Fluffy Pancakes (-50g Flour, -50g Milk)](https://sourdoughcalc.app/guides/use-100g-sourdough-discard-in-pancakes?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [Use 150g Sourdough Discard in Fluffy Pancakes (-75g Flour, -75g Milk)](https://sourdoughcalc.app/guides/use-150g-sourdough-discard-in-pancakes?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [Use 150g Sourdough Discard in Crispy Belgian Waffles (-75g Flour, -75g Milk)](https://sourdoughcalc.app/guides/use-150g-sourdough-discard-in-waffles?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [Use 200g Sourdough Discard in Same-Day Focaccia (-100g Flour, -100g Water)](https://sourdoughcalc.app/guides/use-200g-sourdough-discard-in-focaccia?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [Use 150g Sourdough Discard in Crispy Pan Pizza Crust (-75g Flour, -75g Water)](https://sourdoughcalc.app/guides/use-150g-sourdough-discard-in-pizza-dough?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [Use 200g Sourdough Discard in Overnight Cinnamon Rolls](https://sourdoughcalc.app/guides/use-200g-sourdough-discard-in-cinnamon-rolls?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [Use 100g Sourdough Discard in Rosemary Olive Oil Crackers (-50g Flour, -50g Water)](https://sourdoughcalc.app/guides/use-100g-sourdough-discard-in-crackers?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [Use 150g Sourdough Discard in Moist Banana Bread (-75g Flour, -75g Liquid)](https://sourdoughcalc.app/guides/use-150g-sourdough-discard-in-banana-bread?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 
 ## 4. Core Interactive Calculators
 
