@@ -1,0 +1,89 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:30.000
+Julian Vance: Welcome back to the SourdoughCalc Open Bread Lab. I'm Julian Vance, cereal rheology engineer, alongside Clara Meyer, founder of Hearth & Crumb Micro-Bakery. In Episode 05, we're tackling two essential formulation challenges: first, how to convert *any* commercial yeast recipe—from cinnamon rolls and brioche to Neapolitan pizza—into pure sourdough; and second, how to use mass conservation and acid-base stoichiometry to turn leftover sourdough discard into extraordinary pastries with zero waste.
+
+2
+00:00:30.000 --> 00:01:00.000
+Clara Meyer: Let's start with commercial yeast conversion. Every week someone brings a family recipe card into the bakery and asks, "Clara, this uses one seven-gram packet of Instant Dry Yeast. Online charts say one packet equals one hundred grams of sourdough starter, so I just subtract fifty grams of flour and fifty grams of water, right?" Why does that fixed one-hundred-gram rule fail so badly?
+
+3
+00:01:00.000 --> 00:01:30.000
+Julian Vance: Because a seven-gram packet of yeast doesn't scale with batch size! Home recipes use one packet in everything from a three-hundred-gram pizza dough to a twelve-hundred-gram holiday challah. Swapping one packet for one hundred grams of starter in a twelve-hundred-gram flour recipe gives you barely eight percent inoculation—taking fourteen hours to ferment! Put that same hundred grams into a two-hundred-and-fifty-gram flour recipe, and you hit forty percent inoculation, turning your dough into an acid bath.
+
+4
+00:01:30.000 --> 00:02:00.000
+Clara Meyer: Instead of anchoring to the yeast packet, we have to anchor our sourdough conversion to the **Total Flour Weight ($F_{\text{recipe}}$)** of the original recipe and the **Dough Type**—lean dough versus sugar-and-butter-enriched dough. Let's walk through how commercial yeast types map to fermentation speed first, just so bakers understand what the original recipe author was trying to do.
+
+5
+00:02:00.000 --> 00:02:30.000
+Julian Vance: In cereal fermentation, there are three standard commercial *Saccharomyces cerevisiae* formats: **Instant Dry Yeast (IDY)**, **Active Dry Yeast (ADY)**, and **Compressed Fresh Cake Yeast**. By viable cell count and dry matter, one gram of Instant Dry Yeast equals one point two five grams of Active Dry Yeast, and roughly three grams of Compressed Fresh Yeast (which is seventy percent intracellular moisture). When we convert to natural sourdough, however, we don't convert gram-of-yeast to gram-of-starter. Instead, we choose a **target levain inoculation ratio ($r_{\text{inoc}}$)** based on the osmotic environment of the dough, typically fifteen to twenty percent of the recipe's flour weight for lean bread, or twenty-five to thirty percent for enriched sweet doughs.
+
+6
+00:02:30.000 --> 00:03:00.000
+Clara Meyer: Wait—stop right there on enriched sweet doughs! Why do brioche, babka, panettone, and cinnamon rolls need a higher inoculation—and why do we always switch from a one-hundred-percent liquid starter to a fifty-percent or sixty-percent stiff starter (*lievito madre*) when we convert a rich, buttery yeast recipe to sourdough?
+
+7
+00:03:00.000 --> 00:03:30.000
+Julian Vance: Two biochemical reasons: **osmotic pressure** and **lipid barrier effects**. When sugar exceeds eight to ten percent of flour weight, sucrose molecules bind extracellular water and create hypertonic osmotic stress across the yeast cell membrane, drawing water out of the yeast cells via plasmolysis and slowing fermentation by more than fifty percent. At the same time, high butter or egg-yolk fat coats the hydrophilic gluten proteins, physically blocking disulfide cross-linking.
+
+8
+00:03:30.000 --> 00:04:00.000
+Clara Meyer: And if you dump a runny, one-hundred-percent hydration liquid starter into a dough that already has eggs, milk, and thirty percent butter, two bad things happen: first, the lactic and acetic acids in a liquid starter make a sweet brioche taste sour like vinegar instead of rich and creamy; and second, the liquid starter weakens a gluten network that is already struggling to carry all that heavy butter!
+
+9
+00:04:00.000 --> 00:04:30.000
+Julian Vance: Whereas when you convert your starter to a **fifty-percent hydration stiff *lievito madre***—two parts flour to one part water—you shift the microbial physiology! Stiff dough restricts water activity ($a_w$), which suppresses lactic acid bacteria growth relative to wild yeast and shifts the metabolic ratio away from sharp volatile acids toward mild, buttery dairy notes, while preserving high gluten tenacity.
+
+10
+00:04:30.000 --> 00:05:00.000
+Clara Meyer: Let's run the exact mass-conservation equations for converting a recipe across *any* starter hydration ($H_{\text{lev}}$), whether a baker uses a fifty-percent stiff starter, an eighty-percent semi-stiff levain, or a one-hundred-and-twenty-five-percent liquid starter. We built this exact dynamic solver into the Commercial Yeast-to-Sourdough Converter at `sourdoughcalc.app`—that's S-O-U-R-D-O-U-G-H-C-A-L-C dot A-P-P. How does the math work under the hood?
+
+11
+00:05:00.000 --> 00:05:30.000
+Julian Vance: Suppose your original yeast recipe calls for $F_{\text{recipe}}$ grams of flour and $W_{\text{recipe}}$ grams of liquid (water or milk), and we select a twenty percent levain inoculation ($r_{\text{inoc}} = 0.20$). That means we use $M_{\text{lev}} = 0.20 \times F_{\text{recipe}}$ grams of mature starter. Now, to keep the total flour and total water in the recipe **one hundred percent identical** down to the tenth of a gram, we decompose $M_{\text{lev}}$ using its specific starter hydration $H_{\text{lev}}$:
+
+12
+00:05:30.000 --> 00:06:00.000
+Clara Meyer: Let's hear how clean that is with a real five-hundred-gram flour cinnamon roll recipe! At twenty percent inoculation, we use one hundred grams of starter. If it's a one-hundred-percent hydration starter, $1 + 1.0 = 2$, so we subtract fifty grams of flour and fifty grams of milk from the recipe. What if we use one hundred grams of a **fifty-percent hydration stiff starter**?
+
+13
+00:06:00.000 --> 00:06:30.000
+Julian Vance: Divide one hundred grams by $1 + 0.50 = 1.50$. That gives **sixty-six point seven grams of flour** and **thirty-three point three grams of water** inside your stiff starter! So you subtract sixty-six point seven grams of flour from the five hundred grams of recipe flour (leaving four hundred and thirty-three point three grams), and you subtract thirty-three point three grams of liquid from the recipe's milk! Your dough's final hydration, sugar percentage, butter percentage, and salt percentage remain mathematically invariant!
+
+14
+00:06:30.000 --> 00:07:00.000
+Clara Meyer: Now let's flip the coin to the second half of today's episode: **Zero-Waste Sourdough Discard**. Every baker who feeds a starter on the counter accumulates unfed or post-peak discard in a jar in the fridge. Why can't you just dump two hundred grams of cold sourdough discard into a buttermilk pancake, waffle, banana bread, or chocolate chip cookie recipe without adjusting the dry flour, liquid, AND baking soda?
+
+15
+00:07:00.000 --> 00:07:30.000
+Julian Vance: Because sourdough discard is two things simultaneously: it is a **hydrated flour-water slurry**, AND it is a **concentrated organic acid solution** sitting at a pH between three point seven and four point one, with a Total Titratable Acidity (TTA) of roughly ten to fourteen milliliters of zero-point-one-normal sodium hydroxide per ten grams!
+
+16
+00:07:30.000 --> 00:08:00.000
+Clara Meyer: First, you use the exact same mass-conservation decomposition we just used—subtracting the discard's internal flour ($F_{\text{discard}} = \frac{M_{\text{discard}}}{1 + H_{\text{discard}}}$) and internal water ($W_{\text{discard}} = M_{\text{discard}} - F_{\text{discard}}$) from the pancake or muffin batter so your batter viscosity never changes. Now tell us the secret weapon that makes sourdough discard pancakes and waffles rise twice as tall and fluffy as regular pancakes: **Sodium Bicarbonate ($\text{NaHCO}_3$) Stoichiometry**!
+
+17
+00:08:00.000 --> 00:08:30.000
+Julian Vance: In a standard muffin or cake recipe that uses **baking powder**, the leavening is self-contained—baking powder already contains sodium bicarbonate plus a dry acid salt like monocalcium phosphate or sodium aluminum sulfate. If you dump acidic sourdough discard (rich in lactic acid, $\text{CH}_3\text{CH(OH)COOH}$, and acetic acid, $\text{CH}_3\text{COOH}$) into a batter without neutralizing that free acid, the excess hydrogen ions ($\text{H}^+$) prematurely protonate proteins, coagulate milk casein, and leave a harsh sour bite in delicate baked goods.
+
+18
+00:08:30.000 --> 00:09:00.000
+Clara Meyer: Unless you neutralize that lactic and acetic acid with a precise bonus dose of pure **baking soda**—sodium bicarbonate! What happens chemically when one mole of lactic acid meets one mole of sodium bicarbonate in the mixing bowl?
+
+19
+00:09:00.000 --> 00:09:30.000
+Julian Vance: It triggers an immediate acid-base neutralization reaction: lactic acid plus sodium bicarbonate yields sodium lactate (a natural humectant that keeps crumb moist for days!), liquid water, and **pure gaseous carbon dioxide ($\text{CO}_2\uparrow$)**! By molar mass—ninety point zero eight grams per mole for lactic acid and eighty-four point zero one for sodium bicarbonate—mature discard at pH three point nine contains roughly zero point nine percent titratable acid by weight.
+
+20
+00:09:30.000 --> 00:10:00.000
+Clara Meyer: Which gives us our golden bakery rule: **zero point eight five grams of bonus baking soda per one hundred grams of sourdough discard**—roughly a scant quarter-teaspoon per hundred grams! It neutralizes harsh sourness, creates micro-bubbles of carbon dioxide, and boosts Maillard browning.
+
+21
+00:10:00.000 --> 00:10:30.000
+Julian Vance: Head over to `sourdoughcalc.app`—once again, S-O-U-R-D-O-U-G-H-C-A-L-C dot A-P-P—and open the Zero-Waste Sourdough Discard Calculator or the Commercial Yeast-to-Sourdough Converter. Enter your recipe's flour and liquid weights plus your starter or discard hydration, and get your adjusted flour, adjusted liquid, and exact bonus baking soda to the tenth of a gram.
+
+22
+00:10:30.000 --> 00:11:00.000
+Clara Meyer: That wraps up our five-part foundational engineering series on the SourdoughCalc Open Bread Lab Podcast! All tools are free with zero login at `sourdoughcalc.app`. Until next time, trust the math, and may every loaf open with a singing ear!
