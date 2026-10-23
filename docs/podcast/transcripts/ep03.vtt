@@ -1,0 +1,101 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:30.000
+Julian Vance: Welcome back to the SourdoughCalc Open Bread Lab. I'm Julian Vance, cereal rheology engineer, and across the workbench is Clara Meyer, founder of Hearth & Crumb Micro-Bakery. Today we are going to save more loaves of bread in fifteen minutes than any shaping video on the internet, because we're talking about the single hardest decision in all of baking: knowing the exact minute to end bulk fermentation.
+
+2
+00:00:30.000 --> 00:01:00.000
+Clara Meyer: If I had a dollar for every photo a student sent me of a flat, pale, gummy loaf with big cavernous tunnels at the top and a dense brick along the bottom, saying, "Clara, I know it's under-proofed because it barely rose in my mixing bowl, so next time I'm going to bulk ferment it for twelve hours instead of eight"—I could buy a second deck oven!
+
+3
+00:01:00.000 --> 00:01:30.000
+Julian Vance: And when you look at the crumb photo—what we call "fool's crumb" or advanced proteolytic collapse—you have to gently break the news to them that their dough wasn't under-proofed at all. It was wildly, catastrophically *over-proofed*. Why do so many smart, attentive bakers look at a bowl of dough that has actually doubled in volume and think it has only risen twenty-five or thirty percent?
+
+4
+00:01:30.000 --> 00:02:00.000
+Clara Meyer: Two words: **sloped bowls**. Almost every home baker starts out fermenting their dough in a standard stainless steel, glass Pyrex, or ceramic mixing bowl. And why are mixing bowls shaped with flared, sloping walls? So they can nest inside each other in your kitchen cabinet and give your hand room to reach in and mix!
+
+5
+00:02:00.000 --> 00:02:30.000
+Julian Vance: Let's put the 3D geometry of that flared mixing bowl under the microscope. In solid geometry, a flat-bottomed bowl with outward-sloping walls is a **conical frustum**—a truncated cone turned upside down. Let's say the bottom radius of your bowl ($r_1$) is five centimeters, and the walls flare outward at a thirty-five-degree angle ($\theta$). The volume of dough up to a vertical height $h$ is given by the frustum integral: pi times $h$ divided by three, times the quantity $r_1^2 + r_1 r(h) + r(h)^2$, where the top radius $r(h)$ grows linearly with height: $r(h) = r_1 + h \tan\theta$.
+
+6
+00:02:30.000 --> 00:03:00.000
+Clara Meyer: Translate that equation into what a baker sees with their eyes when they look at the side of a glass Pyrex bowl.
+
+7
+00:03:00.000 --> 00:03:30.000
+Julian Vance: Because the radius is expanding outward at the exact same time the dough is rising upward, the cross-sectional surface area of the bowl increases with the *square* of the radius. So each additional centimeter of vertical height near the top of the bowl holds two to three times as many cubic milliliters of dough as a centimeter near the bottom of the bowl!
+
+8
+00:03:30.000 --> 00:04:00.000
+Clara Meyer: Give us the exact numbers for a standard nine-hundred-gram batch of sourdough in a four-quart flared mixing bowl.
+
+9
+00:04:00.000 --> 00:04:30.000
+Julian Vance: Right after mixing, a nine-hundred-gram dough ball at zero percent fermentation sits about six point five centimeters high in the bottom of that bowl. When that dough reaches a **fifty percent increase in true volume**, how much higher up the side of the bowl has it climbed? Just **one point two centimeters**—less than half an inch! And when the dough has **completely doubled in true volume—a one-hundred-percent volumetric expansion**—its vertical height has only increased by **thirty-four percent**, or roughly two point two centimeters!
+
+10
+00:04:30.000 --> 00:05:00.000
+Clara Meyer: Think about that! You're standing in your kitchen waiting for the dough to reach twice its original height up the side of the bowl. By the time a dough actually doubles its *vertical height* inside a flared bowl, its true three-dimensional volume hasn't doubled—it has **tripled or quadrupled**! The gluten network is completely shredded by acid, and the moment you turn it out onto the counter, it degasses into soup.
+
+11
+00:05:00.000 --> 00:05:30.000
+Julian Vance: Now, a lot of bakers hear this and say, "Aha, Julian and Clara, that's why I don't trust my mixing bowl! I use the **aliquot jar method**—I pinch off thirty grams of dough after mixing and put it into a tiny straight-sided two-ounce plastic cylinder." Clara, why did we ban aliquot jars in our test bakery?
+
+12
+00:05:30.000 --> 00:06:00.000
+Clara Meyer: Because an aliquot jar has a massive physics flaw whenever your dough temperature isn't identical to your room temperature! Think about Episode 02, where we mixed our dough to a Desired Dough Temperature of seventy-six degrees Fahrenheit, or maybe we're in a cool sixty-seven-degree winter kitchen and we used warm eighty-five-degree water so our main nine-hundred-gram dough ball starts out cozy at seventy-eight degrees.
+
+13
+00:06:00.000 --> 00:06:30.000
+Julian Vance: Look at the surface-area-to-volume ratio ($A/V$) difference between a thirty-gram plug of dough in a tiny jar and a nine-hundred-gram mass of dough in a fermentation tub. For a sphere or cylinder, surface-area-to-volume ratio scales inversely with radius ($A/V \propto 1/r$). That thirty-gram aliquot sample has roughly **three point two times more exposed surface area per gram** than your main dough ball!
+
+14
+00:06:30.000 --> 00:07:00.000
+Clara Meyer: So what happens to the temperature of that tiny thirty-gram piece of dough?
+
+15
+00:07:00.000 --> 00:07:30.000
+Julian Vance: Within twelve to fifteen minutes, that thirty-gram aliquot jar equilibrates completely to ambient room temperature, while your nine-hundred-gram main dough mass—which is also generating exothermic metabolic heat from yeast glycolysis—stays warm for hours! If your kitchen counter is sixty-eight degrees and your mixed dough is seventy-eight degrees, the tiny aliquot jar cools down to sixty-eight degrees immediately and barely rises, while your main dough ball sits at seventy-six degrees for three hours and rockets past its fermentation target! You wait for the cold little aliquot jar to hit fifty percent, and your main loaf is already over-proofed by ninety minutes.
+
+16
+00:07:30.000 --> 00:08:00.000
+Clara Meyer: And the exact opposite happens if you put the tiny aliquot jar inside a warm folding proofer or on top of the fridge while your main bowl sits on a cold granite countertop! A cold granite or quartz stone countertop acts as an infinite thermal heat sink, pulling heat right out of the bottom of your mixing bowl.
+
+17
+00:08:00.000 --> 00:08:30.000
+Julian Vance: Which brings us to the second half of the bulk fermentation equation—the part we modeled mathematically in the Bulk Fermentation and Thermal Carryover Solver at `sourdoughcalc.app`—that's S-O-U-R-D-O-U-G-H-C-A-L-C dot A-P-P. Why can't every sourdough recipe just end bulk fermentation at a fixed fifty percent rise or seventy-five percent rise, even in a straight-walled polycarbonate Cambro tub?
+
+18
+00:08:30.000 --> 00:09:00.000
+Clara Meyer: Because almost all artisan sourdough bakers today use a two-stage fermentation: bulk fermentation on the counter, followed by shaping and a twelve-to-sixteen-hour cold retard in the refrigerator at thirty-eight degrees Fahrenheit. And a home refrigerator is not a liquid nitrogen flash-freezer!
+
+19
+00:09:00.000 --> 00:09:30.000
+Julian Vance: Let's look at **Newton's Law of Cooling** inside a home fridge. Air has terrible thermal conductivity, and a linen-lined rattan banneton is actually a remarkably good thermal insulator. When you take a shaped nine-hundred-gram loaf and place it in a thirty-eight-degree fridge, the characteristic thermal relaxation time constant ($\tau$) of the loaf's geometric center is roughly two point four hours. Furthermore, *Saccharomyces* and *Kazachstania* wild yeasts do not stop producing carbon dioxide gas until the core dough temperature drops below thirty-nine to forty degrees Fahrenheit!
+
+20
+00:09:30.000 --> 00:10:00.000
+Clara Meyer: Walk us through the difference between putting an eighty-degree summer dough into the fridge versus putting a seventy-degree winter dough into that exact same thirty-eight-degree fridge.
+
+21
+00:10:00.000 --> 00:10:30.000
+Julian Vance: When you put an **eighty-degree Fahrenheit** dough into a thirty-eight-degree fridge, the core spends nearly **three and a half hours** scrolling through the high-activity zone between eighty degrees and fifty-five degrees. During those three and a half hours of cooling, the dough produces another **forty to fifty percent of volumetric gas expansion** inside the banneton! Wait—forty to fifty percent additional rise *after* you put it in the fridge!
+
+22
+00:10:30.000 --> 00:11:00.000
+Clara Meyer: So if you waited for that eighty-degree dough to rise seventy-five percent on the counter before shaping, and then it rises another forty-five percent while cooling down in the fridge, you hit one hundred and twenty percent total capacity—your gluten snaps! What percentage rise should you actually target on the counter for an eighty-degree dough?
+
+23
+00:11:00.000 --> 00:11:30.000
+Julian Vance: Exactly **thirty percent volumetric rise** in a straight-sided container! At seventy-five degrees internal dough temperature, your target cut-off is **fifty percent rise**. And in the winter, when your internal dough temperature is down at sixty-eight to seventy degrees Fahrenheit, it cools below the yeast dormancy threshold in the fridge in barely ninety minutes—so you must push bulk fermentation on the counter all the way to **seventy-five or eighty percent volumetric rise** before shaping!
+
+24
+00:11:30.000 --> 00:12:00.000
+Clara Meyer: That temperature-to-percentage-rise curve changed everything at Hearth & Crumb. Put your flared bowls back in the cabinet, use a straight-sided square Cambro container marked with painter's tape, and measure your dough temperature with a probe thermometer after your second coil fold.
+
+25
+00:12:00.000 --> 00:12:30.000
+Julian Vance: Then plug your internal dough temperature, inoculation percentage, and fridge temperature directly into the Bulk Fermentation Calculator at `sourdoughcalc.app`—again, S-O-U-R-D-O-U-G-H-C-A-L-C dot A-P-P. It integrates Newton's Law of Cooling and tells you the exact percentage rise to end bulk fermentation. Next episode, we solve why an eighty-percent hydration American recipe turns European T55 flour into soup!
