@@ -1,0 +1,93 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:30.000
+Julian Vance: Welcome back to the SourdoughCalc Open Bread Lab. I'm Julian Vance, cereal rheology engineer, here with Clara Meyer, founder of Hearth & Crumb Micro-Bakery. Clara, last month you taught a virtual sourdough masterclass with forty students dialing in from all over the world—half from the United States and Canada, and half from France, Germany, and the United Kingdom. Tell everyone what happened when you gave them all the exact same seventy-eight percent hydration formula.
+
+2
+00:00:30.000 --> 00:01:00.000
+Clara Meyer: It was like watching two completely different laws of physics play out on Zoom! The bakers in Seattle, Minneapolis, and Vermont using King Arthur Bread Flour or Canadian Robin Hood flour were doing effortless coil folds with tall, domed, glossy doughs that held their shape on the counter like pillows. Meanwhile, the bakers in Lyon and Berlin using French Type Fifty-Five or German Type Five-Fifty flour—who weighed their ingredients to the tenth of a gram on precision jeweler scales—were holding up bowls of wet wallpaper paste!
+
+3
+00:01:00.000 --> 00:01:30.000
+Julian Vance: And here is the part that drives European bakers crazy when they read the back of the flour bag: a baker in Paris buys a bag of flour that says "twelve percent protein" on the nutrition table, sees an American recipe calling for twelve-point-seven percent protein bread flour, and thinks, "Okay, twelve percent versus twelve point seven percent is almost identical!" Why is a bag of European flour labeled twelve percent protein actually nowhere near twelve percent on a North American scale?
+
+4
+00:01:30.000 --> 00:02:00.000
+Clara Meyer: Because North America and Europe use two completely different laboratory moisture standards when they print protein percentages on a flour bag! This was the single biggest revelation for me when I staged at a bakery in Strasbourg. Julian, break down the math of the **fourteen-percent moisture basis** versus the **dry-matter basis**.
+
+5
+00:02:00.000 --> 00:02:30.000
+Julian Vance: In the United States and Canada, the American Association of Cereal Chemists (AACC) mandates that flour protein be reported at a standardized **fourteen percent moisture basis**. That means when King Arthur prints twelve point seven percent protein on a bag of Unbleached Bread Flour, they are calculating protein weight divided by total flour weight *including* fourteen percent natural water content.
+
+6
+00:02:30.000 --> 00:03:00.000
+Clara Meyer: And how do European mills and the ICC standard calculate it?
+
+7
+00:03:00.000 --> 00:03:30.000
+Julian Vance: In France, Germany, Italy, and much of the EU, analytical labs evaporate all the moisture out of the flour sample in an oven first and report protein as a percentage of **one hundred percent dry matter**—zero percent moisture! To convert a European dry-basis protein number ($P_{\text{dry}}$) to the North American fourteen-percent moisture scale ($P_{14\%}$), you have to multiply the European number by zero point eight six!
+
+8
+00:03:30.000 --> 00:04:00.000
+Clara Meyer: Let's run that multiplication right now! If I buy a standard French T55 or T65 artisan bread flour whose bag lists eleven point five percent protein on a dry basis, what is its real protein content on the American scale?
+
+9
+00:04:00.000 --> 00:04:30.000
+Julian Vance: Eleven point five times zero point eight six is **nine point eight nine—nine point nine percent protein**! Even if you buy a strong European flour labeled twelve point five percent dry-basis protein, multiply twelve point five by zero point eight six and you get **ten point seven five percent** on the American scale! In North America, ten point five percent protein isn't bread flour—that's soft southern biscuit and pastry flour!
+
+10
+00:04:30.000 --> 00:05:00.000
+Clara Meyer: That explains so much frustration in online baking forums! When a baker in Munich or Marseille pours eighty percent water into a flour that is effectively ten point two percent protein on the American scale, they aren't making a minor hydration tweak—they are drowning the flour by ten to twelve percent above its structural ceiling!
+
+11
+00:05:00.000 --> 00:05:30.000
+Julian Vance: And protein quantity is only half of the cereal rheology story. Even when you compare an American Hard Red Winter or Canadian Hard Red Spring wheat at twelve point five percent protein against a European winter wheat at the exact same true twelve point five percent protein, their gluten polymers behave differently on a Chopin Alveograph. In the Alveograph test, we blow a bubble of dough until it ruptures and measure $P$—tenacity or stiffness—versus $L$—extensibility—and $W$, the total deformation energy or baking strength.
+
+12
+00:05:30.000 --> 00:06:00.000
+Clara Meyer: What makes North American and Canadian hard wheats have such a massive $W$ value compared to continental European wheats?
+
+13
+00:06:00.000 --> 00:06:30.000
+Julian Vance: Two things: first, North American hard wheats are bred for high-molecular-weight glutenin subunits that form super-elastic disulfide cross-links, often rated $W \ge 320$ to $380$. Traditional French T55 and T65 wheats are bred for baguettes with delicate, thin, shattering crusts and high extensibility ($P/L \approx 0.5$ to $0.6$) with $W$ values around $180$ to $220$. Second, hard North American wheat kernels require much higher mechanical roller-mill pressure to crush the endosperm. That high milling pressure physically cracks a small fraction—six to nine percent—of the starch granules into **damaged starch**.
+
+14
+00:06:30.000 --> 00:07:00.000
+Clara Meyer: Wait—damaged starch sounds like a defect! Why does damaged starch help us handle higher hydration in sourdough?
+
+15
+00:07:00.000 --> 00:07:30.000
+Julian Vance: Intact native wheat starch granules only absorb about thirty-five to forty percent of their weight in cold water during mixing. Mechanically **damaged starch granules** absorb **two hundred to three hundred percent of their weight in cold water**! So a hard North American bread flour with eight percent starch damage locks up an extra five to six percent of water right inside the starch phase before the gluten network even feels it.
+
+16
+00:07:30.000 --> 00:08:00.000
+Clara Meyer: Now let's talk about what happens when we start blending whole grains—whole wheat, dark rye, einkorn, Khorasan, or spelt—into our white base flour. Bakers often assume every whole grain absorbs more water AND makes the dough stronger. Why is that only half true?
+
+17
+00:08:00.000 --> 00:08:30.000
+Julian Vance: Because **water absorption** and **gluten elasticity** are two completely separate mechanisms! Let's compare whole grain wheat, whole grain rye, and whole grain spelt. When you add twenty percent stone-ground Hard Red Whole Wheat, the outer bran pericarp acts like a microscopic cellulose sponge. It absorbs roughly twelve percent more water per gram than white endosperm flour, *even though* those sharp bran flakes physically slice through gluten sheets and reduce gas retention volume.
+
+18
+00:08:30.000 --> 00:09:00.000
+Clara Meyer: And what about whole grain rye? In the bakery, whenever we add even ten or fifteen percent dark rye to our country levain, the dough immediately drinks up water and feels almost clay-like and cohesive, yet if we push too much rye, it won't hold a tall structure without a loaf pan.
+
+19
+00:09:00.000 --> 00:09:30.000
+Julian Vance: Rye—*Secale cereale*—is fascinating rheologically. Rye contains secalin proteins, which cannot form a viscoelastic gluten network at all because steric hindrance prevents disulfide cross-linking. Instead, rye's structure comes from **arabinoxylan pentosans**—non-starch polysaccharides that absorb **up to eight hundred percent—eight times their own weight—in water**! Those pentosans form a high-viscosity mucilage gel that traps water and prevents syneresis, raising your flour blend's water absorption ceiling by roughly zero point two five grams of water per gram of rye flour, even while lowering tensile gluten strength.
+
+20
+00:09:30.000 --> 00:10:00.000
+Clara Meyer: And then on the opposite end of the heritage grain spectrum, we have **spelt**, **einkorn**, and **emmer**. What happens when a baker substitutes thirty percent spelt into a seventy-eight percent hydration recipe without dropping the water?
+
+21
+00:10:00.000 --> 00:10:30.000
+Julian Vance: Instant puddle! Spelt actually has *higher* total crude protein than modern bread wheat—often fourteen to fifteen percent—which tricks bakers into thinking it's a high-hydration powerhouse. But spelt's protein is overwhelmingly monomeric **gliadin** (which provides viscous flow and extensibility) with very little polymeric **glutenin** (which provides elastic snap-back). Adding thirty percent spelt lowers your safe hydration ceiling by two point five to four percent!
+
+22
+00:10:30.000 --> 00:11:00.000
+Clara Meyer: Instead of learning these hard lessons by throwing away ruined batches of expensive heritage flour, you can model your exact multi-flour blend before you open the flour bin at `sourdoughcalc.app`—that's S-O-U-R-D-O-U-G-H-C-A-L-C dot A-P-P. Our Master Hydration and Flour Blend Solver lets you select your exact regional base flour—whether that's King Arthur Twelve-Point-Seven Percent, Canadian CWRS, French T55/T65, Italian Tipo Zero-Zero, or UK Strong White—and then dial in your exact percentages of whole wheat, rye, or spelt.
+
+23
+00:11:00.000 --> 00:11:30.000
+Julian Vance: And as you adjust each grain slider on `sourdoughcalc.app`—again, S-O-U-R-D-O-U-G-H-C-A-L-C dot A-P-P—the engine automatically converts dry-basis vs. fourteen-percent moisture protein, calculates the arabinoxylan pentosan and bran absorption offsets, and displays a live green-yellow-red **Rheological Hydration Ceiling Gauge** so you know the exact gram of water where your specific flour blend crosses from silky extensibility into structural collapse. Next episode, in our season finale, we're tackling commercial yeast-to-sourdough conversion across every starter hydration, plus the baking soda acid-neutralization chemistry of zero-waste sourdough discard!
