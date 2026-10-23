@@ -215,3 +215,14 @@ licensable `ImageObject` schema:
 - [Free Embeddable Sourdough Calculator Widget (`/embed`)](https://sourdoughcalc.app/embed?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 - [Interactive Cloud Micro-Tool: Yeast ↔ Levain & Ambient Fermentation Matrix](https://forestelf.github.io/sourdough-physics/yeast-levain-thermal-matrix.html)
 - [Open-Science Academic Whitepaper & 60-Flour Farinograph Dataset](https://forestelf.github.io/sourdough-physics/whitepaper.html)
+
+## 8. 2026 Open Ecosystem Directory (30 Partners), Podcast RSS Feed, 12-Slide Deck & Multilingual Guides
+
+- **[2026 Open Artisan Fermentation, Grain Milling & Precision Extraction Ecosystem Directory (30 Partners P01–P30)](https://forestelf.github.io/sourdough-physics/partners-directory.html)** — Dofollow technical citations for Stadler Made, Ooni, Barista Hustle, Coffee ad Astra, Brewer's Friend, Cheesemaking.com, Cairnspring Mills, Barton Springs Mill, Maine Grains, Janie's Mill, and Hayden Flour Mills.
+- **[SourdoughCalc Open Bread Lab Podcast Portal & Complete 5-Episode Show Notes](https://forestelf.github.io/sourdough-physics/podcast/)**
+- **[Official Podcast RSS 2.0 Feed (`podcast/rss.xml`)](https://forestelf.github.io/sourdough-physics/podcast/rss.xml)** — Apple Podcasts, ListenNotes & Podchaser compliant feed.
+- **[2026 Cereal Rheology & Sourdough Hydration Physics 12-Slide Presentation Deck (`slides.html`)](https://forestelf.github.io/sourdough-physics/slides.html)** ([Download Printable PDF Deck](https://forestelf.github.io/sourdough-physics/sourdough-rheology-2026-slide-deck.pdf))
+- **International Cereal Rheology Guides (`hreflang` Multi-Language Suite):**
+  - 🇯🇵 **[日本語ガイド：サワー種加水率計算機＆ベーカーズパーセント科学ガイド (`intl/ja-sourdough-guide.html`)](https://forestelf.github.io/sourdough-physics/intl/ja-sourdough-guide.html)**
+  - 🇪🇸 **[Guía en Español: Calculadora de Hidratación Real de Masa Madre y Porcentaje Panadero (`intl/es-masa-madre-guia.html`)](https://forestelf.github.io/sourdough-physics/intl/es-masa-madre-guia.html)**
+  - 🇩🇪 **[Deutscher Leitfaden: Echter Sauerteig-Hydratationsrechner & Teigausbeute TA 175 (`intl/de-sauerteig-leitfaden.html`)](https://forestelf.github.io/sourdough-physics/intl/de-sauerteig-leitfaden.html)**
