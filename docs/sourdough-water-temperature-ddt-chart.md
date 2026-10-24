@@ -59,5 +59,14 @@ $$M_{\text{ice}} = \frac{M_{\text{water}} \times (T_{\text{tap}} - T_{\text{req}
 | **90°F (32.2°C)** | Spiral Mixer (+18°F) | **148g Ice + 202g Water** | **295g Ice + 405g Water** | 42.1% Ice |
 
 - **[Launch the Thermodynamic DDT & Crushed Ice Calculator](https://sourdoughcalc.app/calculators/sourdough-desired-dough-temperature-calculator?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
+
+### Wave 7: Exact Kitchen Temperature x Mixer Friction Water Guides (Activated 2026-10-24)
+
+- **[66°F Winter Kitchen Hand Mix at 75°F DDT](https://sourdoughcalc.app/guides/66f-kitchen-hand-mix-75f-ddt-water-temperature?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
+- **[68°F Kitchen Hand Mix at 75°F DDT](https://sourdoughcalc.app/guides/68f-kitchen-hand-mix-75f-ddt-water-temperature?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
+- **[72°F Stand Mixer (Low) at 75°F DDT](https://sourdoughcalc.app/guides/72f-kitchen-stand-mixer-low-75f-ddt-water-temperature?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
+- **[80°F Spiral Mixer (18°F Friction) at 74°F DDT](https://sourdoughcalc.app/guides/80f-kitchen-spiral-mixer-74f-ddt-water-temperature?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
+- **[84°F Stand Mixer (High) at 78°F DDT: Crushed Ice](https://sourdoughcalc.app/guides/84f-kitchen-stand-mixer-high-78f-ddt-water-temperature?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
+- **[88°F Planetary Mixer (24°F Friction) at 76°F DDT](https://sourdoughcalc.app/guides/88f-kitchen-planetary-high-76f-ddt-water-temperature?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
 - **[Desired Dough Temperature (DDT) Formula & Crushed Ice Whitepaper](https://sourdoughcalc.app/articles/desired-dough-temperature-ddt-ice-formula?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)**
 - **[Return to Sourdough Physics Portal Home](./index.html)**
