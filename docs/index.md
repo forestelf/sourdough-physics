@@ -7,10 +7,10 @@ image: "/images/pins/500g-flour-sourdough-hydration-chart.webp"
 robots: "index, follow"
 ---
 
-# SourdoughCalc Open Food Physics & 1,200-Row Rheology Benchmark Portal (v2.3.0)
+# SourdoughCalc Open Food Physics & 1,200-Row Rheology Benchmark Portal (v2.4.0)
 
 > **Official Web Application:** [https://sourdoughcalc.app](https://sourdoughcalc.app/?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)  
-> **900+ Page Baker's Math Reference Matrix:** [https://sourdoughcalc.app/guides](https://sourdoughcalc.app/guides?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)  
+> **1,050-Page Baker's Math Reference Matrix:** [https://sourdoughcalc.app/guides](https://sourdoughcalc.app/guides?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)  
 > **2026 Sourdough Calculators Tested Benchmark:** [https://sourdoughcalc.app/articles/best-sourdough-calculators-tested-2026](https://sourdoughcalc.app/articles/best-sourdough-calculators-tested-2026?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)  
 > **1,200-Row Open CSV Dataset:** [https://sourdoughcalc.app/datasets/sourdough-rheology-1200-benchmark.csv](https://sourdoughcalc.app/datasets/sourdough-rheology-1200-benchmark.csv?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 
@@ -49,7 +49,7 @@ robots: "index, follow"
 - [SourdoughCalc vs. King Arthur Baker's Percentage Guide](https://sourdoughcalc.app/alternatives/king-arthur-bakers-percentage?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 - [SourdoughCalc vs. The Bread Code Sourdough Framework](https://sourdoughcalc.app/alternatives/the-bread-code-sourdough-framework?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 
-## 3. Pre-Computed Baker's Math Lookup Guides (Waves 1–6: 900 Active Pages, 1,050 Total)
+## 3. Pre-Computed Baker's Math Lookup Guides (Waves 1–7 Complete Matrix: 1,050 Active Pages, 1,050 Total)
 
 - **Full Matrix Hub:** [https://sourdoughcalc.app/guides](https://sourdoughcalc.app/guides?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 
@@ -133,6 +133,17 @@ robots: "index, follow"
 - [Use 200g Sourdough Discard in Overnight Cinnamon Rolls](https://sourdoughcalc.app/guides/use-200g-sourdough-discard-in-cinnamon-rolls?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 - [Use 100g Sourdough Discard in Rosemary Olive Oil Crackers (-50g Flour, -50g Water)](https://sourdoughcalc.app/guides/use-100g-sourdough-discard-in-crackers?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 - [Use 150g Sourdough Discard in Moist Banana Bread (-75g Flour, -75g Liquid)](https://sourdoughcalc.app/guides/use-150g-sourdough-discard-in-banana-bread?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+
+### Wave 7: Desired Dough Temperature (DDT) & Crushed Ice Thermodynamics Guides (150 Pages, Activated 2026-10-24)
+
+- [66°F Winter Kitchen Hand Mix at 75°F DDT: Warm Mixing Water Guide](https://sourdoughcalc.app/guides/66f-kitchen-hand-mix-75f-ddt-water-temperature?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [68°F Kitchen Hand Mix at 75°F DDT: Exact Mixing Water Temperature](https://sourdoughcalc.app/guides/68f-kitchen-hand-mix-75f-ddt-water-temperature?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [72°F Room Temperature Stand Mixer (Low Speed) at 75°F DDT](https://sourdoughcalc.app/guides/72f-kitchen-stand-mixer-low-75f-ddt-water-temperature?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [76°F Warm Kitchen Hand Mix at 78°F DDT: Water Temperature Table](https://sourdoughcalc.app/guides/76f-kitchen-hand-mix-78f-ddt-water-temperature?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [80°F Kitchen Spiral Mixer (18°F Friction): Cold Water & Ice Ratio at 74°F DDT](https://sourdoughcalc.app/guides/80f-kitchen-spiral-mixer-74f-ddt-water-temperature?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [84°F Summer Kitchen Spiral Mixer (74°F DDT): Crushed Ice Substitution Grams](https://sourdoughcalc.app/guides/84f-kitchen-spiral-mixer-74f-ddt-water-temperature?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [84°F Summer Kitchen High-Speed Stand Mixer at 78°F DDT: Crushed Ice Formula](https://sourdoughcalc.app/guides/84f-kitchen-stand-mixer-high-78f-ddt-water-temperature?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
+- [88°F Hot Bakery Planetary Mixer (24°F Friction) at 76°F DDT: Ice Replacement Math](https://sourdoughcalc.app/guides/88f-kitchen-planetary-high-76f-ddt-water-temperature?utm_source=forestelf_github&utm_medium=offsite_geo&utm_campaign=sourdough_cheatsheet)
 
 ## 4. Core Interactive Calculators
 
