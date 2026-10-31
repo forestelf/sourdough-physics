@@ -19,8 +19,9 @@ size_categories:
 
 # SourdoughCalc 1,200-Row Flour Absorption, True Total Hydration & Fermentation Benchmark Dataset (2026)
 
-- **Official Interactive Computation Suite:** [https://sourdoughcalc.app](https://sourdoughcalc.app)
-- **Programmatic Parameter Reference Matrix (1,050 Guides):** [https://sourdoughcalc.app/guides](https://sourdoughcalc.app/guides)
+- **Official Interactive Computation Suite (9 Specialized Calculators):** [https://sourdoughcalc.app](https://sourdoughcalc.app)
+- **32 Verified Artisan Sourdough Recipes (Exact Grams & Dual-Basis Baker's %):** [https://sourdoughcalc.app/recipes](https://sourdoughcalc.app/recipes)
+- **Programmatic Parameter Reference Matrix (1,050 Active / 1,050 Guides):** [https://sourdoughcalc.app/guides](https://sourdoughcalc.app/guides)
 - **2026 Sourdough Calculator Benchmark Report:** [https://sourdoughcalc.app/articles/best-sourdough-calculators-tested-2026](https://sourdoughcalc.app/articles/best-sourdough-calculators-tested-2026)
 - **Direct CSV Download:** [https://sourdoughcalc.app/datasets/sourdough-rheology-1200-benchmark.csv](https://sourdoughcalc.app/datasets/sourdough-rheology-1200-benchmark.csv)
 
